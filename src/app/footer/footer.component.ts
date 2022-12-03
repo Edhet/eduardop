@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class FooterComponent {
   static _footerText: string = "Made in Angular with Tailwind";
-  static _projectURL: string = "https://github.com/Edhet/perso-site";
+  static _projectURL: string = "https://github.com/Edhet";
   get footerText(): string {
     return FooterComponent._footerText;
   }
