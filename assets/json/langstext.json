@@ -1,0 +1,20 @@
+{
+  "en": {
+    "ContactText": "Contact Me",
+    "AboutHeader": "About Me",
+    "AboutParagraph": "I'm a brazilian from Rio de Janeiro, a Tech Enthusiast especially interested in Infrastructure, Back-End development, Low level technology and Hardware. Did half a semester in Electrical Engineering and at the moment i'm doing a bachelors degree in Information Systems at UNIRIO. Also interested in design and art, already did amateur game development and have written some RPG books.",
+    "ExpHeader": "Skills and Experience",
+    "ExpParagraph": "Linux user for 2 years, having used many end-user distros like Fedora, Pop!OS and currently using Arch. Programming in Rust for about 8 months and learning other languages like Python and C/C++ along with it, also studied a bit of relational databases in MySQL and SQLite and recently i've been studying the web stacks with HTML, JavaScript/TypeScript, CSS and its frameworks.",
+    "ProjectsHeader": "Projects",
+    "FooterText": "Made in Angular with Tailwind"
+  },
+  "pt": {
+    "ContactText": "Entre em Contato",
+    "AboutHeader": "Sobre mim",
+    "AboutParagraph": "Sou um brasileiro do Rio de Janeiro, entusiasta de tecnologia especialmente interessasdo em Infraestrutura, desenvolvimento Back-End, tecnologia de baixo nível e hardware, Cursei engenharia elétrica por meio semestre e no momento estou fazendo bacharelado em Sistemas de Informação na UNIRIO. também tenho interesse em design e arte, já fiz desenvolvimento de jogos amador e escrevi alguns livros de RPG.",
+    "ExpHeader": "Habilidades e Experiência",
+    "ExpParagraph":  "Usuário de Linux a dois anos, tendo usado muitas distros de usuário final como Fedora, Pop!OS e atualmente usando Arch, Programando em Rust por cerca de 8 meses e aprendendo outras linguagens como Python e C/C++ junto, também já estudei um pouco de banco de dados relacional com MySQL e SQLite e recentemente tenho estudado as web stacks com HTML, JavaScript/TypeScript, CSS e seus frameworks.",
+    "ProjectsHeader": "Projetos",
+    "FooterText": "Feito em Angular com Tailwind"
+  }
+}
