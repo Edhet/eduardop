@@ -1,4 +1,14 @@
 {
+  "prj0": {
+    "name": "Workout App",
+    "image": "./assets/prj0.png",
+    "url": "https://edhet.github.io/workout-app/",
+    "languages": [
+      {"langName":  "TypeScript", "color": "text-blue-400", "bgColor":  "bg-blue-400/25"},
+      {"langName":  "Angular", "color": "text-red-500", "bgColor":  "bg-red-500/25"},
+      {"langName":  "Firebase", "color": "text-amber-300", "bgColor":  "bg-amber-300/25"}
+    ]
+  },
   "prj1": {
     "name": "Rust Programs",
     "image": "./assets/prj1.png",
