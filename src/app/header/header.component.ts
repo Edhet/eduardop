@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {FooterComponent} from "../footer/footer.component";
 import {AboutComponent} from "../about/about.component";
 import {ProjectCardComponent} from "../project-card/project-card.component";
@@ -10,7 +10,7 @@ import * as data from "../../assets/json/langstext.json";
   styleUrls: ['./header.component.css']
 })
 
-export class HeaderComponent {
+export class HeaderComponent implements OnInit {
   readonly active: string = "bg-white text-black";
   static _contactText: string = "Contact me";
   englishActive = true;
@@ -22,6 +22,11 @@ export class HeaderComponent {
   constructor() {
       this.enClass = this.active;
       this.ptClass = "";
+  }
+
+  ngOnInit() {
+    if (localStorage.getItem("lang") == "pt")
+      this.portuguese();
   }
 
   portuguese() {
@@ -37,6 +42,7 @@ export class HeaderComponent {
     ProjectCardComponent._projectsHeader = this.langstext.pt.ProjectsHeader;
     FooterComponent._footerText = this.langstext.pt.FooterText;
     document.documentElement.setAttribute('lang', 'pt');
+    localStorage.setItem("lang","pt");
   }
 
   english() {
@@ -52,6 +58,7 @@ export class HeaderComponent {
     ProjectCardComponent._projectsHeader = this.langstext.en.ProjectsHeader;
     FooterComponent._footerText = this.langstext.en.FooterText;
     document.documentElement.setAttribute('lang', 'en');
+    localStorage.setItem("lang","en");
   }
 
   get contactText(): string {
