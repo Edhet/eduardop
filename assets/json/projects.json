@@ -5,8 +5,10 @@
     "url": "https://edhet.github.io/workout-app/",
     "languages": [
       {"langName":  "TypeScript", "color": "text-blue-400", "bgColor":  "bg-blue-400/25"},
-      {"langName":  "Angular", "color": "text-red-500", "bgColor":  "bg-red-500/25"},
-      {"langName":  "Firebase", "color": "text-amber-300", "bgColor":  "bg-amber-300/25"}
+      {"langName":  "Angular", "color": "text-rose-600", "bgColor":  "bg-rose-600/25"},
+      {"langName":  "Firebase", "color": "text-orange-400", "bgColor":  "bg-orange-400/25"},
+      {"langName":  "Tailwind", "color": "text-sky-600", "bgColor":  "bg-sky-600/25"},
+      {"langName": "HTML", "color": "text-red-500", "bgColor":  "bg-red-500/25"}
     ]
   },
   "prj1": {
@@ -14,7 +16,7 @@
     "image": "./assets/prj1.png",
     "url": "https://github.com/Edhet/rust-prog",
     "languages": [
-      {"langName": "Rust", "color": "text-orange-500", "bgColor": "bg-orange-500/25"}
+      {"langName": "Rust", "color": "text-orange-600", "bgColor": "bg-orange-600/25"}
     ]
   },
   "prj2": {
@@ -22,7 +24,7 @@
     "image": "./assets/prj2.png",
     "url": "https://github.com/Edhet/rust-algo",
     "languages": [
-      {"langName": "Rust", "color": "text-orange-500", "bgColor":  "bg-orange-500/25" }
+      {"langName": "Rust", "color": "text-orange-600", "bgColor":  "bg-orange-600/25" }
     ]
   },
   "prj3": {
@@ -30,7 +32,7 @@
     "image": "./assets/prj3.png",
     "url": "https://github.com/Edhet/py-proj",
     "languages": [
-      {"langName": "Python", "color": "text-yellow-400", "bgColor":  "bg-yellow-400/25"},
+      {"langName": "Python", "color": "text-yellow-300", "bgColor":  "bg-yellow-300/25"},
       {"langName":  "SQLite", "color": "text-cyan-500", "bgColor": "bg-cyan-500/25"}
     ]
   },
