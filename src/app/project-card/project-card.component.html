@@ -5,6 +5,11 @@
     </svg>
     <h2 class="text-white text-3xl md:text-4xl font-medium">{{projectsHeader}}</h2>
   </div>
+  <div class="text-white">
+    <div class="flex gap-2 flex-wrap mt-6">
+      <button *ngFor="let uniqueLang of languages" class="p-1 max-w-fit rounded-lg {{uniqueLang.color}} {{uniqueLang.bgColor}} {{uniqueLang.borderColor}} {{(uniqueLang.hasBorder) ? 'outline outline-2' : ''}}" (click)="onClick(uniqueLang.name)">{{uniqueLang.name}}</button>
+    </div>
+  </div>
   <a *ngFor="let project of projects" class="grid bg-neutral-900 rounded-lg min-w-min outline hover:outline-1 hover:outline-neutral-600 mt-5 transition-all"
      href="{{project.url}}" target="_blank">
     <div>
@@ -14,9 +19,9 @@
         </svg>
         {{project.name}}
       </div>
-      <img src="{{project.image}}" class="rounded-t-lg w-full bg-cover" alt="web-page">
+      <img src="{{project.image}}" class="rounded-t-lg w-full bg-cover object-cover" alt="web-page">
     </div>
-    <div class="flex gap-2 p-2">
+    <div class="flex gap-2 p-2 flex-wrap">
       <div *ngFor="let lang of project.languages" class="p-1 {{lang.color}} {{lang.bgColor}} max-w-fit rounded-lg">{{lang.name}}</div>
     </div>
   </a>
