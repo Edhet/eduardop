@@ -79,6 +79,15 @@ export class ProjectCardComponent implements OnInit {
     });
   }
 
+  clearFilters() {
+    this.languages.forEach(lang => {
+        lang.hasBorder = false;
+        lang.borderColor = undefined;
+    });
+    this.activeFilters = new Array<Language>;
+    this.filterProjects();
+  }
+
   filterProjects() {
     this.populateProjects();
     if (this.activeFilters.length <= 0)
