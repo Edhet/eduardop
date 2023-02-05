@@ -15,6 +15,7 @@
       </button>
     </div>
   </div>
+  <p class="italic font-light text-white my-12 text-center" *ngIf="projects.length <= 0">{{emptyQuery}}</p>
   <a *ngFor="let project of projects" class="grid bg-neutral-900 rounded-lg min-w-min outline hover:outline-1 hover:outline-neutral-600 mt-5 transition-all"
      href="{{project.url}}" target="_blank">
     <div>

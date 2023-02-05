@@ -9,6 +9,8 @@ import {filter} from "rxjs";
 })
 export class ProjectCardComponent implements OnInit {
   static _projectsHeader: string = "Projects";
+  static _emptyQuery: string = "No project fullfills the current filters";
+
   projectsJSON = (data as any).default;
   projects = new Array<Project>;
   languages = new Array<Language>;
@@ -126,6 +128,10 @@ export class ProjectCardComponent implements OnInit {
 
   get projectsHeader() {
     return ProjectCardComponent._projectsHeader;
+  }
+
+  get emptyQuery() {
+    return ProjectCardComponent._emptyQuery;
   }
 }
 

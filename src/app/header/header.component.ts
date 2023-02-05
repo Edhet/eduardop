@@ -40,6 +40,7 @@ export class HeaderComponent implements OnInit {
     AboutComponent._expHeader = this.langstext.pt.ExpHeader;
     AboutComponent._expParagraph = this.langstext.pt.ExpParagraph;
     ProjectCardComponent._projectsHeader = this.langstext.pt.ProjectsHeader;
+    ProjectCardComponent._emptyQuery = this.langstext.pt.EmptyQuery;
     FooterComponent._footerText = this.langstext.pt.FooterText;
     document.documentElement.setAttribute('lang', 'pt');
     localStorage.setItem("lang","pt");
@@ -56,6 +57,7 @@ export class HeaderComponent implements OnInit {
     AboutComponent._expHeader = this.langstext.en.ExpHeader;
     AboutComponent._expParagraph = this.langstext.en.ExpParagraph;
     ProjectCardComponent._projectsHeader = this.langstext.en.ProjectsHeader;
+    ProjectCardComponent._emptyQuery = this.langstext.en.EmptyQuery;
     FooterComponent._footerText = this.langstext.en.FooterText;
     document.documentElement.setAttribute('lang', 'en');
     localStorage.setItem("lang","en");
