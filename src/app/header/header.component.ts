@@ -14,19 +14,23 @@ export class HeaderComponent implements OnInit {
   readonly active: string = "bg-white text-black";
   static _contactText: string = "Contact me";
   englishActive = true;
-  enClass: string;
-  ptClass: string;
+  enClass: string = this.active;
+  ptClass: string = "";
 
   langstext: any = (data as any).default;
 
-  constructor() {
-      this.enClass = this.active;
-      this.ptClass = "";
-  }
+  constructor() { }
 
   ngOnInit() {
-    if (localStorage.getItem("lang") == "pt")
+    if (!localStorage.getItem("lang"))
+      if (window.navigator.language.slice(0, 2) == "pt")
+        this.portuguese();
+      else
+        this.english();
+    else if (localStorage.getItem("lang") == "pt")
       this.portuguese();
+    else
+      this.english();
   }
 
   portuguese() {
