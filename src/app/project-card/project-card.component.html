@@ -25,7 +25,7 @@
         </svg>
         {{project.name}}
       </div>
-      <img src="{{project.image}}" class="rounded-t-lg w-full bg-cover object-cover" alt="web-page">
+      <img src="{{project.image}}" class="rounded-t-lg w-full bg-cover min-h-[3.5rem] object-cover" alt="web-page">
     </div>
     <div class="flex gap-2 p-2 flex-wrap">
       <div *ngFor="let lang of project.languages" class="p-1 {{lang.color}} {{lang.bgColor}} max-w-fit rounded-lg">{{lang.name}}</div>
