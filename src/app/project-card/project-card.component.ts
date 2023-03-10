@@ -1,6 +1,5 @@
 import {Component, OnInit} from '@angular/core';
 import * as data from '../../assets/json/projects.json';
-import {filter} from "rxjs";
 
 @Component({
   selector: 'app-project-card',
