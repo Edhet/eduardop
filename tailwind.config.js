@@ -54,10 +54,20 @@ module.exports = {
     'hover:bg-blue-400/50',
     'outline-blue-400',
 
+    'text-blue-700',
+    'bg-blue-700/25',
+    'hover:bg-blue-700/50',
+    'outline-blue-700',
+
     'text-purple-600',
     'bg-purple-600/25',
     'hover:bg-purple-600/50',
     'outline-purple-600',
+
+    'text-violet-500',
+    'bg-violet-500/25',
+    'hover:bg-violet-500/50',
+    'outline-violet-500',
 
     'text-amber-300',
     'bg-amber-300/25',

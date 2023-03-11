@@ -1,5 +1,5 @@
 {
-  "prj0": {
+  "Workout App": {
     "name": "Workout App",
     "image": "./assets/prj0.png",
     "url": "https://edhet.github.io/workout-app/",
@@ -11,7 +11,7 @@
       {"langName": "HTML", "color": "text-red-500", "bgColor":  "bg-red-500/25"}
     ]
   },
-  "prj1": {
+  "Rust Programs": {
     "name": "Rust Programs",
     "image": "./assets/prj1.png",
     "url": "https://github.com/Edhet/rust-prog",
@@ -19,7 +19,7 @@
       {"langName": "Rust", "color": "text-orange-600", "bgColor": "bg-orange-600/25"}
     ]
   },
-  "prj2": {
+  "Rust Algorithms": {
     "name": "Rust Algorithms",
     "image": "./assets/prj2.png",
     "url": "https://github.com/Edhet/rust-algo",
@@ -27,7 +27,20 @@
       {"langName": "Rust", "color": "text-orange-600", "bgColor":  "bg-orange-600/25" }
     ]
   },
-  "prj3": {
+  "GymSystem": {
+    "name": "Gym System",
+    "image": "./assets/gymSystem.png",
+    "url": "https://jobfind-f0bf1.web.app/",
+    "languages": [
+      {"langName":  "TypeScript", "color": "text-blue-400", "bgColor":  "bg-blue-400/25"},
+      {"langName":  "Ionic", "color": "text-blue-700", "bgColor":  "bg-blue-700/25"},
+      {"langName": "SCSS", "color": "text-violet-500", "bgColor":  "bg-violet-500/25"},
+      {"langName":  "Angular", "color": "text-rose-600", "bgColor":  "bg-rose-600/25"},
+      {"langName":  "Firebase", "color": "text-orange-400", "bgColor":  "bg-orange-400/25"},
+      {"langName": "HTML", "color": "text-red-500", "bgColor":  "bg-red-500/25"}
+    ]
+  },
+  "Python Projects": {
     "name": "Python Projects",
     "image": "./assets/prj3.png",
     "url": "https://github.com/Edhet/py-proj",
@@ -36,7 +49,7 @@
       {"langName":  "SQLite", "color": "text-cyan-500", "bgColor": "bg-cyan-500/25"}
     ]
   },
-  "prj4": {
+  "Hockey Site": {
     "name": "Hockey Site",
     "image": "./assets/prj4.png",
     "url": "https://github.com/Edhet/hockeysite",
@@ -46,7 +59,7 @@
       {"langName":  "JavaScript", "color": "text-yellow-400", "bgColor":  "bg-yellow-400/25"}
     ]
   },
-  "prj5": {
+  "TypeScript Calculator": {
     "name": "TypeScript Calculator",
     "image": "./assets/prj5.png",
     "url": "https://edhet.github.io/CalculatorTS/",
@@ -56,7 +69,7 @@
       {"langName":  "TypeScript", "color": "text-blue-400", "bgColor":  "bg-blue-400/25"}
     ]
   },
-  "prj6": {
+  "Task List App": {
     "name": "Task List App",
     "image": "./assets/prj6.png",
     "url": "https://edhet.github.io/TaskListJS/",
