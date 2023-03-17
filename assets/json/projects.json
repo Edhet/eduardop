@@ -1,7 +1,7 @@
 {
   "Workout App": {
     "name": "Workout App",
-    "image": "./assets/prj0.png",
+    "image": "./assets/workoutApp.png",
     "url": "https://edhet.github.io/workout-app/",
     "languages": [
       {"langName":  "TypeScript", "color": "text-blue-400", "bgColor":  "bg-blue-400/25"},
@@ -13,7 +13,7 @@
   },
   "Rust Programs": {
     "name": "Rust Programs",
-    "image": "./assets/prj1.png",
+    "image": "./assets/rustProg.png",
     "url": "https://github.com/Edhet/rust-prog",
     "languages": [
       {"langName": "Rust", "color": "text-orange-600", "bgColor": "bg-orange-600/25"}
@@ -21,7 +21,7 @@
   },
   "Rust Algorithms": {
     "name": "Rust Algorithms",
-    "image": "./assets/prj2.png",
+    "image": "./assets/rustAlgo.png",
     "url": "https://github.com/Edhet/rust-algo",
     "languages": [
       {"langName": "Rust", "color": "text-orange-600", "bgColor":  "bg-orange-600/25" }
@@ -35,14 +35,14 @@
       {"langName":  "TypeScript", "color": "text-blue-400", "bgColor":  "bg-blue-400/25"},
       {"langName":  "Ionic", "color": "text-blue-700", "bgColor":  "bg-blue-700/25"},
       {"langName": "SCSS", "color": "text-violet-500", "bgColor":  "bg-violet-500/25"},
+      {"langName": "HTML", "color": "text-red-500", "bgColor":  "bg-red-500/25"},
       {"langName":  "Angular", "color": "text-rose-600", "bgColor":  "bg-rose-600/25"},
-      {"langName":  "Firebase", "color": "text-orange-400", "bgColor":  "bg-orange-400/25"},
-      {"langName": "HTML", "color": "text-red-500", "bgColor":  "bg-red-500/25"}
+      {"langName":  "Firebase", "color": "text-orange-400", "bgColor":  "bg-orange-400/25"}
     ]
   },
   "Python Projects": {
     "name": "Python Projects",
-    "image": "./assets/prj3.png",
+    "image": "./assets/pyProj.png",
     "url": "https://github.com/Edhet/py-proj",
     "languages": [
       {"langName": "Python", "color": "text-yellow-300", "bgColor":  "bg-yellow-300/25"},
@@ -51,7 +51,7 @@
   },
   "Hockey Site": {
     "name": "Hockey Site",
-    "image": "./assets/prj4.png",
+    "image": "./assets/hockeySite.png",
     "url": "https://github.com/Edhet/hockeysite",
     "languages": [
       {"langName": "HTML", "color": "text-red-500", "bgColor":  "bg-red-500/25"},
@@ -61,7 +61,7 @@
   },
   "TypeScript Calculator": {
     "name": "TypeScript Calculator",
-    "image": "./assets/prj5.png",
+    "image": "./assets/calculatorTS.png",
     "url": "https://edhet.github.io/CalculatorTS/",
     "languages": [
       {"langName": "HTML", "color": "text-red-500", "bgColor":  "bg-red-500/25"},
@@ -71,7 +71,7 @@
   },
   "Task List App": {
     "name": "Task List App",
-    "image": "./assets/prj6.png",
+    "image": "./assets/taskList.png",
     "url": "https://edhet.github.io/TaskListJS/",
     "languages": [
       {"langName": "HTML", "color": "text-red-500", "bgColor":  "bg-red-500/25"},
