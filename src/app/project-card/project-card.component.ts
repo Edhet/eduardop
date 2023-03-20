@@ -31,11 +31,12 @@ export class ProjectCardComponent implements OnInit {
         let tempLang: Language = {
           name: this.projectsJSON[i].languages[j].langName,
           color: this.projectsJSON[i].languages[j].color,
-          bgColor:  this.projectsJSON[i].languages[j].bgColor,
+          bgColor: this.projectsJSON[i].languages[j].bgColor,
         };
         projLanguages.push(tempLang);
         if (this.langIsUnique(tempLang)) {
-          tempLang.hoverBgColor = "hover:" + tempLang.bgColor.slice(0, tempLang.bgColor.length-3) + "/50";
+          const colorWithoutTransparency = tempLang.bgColor.slice(0, tempLang.bgColor.length - 3);
+          tempLang.hoverAndFocusBgColor = "hover:"+colorWithoutTransparency+"/50 " + "focus:"+colorWithoutTransparency+"/50";
           this.languages.push(tempLang);
         }
       }
@@ -76,7 +77,7 @@ export class ProjectCardComponent implements OnInit {
     this.languages.forEach(lang => {
       if (lang.name == langName) {
         lang.hasOutline = true;
-        lang.outlineColor = "outline" + lang.bgColor.slice(2, lang.bgColor.length-3);
+        lang.outlineColor = "outline" + lang.bgColor.slice(2, lang.bgColor.length - 3);
         this.activeFilters.push(lang);
       }
     });
@@ -84,8 +85,8 @@ export class ProjectCardComponent implements OnInit {
 
   clearFilters() {
     this.languages.forEach(lang => {
-        lang.hasOutline = false;
-        lang.outlineColor = undefined;
+      lang.hasOutline = false;
+      lang.outlineColor = undefined;
     });
     this.activeFilters = new Array<Language>;
     this.filterProjects();
@@ -135,17 +136,17 @@ export class ProjectCardComponent implements OnInit {
 }
 
 interface Project {
-  name:string,
-  image:string,
-  url:string,
+  name: string,
+  image: string,
+  url: string,
   languages: Array<Language>
 }
 
 interface Language {
-  name:string,
-  color:string,
-  bgColor:string,
-  hoverBgColor?:string,
+  name: string,
+  color: string,
+  bgColor: string,
+  hoverAndFocusBgColor?: string,
   hasOutline?: boolean,
-  outlineColor?:string
+  outlineColor?: string
 }
