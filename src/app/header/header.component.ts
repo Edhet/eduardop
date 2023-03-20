@@ -11,7 +11,8 @@ import * as data from "../../assets/json/langstext.json";
 })
 
 export class HeaderComponent implements OnInit {
-  readonly active: string = "bg-white text-black";
+  readonly active: string = "bg-white border-white text-black hover:text-black focus:text-black";
+  readonly inactive: string = "border-zinc-400 text-zinc-400 focus:border-white focus:text-white hover:border-white hover:text-white";
   static _contactText: string = "Contact me";
   englishActive = true;
   enClass: string = this.active;
@@ -35,7 +36,7 @@ export class HeaderComponent implements OnInit {
 
   portuguese() {
     this.ptClass = this.active;
-    this.enClass = "";
+    this.enClass = this.inactive;
     this.englishActive = false;
 
     HeaderComponent._contactText = this.langstext.pt.ContactText;
@@ -52,7 +53,7 @@ export class HeaderComponent implements OnInit {
 
   english() {
     this.enClass = this.active;
-    this.ptClass = "";
+    this.ptClass = this.inactive;
     this.englishActive = true;
 
     HeaderComponent._contactText = this.langstext.en.ContactText;
