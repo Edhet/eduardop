@@ -11,8 +11,8 @@ import * as data from "../../assets/json/langstext.json";
 })
 
 export class HeaderComponent implements OnInit {
-  readonly active: string = "bg-white border-white text-black hover:text-black focus:text-black";
-  readonly inactive: string = "border-zinc-400 text-zinc-400 focus:border-white focus:text-white hover:border-white hover:text-white";
+  readonly active: string = "bg-white border-white text-black hover:text-black";
+  readonly inactive: string = "border-zinc-400 text-zinc-400 hover:border-white hover:text-white";
   static _contactText: string = "Contact me";
   englishActive = true;
   enClass: string = this.active;

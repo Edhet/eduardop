@@ -36,7 +36,7 @@ export class ProjectCardComponent implements OnInit {
         projLanguages.push(tempLang);
         if (this.langIsUnique(tempLang)) {
           const colorWithoutTransparency = tempLang.bgColor.slice(0, tempLang.bgColor.length - 3);
-          tempLang.hoverAndFocusBgColor = "hover:"+colorWithoutTransparency+"/50 " + "focus:"+colorWithoutTransparency+"/50";
+          tempLang.hoverBgColor = "hover:"+colorWithoutTransparency+"/50";
           this.languages.push(tempLang);
         }
       }
@@ -146,7 +146,7 @@ interface Language {
   name: string,
   color: string,
   bgColor: string,
-  hoverAndFocusBgColor?: string,
+  hoverBgColor?: string,
   hasOutline?: boolean,
   outlineColor?: string
 }
