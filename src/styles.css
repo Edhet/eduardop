@@ -1,5 +1,7 @@
 @tailwind base;
 
+/*SCROLLBAR*/
+
 *::-webkit-scrollbar {
   width: 6px;
 }
@@ -15,6 +17,27 @@
 
 *::-webkit-scrollbar-thumb:hover {
   background-color: #a1a1aa;
+}
+
+/*ANIMATIONS*/
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
+}
+
+p {
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+h1, h2, div > svg, button, a, footer {
+  animation-name: fade;
+  animation-duration: 1s;
 }
 
 @tailwind components;
