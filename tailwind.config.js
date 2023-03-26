@@ -87,6 +87,12 @@ module.exports = {
     'hover:bg-amber-300/50',
     'focus:bg-amber-300/50',
     'outline-amber-300',
+
+    'text-green-600',
+    'bg-green-600/25',
+    'hover:bg-green-600/50',
+    'focus:bg-green-600/50',
+    'outline-green-600',
   ],
   theme: {
     extend: {},

@@ -11,20 +11,23 @@
       {"langName": "HTML", "color": "text-red-500", "bgColor":  "bg-red-500/25"}
     ]
   },
+  "Weather App": {
+    "name": "Weather App",
+    "image": "./assets/weatherApp.png",
+    "url": "https://edhet.github.io/weather-app/",
+    "languages": [
+      {"langName":  "TypeScript", "color": "text-blue-400", "bgColor":  "bg-blue-400/25"},
+      {"langName":  "Vue", "color": "text-green-600", "bgColor":  "bg-green-600/25"},
+      {"langName":  "Tailwind", "color": "text-sky-600", "bgColor":  "bg-sky-600/25"},
+      {"langName": "HTML", "color": "text-red-500", "bgColor":  "bg-red-500/25"}
+    ]
+  },
   "Rust Programs": {
     "name": "Rust Programs",
     "image": "./assets/rustProg.png",
     "url": "https://github.com/Edhet/rust-prog",
     "languages": [
       {"langName": "Rust", "color": "text-orange-600", "bgColor": "bg-orange-600/25"}
-    ]
-  },
-  "Rust Algorithms": {
-    "name": "Rust Algorithms",
-    "image": "./assets/rustAlgo.png",
-    "url": "https://github.com/Edhet/rust-algo",
-    "languages": [
-      {"langName": "Rust", "color": "text-orange-600", "bgColor":  "bg-orange-600/25" }
     ]
   },
   "GymSystem": {
@@ -38,6 +41,14 @@
       {"langName": "HTML", "color": "text-red-500", "bgColor":  "bg-red-500/25"},
       {"langName":  "Angular", "color": "text-rose-600", "bgColor":  "bg-rose-600/25"},
       {"langName":  "Firebase", "color": "text-orange-400", "bgColor":  "bg-orange-400/25"}
+    ]
+  },
+  "Rust Algorithms": {
+    "name": "Rust Algorithms",
+    "image": "./assets/rustAlgo.png",
+    "url": "https://github.com/Edhet/rust-algo",
+    "languages": [
+      {"langName": "Rust", "color": "text-orange-600", "bgColor":  "bg-orange-600/25" }
     ]
   },
   "Python Projects": {
