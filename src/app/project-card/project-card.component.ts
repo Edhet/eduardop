@@ -34,7 +34,8 @@ export class ProjectCardComponent implements OnInit {
           bgColor: this.projectsJSON[i].languages[j].bgColor,
         };
         projLanguages.push(tempLang);
-        if (this.langIsUnique(tempLang)) {
+
+        if (this.langShouldCreateFilter(tempLang)) {
           const colorWithoutTransparency = tempLang.bgColor.slice(0, tempLang.bgColor.length - 3);
           tempLang.hoverBgColor = "hover:"+colorWithoutTransparency+"/50";
           this.languages.push(tempLang);
@@ -65,10 +66,8 @@ export class ProjectCardComponent implements OnInit {
 
   removeFilter(langName: string, index: number) {
     this.languages.forEach(lang => {
-      if (lang.name == langName) {
-        lang.hasOutline = false;
+      if (lang.name == langName)
         lang.outlineColor = undefined;
-      }
     });
     this.activeFilters.splice(index, 1);
   }
@@ -76,7 +75,6 @@ export class ProjectCardComponent implements OnInit {
   applyFilter(langName: string) {
     this.languages.forEach(lang => {
       if (lang.name == langName) {
-        lang.hasOutline = true;
         lang.outlineColor = "outline" + lang.bgColor.slice(2, lang.bgColor.length - 3);
         this.activeFilters.push(lang);
       }
@@ -84,10 +82,7 @@ export class ProjectCardComponent implements OnInit {
   }
 
   clearFilters() {
-    this.languages.forEach(lang => {
-      lang.hasOutline = false;
-      lang.outlineColor = undefined;
-    });
+    this.languages.forEach(lang => lang.outlineColor = undefined);
     this.activeFilters = new Array<Language>;
     this.filterProjects();
   }
@@ -119,7 +114,7 @@ export class ProjectCardComponent implements OnInit {
     }
   }
 
-  langIsUnique(lang: Language): boolean {
+  langShouldCreateFilter(lang: Language): boolean {
     for (let i in this.languages)
       if (lang.name == this.languages[i].name)
         return false;
@@ -147,6 +142,5 @@ interface Language {
   color: string,
   bgColor: string,
   hoverBgColor?: string,
-  hasOutline?: boolean,
   outlineColor?: string
 }
