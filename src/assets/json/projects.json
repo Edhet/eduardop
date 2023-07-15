@@ -43,6 +43,14 @@
       {"langName":  "Firebase", "color": "text-orange-400", "bgColor":  "bg-orange-400/25"}
     ]
   },
+  "Java Game": {
+    "name": "Java Game",
+    "image": "./assets/javaGame.png",
+    "url": "https://github.com/Edhet/JavaGame",
+    "languages": [
+      {"langName": "Java", "color": "text-red-700", "bgColor":  "bg-red-700/25"}
+    ]
+  },
   "Rust Algorithms": {
     "name": "Rust Algorithms",
     "image": "./assets/rustAlgo.png",

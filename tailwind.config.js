@@ -52,6 +52,12 @@ module.exports = {
     'focus:bg-red-500/50',
     'outline-red-500',
 
+    'text-red-700',
+    'bg-red-700/25',
+    'hover:bg-red-700/50',
+    'focus:bg-red-700/50',
+    'outline-red-700',
+
     'text-blue-500',
     'bg-blue-500/25',
     'hover:bg-blue-500/50',
