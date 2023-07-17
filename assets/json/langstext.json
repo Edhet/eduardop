@@ -2,19 +2,19 @@
   "en": {
     "ContactText": "Contact Me",
     "AboutHeader": "About Me",
-    "AboutParagraph": "I'm a brazilian from Rio de Janeiro, a Tech Enthusiast especially interested in Infrastructure, Back-End development, Low level technology and Hardware. Did half a semester in Electrical Engineering and at the moment i'm doing a bachelors degree in Information Systems at UNIRIO. Also interested in design and art, already did amateur game development and have written some RPG books.",
+    "AboutParagraph": "I'm a brazilian from Rio de Janeiro, a tech enthusiast, especially interested in web development, i did half a semester of Electrical Engineering at CEFET-RJ, but soon i realised that my real interest was in programming, because of that i went to Information Systems at UNIRIO, where i keep learning about software development and engineering. Im also interested in design, but particularly in web-design, having done amateur game development and written tabletop RPG system books too.",
     "ExpHeader": "Skills and Experience",
-    "ExpParagraph": "Linux user for 2 years, having used many end-user distros like Fedora, Pop!OS and currently using Arch. Programming in Rust for about 8 months and learning other languages like Python and C/C++ along with it, also studied a bit of relational databases in MySQL and SQLite and recently i've been studying the web stacks with HTML, JavaScript/TypeScript, CSS and its frameworks.",
+    "ExpParagraph": "Desktop Linux distros user, such as Ubuntu, Pop!OS, Fedora and currently Arch, for two years to learn how the web's operating environment works. Experienced in front-end web development, having used Angular, Ionic and Vue with TypeScript in some projects with APIs consumption and Firebase, utilizing Git and at the moment i'm learning about Spring and back-end development as well as deepening my knowledge in relational and non-relational databases, even though i already have some experience with MongoDB, MariaDB (mySQL) and SQLite.",
     "ProjectsHeader": "Projects",
-    "EmptyQuery": "No project fullfills the current filters",
+    "EmptyQuery": "No project fulfills the current filters",
     "FooterText": "Made in Angular with Tailwind"
   },
   "pt": {
     "ContactText": "Entre em Contato",
     "AboutHeader": "Sobre mim",
-    "AboutParagraph": "Sou um brasileiro do Rio de Janeiro, entusiasta de tecnologia especialmente interessado em Infraestrutura, desenvolvimento Back-End, tecnologia de baixo nível e hardware, Cursei engenharia elétrica por meio semestre e no momento estou fazendo bacharelado em Sistemas de Informação na UNIRIO. Também tenho interesse em design e arte, já fiz desenvolvimento de jogos amador e escrevi alguns livros de RPG.",
+    "AboutParagraph": "Sou um brasileiro do Rio de Janeiro, entusiasta de tecnologia, especialmente interessado em desenvolvimento web, cursei Engenharia Elétrica no CEFET-RJ por meio período, porém logo percebi que meu real interesse era em programação, assim mudando de curso para Sistemas de Informação na UNIRIO, onde sigo aprendendo sobre desenvolvimento e engenharia de software. Também tenho interesse em design, em particular em web-design, além de já ter feito desenvolvimento amador de jogos e escrito livros de sistemas de RPG de mesa.",
     "ExpHeader": "Habilidades e Experiência",
-    "ExpParagraph":  "Usuário de Linux a dois anos, tendo usado muitas distros de usuário final como Fedora, Pop!OS e atualmente usando Arch, Programando em Rust por cerca de 8 meses e aprendendo outras linguagens como Python e C/C++ junto, também já estudei um pouco de banco de dados relacional com MySQL e SQLite e recentemente tenho estudado as web stacks com HTML, JavaScript/TypeScript, CSS e seus frameworks.",
+    "ExpParagraph":  "Usuário de distros desktop Linux, como Ubuntu, Pop!OS, Fedora e atualmente Arch, há dois anos a caráter de aprender sobre o ambiente de funcionamento da web. Experiente em programação front-end web, tendo conhecimento em Angular, Ionic e Vue utilizando TypeScript com alguns projetos com consumo de APIs e Firebase, utlizando Git e no momento estou aprendendo sobre Spring e desenvolvimento back-end assim como aprofundando meus conhecimentos em bancos de dados relacionais e não relacionais, apesar de já ter alguma experiencia com MongoDB, MariaDB (mySQL) e SQLite.",
     "ProjectsHeader": "Projetos",
     "EmptyQuery": "Nenhum projeto corresponde aos filtros atuais",
     "FooterText": "Feito em Angular com Tailwind"
