@@ -4,11 +4,31 @@
     "image": "./assets/workoutApp.png",
     "url": "https://edhet.github.io/workout-app/",
     "languages": [
-      {"langName":  "TypeScript", "color": "text-blue-400", "bgColor":  "bg-blue-400/25"},
-      {"langName":  "Angular", "color": "text-rose-600", "bgColor":  "bg-rose-600/25"},
-      {"langName":  "Firebase", "color": "text-orange-400", "bgColor":  "bg-orange-400/25"},
-      {"langName":  "Tailwind", "color": "text-sky-600", "bgColor":  "bg-sky-600/25"},
-      {"langName": "HTML", "color": "text-red-500", "bgColor":  "bg-red-500/25"}
+      {
+        "langName": "TypeScript",
+        "color": "text-blue-400",
+        "bgColor": "bg-blue-400/25"
+      },
+      {
+        "langName": "Angular",
+        "color": "text-rose-600",
+        "bgColor": "bg-rose-600/25"
+      },
+      {
+        "langName": "Firebase",
+        "color": "text-orange-400",
+        "bgColor": "bg-orange-400/25"
+      },
+      {
+        "langName": "Tailwind",
+        "color": "text-sky-600",
+        "bgColor": "bg-sky-600/25"
+      },
+      {
+        "langName": "HTML",
+        "color": "text-red-500",
+        "bgColor": "bg-red-500/25"
+      }
     ]
   },
   "Weather App": {
@@ -16,18 +36,26 @@
     "image": "./assets/weatherApp.png",
     "url": "https://edhet.github.io/weather-app/",
     "languages": [
-      {"langName":  "TypeScript", "color": "text-blue-400", "bgColor":  "bg-blue-400/25"},
-      {"langName":  "Vue", "color": "text-green-600", "bgColor":  "bg-green-600/25"},
-      {"langName":  "Tailwind", "color": "text-sky-600", "bgColor":  "bg-sky-600/25"},
-      {"langName": "HTML", "color": "text-red-500", "bgColor":  "bg-red-500/25"}
-    ]
-  },
-  "Rust Programs": {
-    "name": "Rust Programs",
-    "image": "./assets/rustProg.png",
-    "url": "https://github.com/Edhet/rust-prog",
-    "languages": [
-      {"langName": "Rust", "color": "text-orange-600", "bgColor": "bg-orange-600/25"}
+      {
+        "langName": "TypeScript",
+        "color": "text-blue-400",
+        "bgColor": "bg-blue-400/25"
+      },
+      {
+        "langName": "Vue",
+        "color": "text-green-600",
+        "bgColor": "bg-green-600/25"
+      },
+      {
+        "langName": "Tailwind",
+        "color": "text-sky-600",
+        "bgColor": "bg-sky-600/25"
+      },
+      {
+        "langName": "HTML",
+        "color": "text-red-500",
+        "bgColor": "bg-red-500/25"
+      }
     ]
   },
   "GymSystem": {
@@ -35,12 +63,80 @@
     "image": "./assets/gymSystem.png",
     "url": "https://jobfind-f0bf1.web.app/",
     "languages": [
-      {"langName":  "TypeScript", "color": "text-blue-400", "bgColor":  "bg-blue-400/25"},
-      {"langName":  "Ionic", "color": "text-blue-700", "bgColor":  "bg-blue-700/25"},
-      {"langName": "SCSS", "color": "text-violet-500", "bgColor":  "bg-violet-500/25"},
-      {"langName": "HTML", "color": "text-red-500", "bgColor":  "bg-red-500/25"},
-      {"langName":  "Angular", "color": "text-rose-600", "bgColor":  "bg-rose-600/25"},
-      {"langName":  "Firebase", "color": "text-orange-400", "bgColor":  "bg-orange-400/25"}
+      {
+        "langName": "TypeScript",
+        "color": "text-blue-400",
+        "bgColor": "bg-blue-400/25"
+      },
+      {
+        "langName": "Ionic",
+        "color": "text-blue-700",
+        "bgColor": "bg-blue-700/25"
+      },
+      {
+        "langName": "SCSS",
+        "color": "text-violet-500",
+        "bgColor": "bg-violet-500/25"
+      },
+      {
+        "langName": "HTML",
+        "color": "text-red-500",
+        "bgColor": "bg-red-500/25"
+      },
+      {
+        "langName": "Angular",
+        "color": "text-rose-600",
+        "bgColor": "bg-rose-600/25"
+      },
+      {
+        "langName": "Firebase",
+        "color": "text-orange-400",
+        "bgColor": "bg-orange-400/25"
+      }
+    ]
+  },
+  "Crud Playground": {
+    "name": "Crud Playground",
+    "image": "./assets/crudplayground.png",
+    "url": "https://github.com/Edhet/crudplayground-backend",
+    "languages": [
+      {
+        "langName": "Java",
+        "color": "text-red-700",
+        "bgColor": "bg-red-700/25"
+      },
+      {
+        "langName": "Springboot",
+        "color": "text-lime-500",
+        "bgColor": "bg-lime-500/25"
+      },
+      {
+        "langName": "MongoDB",
+        "color": "text-green-500",
+        "bgColor": "bg-green-500/25"
+      },
+      {
+        "langName": "PostgreSQL",
+        "color": "text-sky-700",
+        "bgColor": "bg-sky-700/25"
+      },
+      {
+        "langName": "Angular",
+        "color": "text-rose-600",
+        "bgColor": "bg-rose-600/25"
+      }
+    ]
+  },
+  "Rust Programs": {
+    "name": "Rust Programs",
+    "image": "./assets/rustProg.png",
+    "url": "https://github.com/Edhet/rust-prog",
+    "languages": [
+      {
+        "langName": "Rust",
+        "color": "text-orange-600",
+        "bgColor": "bg-orange-600/25"
+      }
     ]
   },
   "Java Game": {
@@ -48,7 +144,11 @@
     "image": "./assets/javaGame.png",
     "url": "https://github.com/Edhet/JavaGame",
     "languages": [
-      {"langName": "Java", "color": "text-red-700", "bgColor":  "bg-red-700/25"}
+      {
+        "langName": "Java",
+        "color": "text-red-700",
+        "bgColor": "bg-red-700/25"
+      }
     ]
   },
   "Rust Algorithms": {
@@ -56,7 +156,11 @@
     "image": "./assets/rustAlgo.png",
     "url": "https://github.com/Edhet/rust-algo",
     "languages": [
-      {"langName": "Rust", "color": "text-orange-600", "bgColor":  "bg-orange-600/25" }
+      {
+        "langName": "Rust",
+        "color": "text-orange-600",
+        "bgColor": "bg-orange-600/25"
+      }
     ]
   },
   "Python Projects": {
@@ -64,8 +168,16 @@
     "image": "./assets/pyProj.png",
     "url": "https://github.com/Edhet/py-proj",
     "languages": [
-      {"langName": "Python", "color": "text-yellow-300", "bgColor":  "bg-yellow-300/25"},
-      {"langName":  "SQLite", "color": "text-cyan-500", "bgColor": "bg-cyan-500/25"}
+      {
+        "langName": "Python",
+        "color": "text-yellow-300",
+        "bgColor": "bg-yellow-300/25"
+      },
+      {
+        "langName": "SQLite",
+        "color": "text-cyan-500",
+        "bgColor": "bg-cyan-500/25"
+      }
     ]
   },
   "Hockey Site": {
@@ -73,9 +185,21 @@
     "image": "./assets/hockeySite.png",
     "url": "https://github.com/Edhet/hockeysite",
     "languages": [
-      {"langName": "HTML", "color": "text-red-500", "bgColor":  "bg-red-500/25"},
-      {"langName": "CSS", "color": "text-blue-500", "bgColor":  "bg-blue-500/25"},
-      {"langName":  "JavaScript", "color": "text-yellow-400", "bgColor":  "bg-yellow-400/25"}
+      {
+        "langName": "HTML",
+        "color": "text-red-500",
+        "bgColor": "bg-red-500/25"
+      },
+      {
+        "langName": "CSS",
+        "color": "text-blue-500",
+        "bgColor": "bg-blue-500/25"
+      },
+      {
+        "langName": "JavaScript",
+        "color": "text-yellow-400",
+        "bgColor": "bg-yellow-400/25"
+      }
     ]
   },
   "TypeScript Calculator": {
@@ -83,9 +207,21 @@
     "image": "./assets/calculatorTS.png",
     "url": "https://edhet.github.io/CalculatorTS/",
     "languages": [
-      {"langName": "HTML", "color": "text-red-500", "bgColor":  "bg-red-500/25"},
-      {"langName": "Bootstrap", "color": "text-purple-600", "bgColor":  "bg-purple-600/25"},
-      {"langName":  "TypeScript", "color": "text-blue-400", "bgColor":  "bg-blue-400/25"}
+      {
+        "langName": "HTML",
+        "color": "text-red-500",
+        "bgColor": "bg-red-500/25"
+      },
+      {
+        "langName": "Bootstrap",
+        "color": "text-purple-600",
+        "bgColor": "bg-purple-600/25"
+      },
+      {
+        "langName": "TypeScript",
+        "color": "text-blue-400",
+        "bgColor": "bg-blue-400/25"
+      }
     ]
   },
   "Task List App": {
@@ -93,9 +229,21 @@
     "image": "./assets/taskList.png",
     "url": "https://edhet.github.io/TaskListJS/",
     "languages": [
-      {"langName": "HTML", "color": "text-red-500", "bgColor":  "bg-red-500/25"},
-      {"langName": "Bootstrap", "color": "text-purple-600", "bgColor":  "bg-purple-600/25"},
-      {"langName":  "JavaScript", "color": "text-yellow-400", "bgColor":  "bg-yellow-400/25"}
+      {
+        "langName": "HTML",
+        "color": "text-red-500",
+        "bgColor": "bg-red-500/25"
+      },
+      {
+        "langName": "Bootstrap",
+        "color": "text-purple-600",
+        "bgColor": "bg-purple-600/25"
+      },
+      {
+        "langName": "JavaScript",
+        "color": "text-yellow-400",
+        "bgColor": "bg-yellow-400/25"
+      }
     ]
   }
 }
