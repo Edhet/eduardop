@@ -22,7 +22,7 @@
 
   <p class="italic font-light text-white my-12 text-center" *ngIf="projects.length <= 0">{{emptyQuery}}</p>
   <div class="lg:grid lg:grid-cols-2 lg:gap-x-5">
-    <a *ngFor="let project of projects" class="relative flex flex-col bg-neutral-900 rounded-lg outline hover:outline-1 hover:outline-neutral-600 border border-zinc-900 mt-5 transition-all relative snap-center" href="{{project.url}}" target="_blank">
+    <a *ngFor="let project of projects" class="relative flex flex-col bg-neutral-900 rounded-lg outline hover:outline-1 hover:outline-neutral-600 border border-zinc-900 mt-5 transition-all snap-center" href="{{project.url}}" target="_blank">
       <div class="z-10 absolute text-white text-xl top-2 left-4 font-bold flex">
         <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" fill="currentColor" class="bi bi-code mr-2 my-auto" viewBox="0 0 16 16">
           <path d="M5.854 4.854a.5.5 0 1 0-.708-.708l-3.5 3.5a.5.5 0 0 0 0 .708l3.5 3.5a.5.5 0 0 0 .708-.708L2.707 8l3.147-3.146zm4.292 0a.5.5 0 0 1 .708-.708l3.5 3.5a.5.5 0 0 1 0 .708l-3.5 3.5a.5.5 0 0 1-.708-.708L13.293 8l-3.147-3.146z"/>

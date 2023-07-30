@@ -121,6 +121,11 @@
         "bgColor": "bg-sky-700/25"
       },
       {
+        "langName": "TypeScript",
+        "color": "text-blue-400",
+        "bgColor": "bg-blue-400/25"
+      },
+      {
         "langName": "Angular",
         "color": "text-rose-600",
         "bgColor": "bg-rose-600/25"
