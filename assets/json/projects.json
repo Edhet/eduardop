@@ -1,4 +1,36 @@
 {
+  "DuCacauChocolateStore": {
+    "name": "DuCacau",
+    "image": "./assets/ducacau.png",
+    "url": "https://edhet.github.io/ChocolateStore-Frontend",
+    "languages": [
+      {
+        "langName": "Java",
+        "color": "text-red-700",
+        "bgColor": "bg-red-700/25"
+      },
+      {
+        "langName": "Springboot",
+        "color": "text-lime-500",
+        "bgColor": "bg-lime-500/25"
+      },
+      {
+        "langName": "PostgreSQL",
+        "color": "text-sky-700",
+        "bgColor": "bg-sky-700/25"
+      },
+      {
+        "langName": "TypeScript",
+        "color": "text-blue-400",
+        "bgColor": "bg-blue-400/25"
+      },
+      {
+        "langName": "Angular",
+        "color": "text-rose-600",
+        "bgColor": "bg-rose-600/25"
+      }
+    ]
+  },
   "Workout App": {
     "name": "Workout App",
     "image": "./assets/workoutApp.png",
