@@ -27,6 +27,15 @@ export class ProjectsService {
     this.filter();
   }
 
+  public clearFilters() {
+    this.activatedFilters = [];
+    this.filteredProjects = this.projectListCopy();
+  }
+
+  public filterIsActive(filter: Tag) {
+    return this.tagIsIncluded(filter, this.activatedFilters);
+  }
+
   private filter() {
     this.filteredProjects = this.projectListCopy();
 
@@ -46,11 +55,6 @@ export class ProjectsService {
     }
   }
 
-  public clearFilters() {
-    this.activatedFilters = [];
-    this.filteredProjects = this.projectListCopy();
-  }
-
   private getTagList() {
     this.projects.forEach(p => {
       p.tags.forEach(t => {
@@ -59,7 +63,7 @@ export class ProjectsService {
     });
   }
 
-  private tagIsIncluded(tag: Tag, list: Tag[]) {
+  private tagIsIncluded(tag: Tag, list: Tag[]) {  
     for (let t of list) {
       if (tag.tagName == t.tagName)
         return true;

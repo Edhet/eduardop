@@ -8,7 +8,7 @@
 
   <div class="text-white md:sticky md:top-0 md:z-20 py-3 md:bg-black/75 md:backdrop-blur-sm">
     <div class="flex gap-2 flex-wrap">
-      <button *ngFor="let tag of projectsService.filters" class="p-1 max-w-fit rounded-lg transition-all {{tag.color}} {{tag.bgColor}} {{tag.outlineColor}} {{tag.hoverBgColor}} {{(tag.outlineColor) ? 'outline outline-2' : 'focus:outline-none'}}" (click)="projectsService.changeFilter(tag)">
+      <button *ngFor="let tag of projectsService.filters" class="p-1 max-w-fit rounded-lg transition-all outline-2 {{tag.color + ' ' + tag.bgColor + ' ' + tag.outlineColor + ' ' + tag.hoverBgColor}}" [class.outline]="projectsService.filterIsActive(tag)" (click)="projectsService.changeFilter(tag)">
         {{tag.tagName}}
       </button>
 
