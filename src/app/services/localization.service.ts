@@ -7,10 +7,10 @@ import textData from "../../assets/json/langstext.json";
   providedIn: 'root'
 })
 export class LocalizationService {
+  private readonly localizedTextContents: TextContent[];
+
   private selectedLanguage: Languages = Languages.ENGLISH;
   private selectedLanguageTextContent: TextContent;
-
-  private readonly localizedTextContents: TextContent[];
 
   constructor() {
     this.localizedTextContents = textData as TextContent[];
@@ -38,8 +38,16 @@ export class LocalizationService {
     return this.selectedLanguageTextContent.headerContent;
   }
 
-  get sectionContent() {
-    return this.selectedLanguageTextContent.sectionsContent;
+  get aboutSectionContent() {
+    return this.selectedLanguageTextContent.sectionsContent[0];
+  }
+
+  get skillsSectionContent() {
+    return this.selectedLanguageTextContent.sectionsContent[1];
+  }
+
+  get projectHeader() {
+    return this.selectedLanguageTextContent.sectionsContent[2].sectionHeader;
   }
 
   get footerContent() {
