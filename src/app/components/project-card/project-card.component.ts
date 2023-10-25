@@ -1,5 +1,9 @@
 import {Component, OnInit} from '@angular/core';
-import * as data from '../../assets/json/projects.json';
+import Language from 'src/app/models/language.model';
+import Project from 'src/app/models/project.model';
+
+import * as data from '../../../assets/json/projects.json';
+import { LocalizationService } from 'src/app/services/localization.service';
 
 @Component({
   selector: 'app-project-card',
@@ -7,15 +11,13 @@ import * as data from '../../assets/json/projects.json';
   styleUrls: ['./project-card.component.css']
 })
 export class ProjectCardComponent implements OnInit {
-  static _projectsHeader: string = "Projects";
-  static _emptyQuery: string = "No project fullfills the current filters";
 
   projectsJSON = (data as any).default;
   projects = new Array<Project>;
   languages = new Array<Language>;
   activeFilters = new Array<Language>;
 
-  constructor() { }
+  constructor(public localizationService: LocalizationService) { }
 
   ngOnInit() {
     this.populateProjects();
@@ -120,27 +122,4 @@ export class ProjectCardComponent implements OnInit {
         return false;
     return true;
   }
-
-  get projectsHeader() {
-    return ProjectCardComponent._projectsHeader;
-  }
-
-  get emptyQuery() {
-    return ProjectCardComponent._emptyQuery;
-  }
-}
-
-interface Project {
-  name: string,
-  image: string,
-  url: string,
-  languages: Array<Language>
-}
-
-interface Language {
-  name: string,
-  color: string,
-  bgColor: string,
-  hoverBgColor?: string,
-  outlineColor?: string
 }

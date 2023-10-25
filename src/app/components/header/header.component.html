@@ -1,0 +1,20 @@
+<header>
+  <div class="text-white mt-6 flex ">
+    <h1 class="text-5xl lg:text-6xl font-light"><span class="font-medium">{{localizationService.headerContent.firstName}}</span> {{localizationService.headerContent.surname}}</h1>
+
+    <div class="flex ml-auto max-h-fit my-auto justify-start">
+      <button class="border rounded-l-lg p-1 focus:outline-none transition-all {{localizationService.currentLanguage == 'en' ? active : inactive}}" (click)="changeLanguage('en')">EN</button>
+      <button class="border rounded-r-lg p-1 focus:outline-none transition-all {{localizationService.currentLanguage == 'pt' ? active : inactive}}" (click)="changeLanguage('pt')">PT</button>
+    </div>
+
+  </div>
+  <div class="text-white p-2 mt-1 md:flex md:gap-2 lg:text-lg">
+    <div class="flex">
+      <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" class="bi bi-chevron-right mr-2 my-auto"  viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+      </svg>
+      <p class="font-medium">{{localizationService.headerContent.contactText}}:</p>
+    </div>
+    <p class="italic font-light select-all text-zinc-400">{{localizationService.headerContent.email}}</p>
+  </div>
+</header>
