@@ -6,30 +6,15 @@ import textData from "../../assets/json/langstext.json";
 @Injectable({
   providedIn: 'root'
 })
-export class LocalizationService implements OnInit {
+export class LocalizationService {
   private selectedLanguage: Languages = Languages.ENGLISH;
   private selectedLanguageTextContent: TextContent;
 
-  public readonly localizedTextContents: TextContent[];
+  private readonly localizedTextContents: TextContent[];
 
   constructor() {
     this.localizedTextContents = textData as TextContent[];
     this.selectedLanguageTextContent = this.localizedTextContents[0];
-  }
-
-  ngOnInit() {
-    if (localStorage.getItem("lang") == "en") {
-      this.changeLanguage(Languages.ENGLISH);
-    }
-    else if (localStorage.getItem("lang") == "pt") {
-      this.changeLanguage(Languages.PORTUGUESE);
-    }
-    else {
-      if (window.navigator.language.slice(0, 2) == "pt")
-        this.changeLanguage(Languages.PORTUGUESE);
-      else
-        this.changeLanguage(Languages.ENGLISH);
-    }
   }
 
   public changeLanguage(language: Languages) {
