@@ -1,286 +1,366 @@
-{
-  "DuCacauChocolateStore": {
+[
+  {
     "name": "DuCacau",
     "image": "./assets/ducacau.png",
     "url": "https://edhet.github.io/ChocolateStore-Frontend",
-    "languages": [
+    "tags": [
       {
-        "langName": "Java",
+        "tagName": "Java",
         "color": "text-red-700",
+        "hoverBgColor": "hover:bg-red-700/50",
+        "outlineColor": "outline-red-700",
         "bgColor": "bg-red-700/25"
       },
       {
-        "langName": "Springboot",
+        "tagName": "Springboot",
         "color": "text-lime-500",
+        "hoverBgColor": "hover:bg-lime-500/50",
+        "outlineColor": "outline-lime-500",
         "bgColor": "bg-lime-500/25"
       },
       {
-        "langName": "PostgreSQL",
+        "tagName": "PostgreSQL",
         "color": "text-sky-700",
+        "hoverBgColor": "hover:bg-sky-700/50",
+        "outlineColor": "outline-sky-700",
         "bgColor": "bg-sky-700/25"
       },
       {
-        "langName": "TypeScript",
+        "tagName": "TypeScript",
         "color": "text-blue-400",
+        "hoverBgColor": "hover:bg-blue-400/50",
+        "outlineColor": "outline-blue-400",
         "bgColor": "bg-blue-400/25"
       },
       {
-        "langName": "Angular",
+        "tagName": "Angular",
         "color": "text-rose-600",
+        "hoverBgColor": "hover:bg-rose-600/50",
+        "outlineColor": "outline-rose-600",
         "bgColor": "bg-rose-600/25"
       }
     ]
   },
-  "Workout App": {
+  {
     "name": "Workout App",
     "image": "./assets/workoutApp.png",
     "url": "https://edhet.github.io/workout-app/",
-    "languages": [
+    "tags": [
       {
-        "langName": "TypeScript",
+        "tagName": "TypeScript",
         "color": "text-blue-400",
+        "hoverBgColor": "hover:bg-blue-400/50",
+        "outlineColor": "outline-blue-400",
         "bgColor": "bg-blue-400/25"
       },
       {
-        "langName": "Angular",
+        "tagName": "Angular",
         "color": "text-rose-600",
+        "hoverBgColor": "hover:bg-rose-600/50",
+        "outlineColor": "outline-rose-600",
         "bgColor": "bg-rose-600/25"
       },
       {
-        "langName": "Firebase",
+        "tagName": "Firebase",
         "color": "text-orange-400",
+        "hoverBgColor": "hover:bg-orange-400/50",
+        "outlineColor": "outline-orange-400",
         "bgColor": "bg-orange-400/25"
       },
       {
-        "langName": "Tailwind",
+        "tagName": "Tailwind",
         "color": "text-sky-600",
+        "hoverBgColor": "hover:bg-sky-600/50",
+        "outlineColor": "outline-sky-600",
         "bgColor": "bg-sky-600/25"
       },
       {
-        "langName": "HTML",
+        "tagName": "HTML",
         "color": "text-red-500",
+        "hoverBgColor": "hover:bg-red-500/50",
+        "outlineColor": "outline-red-500",
         "bgColor": "bg-red-500/25"
       }
     ]
   },
-  "Weather App": {
+  {
     "name": "Weather App",
     "image": "./assets/weatherApp.png",
     "url": "https://edhet.github.io/weather-app/",
-    "languages": [
+    "tags": [
       {
-        "langName": "TypeScript",
+        "tagName": "TypeScript",
         "color": "text-blue-400",
+        "hoverBgColor": "hover:bg-blue-400/50",
+        "outlineColor": "outline-blue-400",
         "bgColor": "bg-blue-400/25"
       },
       {
-        "langName": "Vue",
+        "tagName": "Vue",
         "color": "text-green-600",
+        "hoverBgColor": "hover:bg-green-600/50",
+        "outlineColor": "outline-green-600",
         "bgColor": "bg-green-600/25"
       },
       {
-        "langName": "Tailwind",
+        "tagName": "Tailwind",
         "color": "text-sky-600",
+        "hoverBgColor": "hover:bg-sky-600/50",
+        "outlineColor": "outline-sky-600",
         "bgColor": "bg-sky-600/25"
       },
       {
-        "langName": "HTML",
+        "tagName": "HTML",
         "color": "text-red-500",
+        "hoverBgColor": "hover:bg-red-500/50",
+        "outlineColor": "outline-red-500",
         "bgColor": "bg-red-500/25"
       }
     ]
   },
-  "GymSystem": {
+  {
     "name": "Gym System",
     "image": "./assets/gymSystem.png",
     "url": "https://jobfind-f0bf1.web.app/",
-    "languages": [
+    "tags": [
       {
-        "langName": "TypeScript",
+        "tagName": "TypeScript",
         "color": "text-blue-400",
+        "hoverBgColor": "hover:bg-blue-400/50",
+        "outlineColor": "outline-blue-400",
         "bgColor": "bg-blue-400/25"
       },
       {
-        "langName": "Ionic",
+        "tagName": "Ionic",
         "color": "text-blue-700",
+        "hoverBgColor": "hover:bg-blue-700/50",
+        "outlineColor": "outline-blue-700",
         "bgColor": "bg-blue-700/25"
       },
       {
-        "langName": "SCSS",
+        "tagName": "SCSS",
         "color": "text-violet-500",
+        "hoverBgColor": "hover:bg-violet-500/50",
+        "outlineColor": "outline-violet-500",
         "bgColor": "bg-violet-500/25"
       },
       {
-        "langName": "HTML",
+        "tagName": "HTML",
         "color": "text-red-500",
+        "hoverBgColor": "hover:bg-red-500/50",
+        "outlineColor": "outline-red-500",
         "bgColor": "bg-red-500/25"
       },
       {
-        "langName": "Angular",
+        "tagName": "Angular",
         "color": "text-rose-600",
+        "hoverBgColor": "hover:bg-rose-600/50",
+        "outlineColor": "outline-rose-600",
         "bgColor": "bg-rose-600/25"
       },
       {
-        "langName": "Firebase",
+        "tagName": "Firebase",
         "color": "text-orange-400",
+        "hoverBgColor": "hover:bg-orange-400/50",
+        "outlineColor": "outline-orange-400",
         "bgColor": "bg-orange-400/25"
       }
     ]
   },
-  "Crud Playground": {
+  {
     "name": "Crud Playground",
     "image": "./assets/crudplayground.png",
     "url": "https://github.com/Edhet/crudplayground-backend",
-    "languages": [
+    "tags": [
       {
-        "langName": "Java",
+        "tagName": "Java",
         "color": "text-red-700",
+        "hoverBgColor": "hover:bg-red-700/50",
+        "outlineColor": "outline-red-700",
         "bgColor": "bg-red-700/25"
       },
       {
-        "langName": "Springboot",
+        "tagName": "Springboot",
         "color": "text-lime-500",
+        "hoverBgColor": "hover:bg-lime-500/50",
+        "outlineColor": "outline-lime-500",
         "bgColor": "bg-lime-500/25"
       },
       {
-        "langName": "MongoDB",
+        "tagName": "MongoDB",
         "color": "text-green-500",
+        "hoverBgColor": "hover:bg-green-500/50",
+        "outlineColor": "outline-",
         "bgColor": "bg-green-500/25"
       },
       {
-        "langName": "PostgreSQL",
+        "tagName": "PostgreSQL",
         "color": "text-sky-700",
+        "hoverBgColor": "hover:bg-sky-700/50",
+        "outlineColor": "outline-sky-700",
         "bgColor": "bg-sky-700/25"
       },
       {
-        "langName": "TypeScript",
+        "tagName": "TypeScript",
         "color": "text-blue-400",
+        "hoverBgColor": "hover:bg-blue-400/50",
+        "outlineColor": "outline-blue-400",
         "bgColor": "bg-blue-400/25"
       },
       {
-        "langName": "Angular",
+        "tagName": "Angular",
         "color": "text-rose-600",
+        "hoverBgColor": "hover:bg-rose-600/50",
+        "outlineColor": "outline-rose-600",
         "bgColor": "bg-rose-600/25"
       }
     ]
   },
-  "Rust Programs": {
+  {
     "name": "Rust Programs",
     "image": "./assets/rustProg.png",
     "url": "https://github.com/Edhet/rust-prog",
-    "languages": [
+    "tags": [
       {
-        "langName": "Rust",
+        "tagName": "Rust",
         "color": "text-orange-600",
+        "hoverBgColor": "hover:bg-orange-600/50",
+        "outlineColor": "outline-orange-600",
         "bgColor": "bg-orange-600/25"
       }
     ]
   },
-  "Java Game": {
+  {
     "name": "Java Game",
     "image": "./assets/javaGame.png",
     "url": "https://github.com/Edhet/JavaGame",
-    "languages": [
+    "tags": [
       {
-        "langName": "Java",
+        "tagName": "Java",
         "color": "text-red-700",
+        "hoverBgColor": "hover:bg-red-700/50",
+        "outlineColor": "outline-red-700",
         "bgColor": "bg-red-700/25"
       }
     ]
   },
-  "Rust Algorithms": {
+  {
     "name": "Rust Algorithms",
     "image": "./assets/rustAlgo.png",
     "url": "https://github.com/Edhet/rust-algo",
-    "languages": [
+    "tags": [
       {
-        "langName": "Rust",
+        "tagName": "Rust",
         "color": "text-orange-600",
+        "hoverBgColor": "hover:bg-orange-600/50",
+        "outlineColor": "outline-orange-600",
         "bgColor": "bg-orange-600/25"
       }
     ]
   },
-  "Python Projects": {
+  {
     "name": "Python Projects",
     "image": "./assets/pyProj.png",
     "url": "https://github.com/Edhet/py-proj",
-    "languages": [
+    "tags": [
       {
-        "langName": "Python",
+        "tagName": "Python",
         "color": "text-yellow-300",
+        "hoverBgColor": "hover:bg-yellow-300/50",
+        "outlineColor": "outline-yellow-300",
         "bgColor": "bg-yellow-300/25"
       },
       {
-        "langName": "SQLite",
+        "tagName": "SQLite",
         "color": "text-cyan-500",
+        "hoverBgColor": "hover:bg-cyan-500/50",
+        "outlineColor": "outline-cyan-500",
         "bgColor": "bg-cyan-500/25"
       }
     ]
   },
-  "Hockey Site": {
+  {
     "name": "Hockey Site",
     "image": "./assets/hockeySite.png",
     "url": "https://github.com/Edhet/hockeysite",
-    "languages": [
+    "tags": [
       {
-        "langName": "HTML",
+        "tagName": "HTML",
         "color": "text-red-500",
+        "hoverBgColor": "hover:bg-red-500/50",
+        "outlineColor": "outline-red-500",
         "bgColor": "bg-red-500/25"
       },
       {
-        "langName": "CSS",
+        "tagName": "CSS",
         "color": "text-blue-500",
+        "hoverBgColor": "hover:bg-blue-500/50",
+        "outlineColor": "outline-blue-500",
         "bgColor": "bg-blue-500/25"
       },
       {
-        "langName": "JavaScript",
+        "tagName": "JavaScript",
         "color": "text-yellow-400",
+        "hoverBgColor": "hover:bg-/50",
+        "outlineColor": "outline",
         "bgColor": "bg-yellow-400/25"
       }
     ]
   },
-  "TypeScript Calculator": {
+  {
     "name": "TypeScript Calculator",
     "image": "./assets/calculatorTS.png",
     "url": "https://edhet.github.io/CalculatorTS/",
-    "languages": [
+    "tags": [
       {
-        "langName": "HTML",
+        "tagName": "HTML",
         "color": "text-red-500",
+        "hoverBgColor": "hover:bg-red-500/50",
+        "outlineColor": "outline-red-500",
         "bgColor": "bg-red-500/25"
       },
       {
-        "langName": "Bootstrap",
+        "tagName": "Bootstrap",
         "color": "text-purple-600",
+        "hoverBgColor": "hover:bg-purple-600/50",
+        "outlineColor": "outline-purple-600",
         "bgColor": "bg-purple-600/25"
       },
       {
-        "langName": "TypeScript",
+        "tagName": "TypeScript",
         "color": "text-blue-400",
+        "hoverBgColor": "hover:bg-blue-400/50",
+        "outlineColor": "outline-blue-400",
         "bgColor": "bg-blue-400/25"
       }
     ]
   },
-  "Task List App": {
+  {
     "name": "Task List App",
     "image": "./assets/taskList.png",
     "url": "https://edhet.github.io/TaskListJS/",
-    "languages": [
+    "tags": [
       {
-        "langName": "HTML",
+        "tagName": "HTML",
         "color": "text-red-500",
+        "hoverBgColor": "hover:bg-red-500/50",
+        "outlineColor": "outline-red-500",
         "bgColor": "bg-red-500/25"
       },
       {
-        "langName": "Bootstrap",
+        "tagName": "Bootstrap",
         "color": "text-purple-600",
+        "hoverBgColor": "hover:bg-purple-600/50",
+        "outlineColor": "outline-purple-600",
         "bgColor": "bg-purple-600/25"
       },
       {
-        "langName": "JavaScript",
+        "tagName": "JavaScript",
         "color": "text-yellow-400",
+        "hoverBgColor": "hover:bg-/50",
+        "outlineColor": "outline",
         "bgColor": "bg-yellow-400/25"
       }
     ]
   }
-}
+]
