@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
-import TextContent from '../models/text-content.model';
 import Languages from '../models/languages.model';
 import textData from "../../assets/json/langstext.json";
+import { TextContent } from '../models/text-content.model';
 
 @Injectable({
   providedIn: 'root'

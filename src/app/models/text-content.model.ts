@@ -1,6 +1,6 @@
 import Languages from "./languages.model";
 
-export default interface TextContent {
+export interface TextContent {
     language: Languages,
     headerContent: HeaderContent,
     sectionsContent: SectionContent[],
@@ -8,19 +8,19 @@ export default interface TextContent {
     emptyQueryText: string
 }
 
-interface HeaderContent {
+export interface HeaderContent {
     firstName: string,
     surname: string
     email: string,
     contactText: string
 }
 
-interface SectionContent {
+export interface SectionContent {
     sectionHeader: string,
     sectionBody?: string
 }
 
-interface FooterContent {
+export interface FooterContent {
     date: string,
     footerText: string
 }
