@@ -8,7 +8,7 @@
 
   <div class="text-white md:sticky md:top-0 md:z-20 py-3 md:bg-black/75 md:backdrop-blur-sm">
     <div class="flex gap-2 flex-wrap">
-      <button *ngFor="let tag of projectsService.filters" class="p-1 max-w-fit rounded-lg transition-all outline-2 {{tag.color + ' ' + tag.bgColor + ' ' + tag.outlineColor + ' ' + tag.hoverBgColor}}" [class.outline]="projectsService.filterIsActive(tag)" (click)="projectsService.changeFilter(tag)">
+      <button *ngFor="let tag of projectsService.filters" class="p-1 max-w-fit rounded-lg transition-all outline-2 {{tag.color + ' ' + tag.bgColor + ' ' + tag.outlineColor + ' ' + tag.hoverBgColor}}" [class.outline]="projectsService.filterIsActive(tag.tagName)" (click)="projectsService.changeFilter(tag)">
         {{tag.tagName}}
       </button>
 
@@ -33,7 +33,7 @@
       <img src="{{project.image}}" class="rounded-lg w-full bg-cover min-h-[8rem] max-h-[8rem] object-cover brightness-50" alt="web-page">
 
       <div class="z-10 absolute bottom-0 flex gap-2 p-2 flex-wrap max-h-full bg-black/75 backdrop-blur-sm min-w-full rounded-b-lg">
-        <div *ngFor="let tag of project.tags" class="p-1 {{tag.color}} {{tag.bgColor}} max-w-fit max-h-fit rounded-lg">{{tag.tagName}}</div>
+        <div *ngFor="let tag of projectsService.getTagListFromNames(project.tags)" class="p-1 {{tag.color}} {{tag.bgColor}} max-w-fit max-h-fit rounded-lg">{{tag.tagName}}</div>
       </div>
     </a>
   </div>

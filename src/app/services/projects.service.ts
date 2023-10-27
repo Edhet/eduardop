@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
-import Project from '../models/project.model';
 import projectData from "../../assets/json/projects.json";
+import tagsData from "../../assets/json/tags.json";
+import Project from '../models/project.model';
 import Tag from '../models/tag.model';
 
 @Injectable({
@@ -8,15 +9,17 @@ import Tag from '../models/tag.model';
 })
 export class ProjectsService {
   private readonly projects: Project[];
-  private readonly tagList: Tag[] = [];
+  private readonly tagList: Tag[];
 
   private filteredProjects: Project[];
-  private activatedFilters: Tag[] = [];
+  private activatedFilters: Tag[];
 
   constructor() {
     this.projects = projectData as Project[];
+    this.tagList = tagsData as Tag[];
+
     this.filteredProjects = this.projectListCopy();
-    this.getTagList();
+    this.activatedFilters = [];
   }
 
   public changeFilter(filter: Tag) {
@@ -32,8 +35,12 @@ export class ProjectsService {
     this.filteredProjects = this.projectListCopy();
   }
 
-  public filterIsActive(filter: Tag) {
-    return this.tagIsIncluded(filter, this.activatedFilters);
+  public filterIsActive(filterName: string) {
+    return this.tagIsIncluded(filterName, this.activatedFilters);
+  }
+
+  public getTagListFromNames(tagNames: string[]) {
+    return this.tagList.filter(tag => tagNames.includes(tag.tagName));
   }
 
   private filter() {
@@ -42,7 +49,7 @@ export class ProjectsService {
     for (let i = 0; i < this.filteredProjects.length; i++) {
       let hasFilter = true;
       this.activatedFilters.forEach(f => {
-        if (!this.tagIsIncluded(f, this.filteredProjects[i].tags)) {
+        if (!this.tagIsIncluded(f.tagName, this.getTagListFromNames(this.filteredProjects[i].tags))) {
           hasFilter = false;
           return;
         }
@@ -55,17 +62,9 @@ export class ProjectsService {
     }
   }
 
-  private getTagList() {
-    this.projects.forEach(p => {
-      p.tags.forEach(t => {
-        if (!this.tagIsIncluded(t, this.tagList)) this.tagList.push(t);
-      });
-    });
-  }
-
-  private tagIsIncluded(tag: Tag, list: Tag[]) {  
+  private tagIsIncluded(tagName: String, list: Tag[]) {  
     for (let t of list) {
-      if (tag.tagName == t.tagName)
+      if (tagName == t.tagName)
         return true;
     }
     return false;
