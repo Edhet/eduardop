@@ -22,6 +22,10 @@ export class ProjectsService {
     this.activatedFilters = [];
   }
 
+  public getTagStyles(tag: Tag) {
+    return `${tag.color} ${tag.bgColor} ${tag.outlineColor} ${tag.hoverBgColor} ${tag.borderColor}`;
+  }
+
   public changeFilter(filter: Tag) {
     if (this.activatedFilters.includes(filter))
       this.activatedFilters.splice(this.activatedFilters.indexOf(filter), 1);
