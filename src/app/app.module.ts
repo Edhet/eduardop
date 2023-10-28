@@ -7,6 +7,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { AboutComponent } from './components/about/about.component';
 import { ProjectCardComponent } from './components/project-card/project-card.component';
+import { EventTimelineComponent } from './components/event-timeline/event-timeline.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ProjectCardComponent } from './components/project-card/project-card.com
     HeaderComponent,
     FooterComponent,
     AboutComponent,
-    ProjectCardComponent
+    ProjectCardComponent,
+    EventTimelineComponent
   ],
   imports: [
     BrowserModule

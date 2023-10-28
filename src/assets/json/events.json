@@ -1,0 +1,52 @@
+[
+    {
+        "language": "en",
+        "events": [
+            {
+                "header": "BNDES - Internship",
+                "description": "Fullstack Web Developer",
+                "date": "October, 2023"
+            },
+            {
+                "header": "Anbima - Internship",
+                "description": "Fullstack Web Developer",
+                "date": "October, 2024"
+            },
+            {
+                "header": "Anbima - Junior",
+                "description": "Backend Web Developer",
+                "date": "October, 2026"
+            },
+            {
+                "header": "Starling Bank - Junior",
+                "description": "Backend Web Developer",
+                "date": "October, 2026"
+            },
+            {
+                "header": "IBM - CEO",
+                "description": "Chief Executive Office",
+                "date": "December, 2026"
+            },
+            {
+                "header": "Brazil - Mr President",
+                "description": "Chief Executive Office",
+                "date": "January, 2032"
+            },
+            {
+                "header": "World - Chairman",
+                "description": "Sun Eater",
+                "date": "January, 2040"
+            }
+        ]
+    },
+    {
+        "language": "pt",
+        "events": [
+            {
+                "header": "BNDES - Estágio",
+                "description": "Desenvolvimento Web Fullstack",
+                "date": "Outubro, 2023"
+            }
+        ]
+    }
+]
