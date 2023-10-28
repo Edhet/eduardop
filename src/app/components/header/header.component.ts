@@ -1,5 +1,7 @@
-import { Component } from '@angular/core';
+import { ProjectsService } from './../../services/projects.service';
+import { Component, OnInit } from '@angular/core';
 import Languages from 'src/app/models/languages.model';
+import Tag from 'src/app/models/tag.model';
 import { LocalizationService } from 'src/app/services/localization.service';
 
 @Component({
@@ -8,11 +10,23 @@ import { LocalizationService } from 'src/app/services/localization.service';
   styleUrls: ['./header.component.css']
 })
 
-export class HeaderComponent {
-  readonly active: string = "bg-white border-white text-black hover:text-black";
-  readonly inactive: string = "border-zinc-400 text-zinc-400 hover:border-white hover:text-white";
+export class HeaderComponent implements OnInit {
+  public feature?: Tag = this.projectService.filters[0];
+  
+  constructor(public localizationService: LocalizationService, public projectService: ProjectsService) { }
 
-  constructor(public localizationService: LocalizationService) { }
+  async ngOnInit() {
+    await this.changeText();
+  }
+
+  async changeText() {
+    let tagIndex = 0;
+    while(true) {
+      await new Promise((resolve) => setTimeout(resolve, 1250));
+      this.feature = this.projectService.filters[tagIndex];
+      tagIndex = (tagIndex + 1) % this.projectService.filters.length;
+    }
+  }
 
   changeLanguage(langCode: string) {
     switch (langCode) {

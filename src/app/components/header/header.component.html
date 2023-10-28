@@ -1,20 +1,45 @@
-<header>
-  <div class="text-white mt-6 flex ">
-    <h1 class="text-5xl lg:text-6xl font-light"><span class="font-medium">{{localizationService.headerContent.firstName}}</span> {{localizationService.headerContent.surname}}</h1>
-
-    <div class="flex ml-auto max-h-fit my-auto justify-start">
-      <button class="border rounded-l-lg p-1 focus:outline-none transition-all {{localizationService.currentLanguage == 'en' ? active : inactive}}" (click)="changeLanguage('en')">EN</button>
-      <button class="border rounded-r-lg p-1 focus:outline-none transition-all {{localizationService.currentLanguage == 'pt' ? active : inactive}}" (click)="changeLanguage('pt')">PT</button>
+<header class="min-h-fit px-3 md:px-12 lg:px-24 2xl:px-[10%] bg-bAlmond flex">
+  <div class="text-black pt-6 pb-12 flex z-50">
+    <div class="relative" style="writing-mode: vertical-lr;">
+      <h1 class="whitespace-nowrap text-7xl lg:text-8xl font-light"><span class="font-medium">{{localizationService.headerContent.firstName}}</span> {{localizationService.headerContent.surname}}</h1>
+      <h1 class="whitespace-nowrap absolute top-6 right-4 text-7xl lg:text-8xl font-medium text-transparent -z-10 select-none" style="-webkit-text-stroke: 1px black;"><span class="font-normal">{{localizationService.headerContent.firstName}}</span> {{localizationService.headerContent.surname}}</h1>
     </div>
 
   </div>
-  <div class="text-white p-2 mt-1 md:flex md:gap-2 lg:text-lg">
+  <div class="py-6 w-full flex flex-col">
+
     <div class="flex">
-      <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" class="bi bi-chevron-right mr-2 my-auto"  viewBox="0 0 16 16">
-        <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-      </svg>
-      <p class="font-medium">{{localizationService.headerContent.contactText}}:</p>
+      <div class="text-black flex flex-wrap md:gap-2 lg:text-lg">
+        <div class="flex mr-1">
+          <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" class="bi bi-chevron-right mr-2 my-auto" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+          </svg>
+          <p class="h-fit my-auto font-medium">{{localizationService.headerContent.contactText}}:</p>
+        </div>
+        <p class="italic h-fit my-auto font-light select-all">{{localizationService.headerContent.email}}</p>
+      </div>
+    
+      <div class="ml-auto flex">
+        <button class="border p-1 focus:outline-none transition-all {{localizationService.currentLanguage == 'en' ? 'bg-black border-black text-bAlmond' : 'border-neutral-600 text-neutral-600 hover:border-black hover:text-black'}}" (click)="changeLanguage('en')">EN</button>
+        <button class="border p-1 focus:outline-none transition-all {{localizationService.currentLanguage == 'pt' ? 'bg-black border-black text-bAlmond' : 'border-neutral-600 text-neutral-600 hover:border-black hover:text-black'}}" (click)="changeLanguage('pt')">PT</button>
+      </div>
     </div>
-    <p class="italic font-light select-all text-zinc-400">{{localizationService.headerContent.email}}</p>
+
+    <div class="w-full my-auto text-center font-thin pt-8" style="font-size: 6vmin;">
+      <p>Your</p>
+      <h2 class="font-extrabold text-black" style="font-size: 12vmin;">{{feature!.tagName}}</h2>
+      <p>Developer</p>
+    </div>
+
+    <article class="mt-auto py-12">
+      <div class="flex mb-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" fill="currentColor" class="bi bi-info-square-fill mr-2 my-auto min-w-fit" viewBox="0 0 16 16">
+          <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.93 4.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+        </svg>
+        <h2 class="text-3xl md:text-4xl font-medium">{{localizationService.aboutSectionContent.sectionHeader}}</h2>
+      </div>
+      <p>{{localizationService.aboutSectionContent.sectionBody}}</p>
+    </article>
   </div>
+
 </header>
