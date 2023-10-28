@@ -1,13 +1,13 @@
 <header class="min-h-fit px-3 md:px-12 lg:px-24 2xl:px-[10%] bg-bAlmond">
 
   <div class="flex">
-    <div class="text-black pt-6 pb-12 flex z-50">
+    <div class="text-black pt-6 pb-16 flex z-50">
       <div class="relative" style="writing-mode: vertical-lr;">
         <h1 class="whitespace-nowrap text-7xl lg:text-8xl font-light"><span class="font-medium">{{localizationService.headerContent.firstName}}</span> {{localizationService.headerContent.surname}}</h1>
         <h1 class="whitespace-nowrap absolute top-6 right-4 text-7xl lg:text-8xl font-medium text-transparent -z-10 select-none" style="-webkit-text-stroke: 1px black;"><span class="font-normal">{{localizationService.headerContent.firstName}}</span> {{localizationService.headerContent.surname}}</h1>
       </div>
     </div>
-    <div class="py-6 w-full flex flex-col">
+    <div class="py-6 px-4 w-full flex flex-col">
       <div class="ml-auto flex">
         <button class="border p-1 focus:outline-none transition-all {{localizationService.currentLanguage == 'en' ? 'bg-black border-black text-bAlmond' : 'border-neutral-600 text-neutral-600 hover:border-black hover:text-black'}}" (click)="changeLanguage('en')">EN</button>
         <button class="border p-1 focus:outline-none transition-all {{localizationService.currentLanguage == 'pt' ? 'bg-black border-black text-bAlmond' : 'border-neutral-600 text-neutral-600 hover:border-black hover:text-black'}}" (click)="changeLanguage('pt')">PT</button>
