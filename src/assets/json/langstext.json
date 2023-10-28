@@ -13,6 +13,10 @@
         "sectionBody": "I'm a brazilian from Rio de Janeiro, a tech enthusiast, especially interested in web development, I did half a semester of Electrical Engineering at CEFET-RJ, but soon I realised that my real interest was in programming, because of that I went to Information Systems at UNIRIO, where I keep learning about software development and engineering. Im also interested in design, but particularly in web-design, having done amateur game development and written tabletop RPG system books too."
       },
       {
+        "sectionHeader": "Your",
+        "sectionBody": "Developer"
+      },
+      {
         "sectionHeader": "Skills and Experience",
         "sectionBody": "Desktop Linux distros user, such as Ubuntu, Pop!OS, Fedora and currently Arch, for two years to learn how the web's operating environment works. Experienced in front-end web development, having used Angular, Ionic and Vue with TypeScript in some projects with APIs consumption and Firebase, utilizing Git and at the moment I'm learning about Spring and back-end development as well as deepening my knowledge in relational and non-relational databases, even though I already have some experience with MongoDB, MariaDB (mySQL) and SQLite."
       },
@@ -38,6 +42,9 @@
       {
         "sectionHeader": "Sobre mim",
         "sectionBody": "Sou um brasileiro do Rio de Janeiro, entusiasta de tecnologia, especialmente interessado em desenvolvimento web, cursei Engenharia Elétrica no CEFET-RJ por meio período, porém logo percebi que meu real interesse era em programação, assim mudando de curso para Sistemas de Informação na UNIRIO, onde sigo aprendendo sobre desenvolvimento e engenharia de software. Também tenho interesse em design, em particular em web-design, além de já ter feito desenvolvimento amador de jogos e escrito livros de sistemas de RPG de mesa."
+      },
+      {
+        "sectionHeader": "Seu desenvolvedor"
       },
       {
         "sectionHeader": "Habilidades e Experiência",

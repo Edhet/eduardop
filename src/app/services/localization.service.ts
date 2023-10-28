@@ -42,12 +42,16 @@ export class LocalizationService {
     return this.selectedLanguageTextContent.sectionsContent[0];
   }
 
-  get skillsSectionContent() {
+  get introductionContent() {
     return this.selectedLanguageTextContent.sectionsContent[1];
   }
 
+  get skillsSectionContent() {
+    return this.selectedLanguageTextContent.sectionsContent[2];
+  }
+
   get projectHeader() {
-    return this.selectedLanguageTextContent.sectionsContent[2].sectionHeader;
+    return this.selectedLanguageTextContent.sectionsContent[3].sectionHeader;
   }
 
   get footerContent() {

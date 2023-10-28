@@ -11,8 +11,13 @@ import { LocalizationService } from 'src/app/services/localization.service';
 })
 
 export class HeaderComponent implements OnInit {
-  public feature?: Tag = this.projectService.filters[0];
-  
+  private readonly TEXT_CHANGE_TIME = 1250;
+
+  public readonly GITHUB_PROFILE = "https://github.com/Edhet";
+  public readonly LINKEDIN_PROFILE = "https://www.linkedin.com/in/eduardo-pinheiro-freitas/";
+
+  public feature: Tag = this.projectService.filters[0];
+
   constructor(public localizationService: LocalizationService, public projectService: ProjectsService) { }
 
   async ngOnInit() {
@@ -21,8 +26,8 @@ export class HeaderComponent implements OnInit {
 
   async changeText() {
     let tagIndex = 0;
-    while(true) {
-      await new Promise((resolve) => setTimeout(resolve, 1250));
+    while (true) {
+      await new Promise((resolve) => setTimeout(resolve, this.TEXT_CHANGE_TIME));
       this.feature = this.projectService.filters[tagIndex];
       tagIndex = (tagIndex + 1) % this.projectService.filters.length;
     }
