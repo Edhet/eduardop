@@ -1,5 +1,5 @@
-import {Component, OnInit} from '@angular/core';
-import { LocalizationService } from 'src/app/services/localization.service';
+import { Component, Input } from '@angular/core';
+import Project from 'src/app/models/project.model';
 import { ProjectsService } from 'src/app/services/projects.service';
 
 @Component({
@@ -8,6 +8,7 @@ import { ProjectsService } from 'src/app/services/projects.service';
   styleUrls: ['./project-card.component.css']
 })
 export class ProjectCardComponent {
+  @Input() projectInfo?: Project;
 
-  constructor(public localizationService: LocalizationService, public projectsService: ProjectsService) { }
+  constructor(public projectsService: ProjectsService) { }
 }
