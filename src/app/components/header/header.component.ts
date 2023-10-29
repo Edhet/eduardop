@@ -1,5 +1,7 @@
-import { Component } from '@angular/core';
+import { ProjectsService } from './../../services/projects.service';
+import { Component, OnInit } from '@angular/core';
 import Languages from 'src/app/models/languages.model';
+import Tag from 'src/app/models/tag.model';
 import { LocalizationService } from 'src/app/services/localization.service';
 
 @Component({
@@ -9,10 +11,10 @@ import { LocalizationService } from 'src/app/services/localization.service';
 })
 
 export class HeaderComponent {
-  readonly active: string = "bg-white border-white text-black hover:text-black";
-  readonly inactive: string = "border-zinc-400 text-zinc-400 hover:border-white hover:text-white";
+  public readonly GITHUB_PROFILE = "https://github.com/Edhet";
+  public readonly LINKEDIN_PROFILE = "https://www.linkedin.com/in/eduardo-pinheiro-freitas/";
 
-  constructor(public localizationService: LocalizationService) { }
+  constructor(public localizationService: LocalizationService, public projectService: ProjectsService) { }
 
   changeLanguage(langCode: string) {
     switch (langCode) {

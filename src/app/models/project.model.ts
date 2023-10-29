@@ -1,7 +1,6 @@
-import Tag from "./tag.model";
-
 export default interface Project {
     name: string,
+    type: string,
     image: string,
     url: string,
     tags: string[]

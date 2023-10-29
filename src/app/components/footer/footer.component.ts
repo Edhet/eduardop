@@ -7,7 +7,7 @@ import { LocalizationService } from 'src/app/services/localization.service';
   styleUrls: ['./footer.component.css']
 })
 export class FooterComponent {
-  public readonly githubUrl = "https://github.com/Edhet";
+  public readonly GITHUB_SOURCE_URL = "https://github.com/Edhet/eduardop";
   
   constructor(public localizationService: LocalizationService) { }
 }

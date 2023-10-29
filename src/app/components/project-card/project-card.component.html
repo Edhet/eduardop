@@ -1,40 +1,25 @@
-<section class="my-8 relative">
-  <div class="flex mb-2">
-    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" fill="currentColor" class="bi bi-folder-fill fill-white mr-2 my-auto min-w-fit" viewBox="0 0 16 16">
-      <path d="M9.828 3h3.982a2 2 0 0 1 1.992 2.181l-.637 7A2 2 0 0 1 13.174 14H2.825a2 2 0 0 1-1.991-1.819l-.637-7a1.99 1.99 0 0 1 .342-1.31L.5 3a2 2 0 0 1 2-2h3.672a2 2 0 0 1 1.414.586l.828.828A2 2 0 0 0 9.828 3zm-8.322.12C1.72 3.042 1.95 3 2.19 3h5.396l-.707-.707A1 1 0 0 0 6.172 2H2.5a1 1 0 0 0-1 .981l.006.139z"/>
-    </svg>
-    <h2 class="text-white text-3xl md:text-4xl font-medium">{{localizationService.projectHeader}}</h2>
-  </div>
-
-  <div class="text-white md:sticky md:top-0 md:z-20 py-3 md:bg-black/75 md:backdrop-blur-sm">
-    <div class="flex gap-2 flex-wrap">
-      <button *ngFor="let tag of projectsService.filters" class="p-1 max-w-fit rounded-lg transition-all outline-2 border outline-offset-1 {{projectsService.getTagStyles(tag)}}" [class.outline]="projectsService.filterIsActive(tag.tagName)" (click)="projectsService.changeFilter(tag)">
-        {{tag.tagName}}
-      </button>
-
-      <button class="bg-slate-500/25 hover:bg-slate-500/75 focus:outline-none border border-slate-500/25 transition-all min-w-[2rem] min-h-[2rem] rounded-full" *ngIf="projectsService.activeFilters.length > 0" (click)="projectsService.clearFilters()">
-        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="m-auto bi bi-x" viewBox="0 0 16 16">
-          <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+<a *ngIf="projectInfo" href="{{projectInfo.url}}" target="_blank" class="flex relative outline outline-offset-1 hover:outline-1 hover:outline-bAlmond mt-5 transition-all h-64">
+  <div class="p-2 py-3 absolute h-full text-black bg-bAlmond z-10" style="writing-mode: vertical-lr; rotate: 180deg;">
+    <div class="flex">
+      <p>{{projectInfo.type}}</p>
+      <ng-container [ngSwitch]="projectInfo.type">
+        <svg xmlns="http://www.w3.org/2000/svg" style="rotate: 90deg;" class="ionicon w-4 h-4 mt-2 mx-auto" viewBox="0 0 512 512" *ngSwitchCase="'Web'">
+          <path d="M256 48C141.13 48 48 141.13 48 256s93.13 208 208 208 208-93.13 208-208S370.87 48 256 48z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32" />
+          <path d="M256 48c-58.07 0-112.67 93.13-112.67 208S197.93 464 256 464s112.67-93.13 112.67-208S314.07 48 256 48z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32" />
+          <path d="M117.33 117.33c38.24 27.15 86.38 43.34 138.67 43.34s100.43-16.19 138.67-43.34M394.67 394.67c-38.24-27.15-86.38-43.34-138.67-43.34s-100.43 16.19-138.67 43.34" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" />
+          <path fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32" d="M256 48v416M464 256H48" />
         </svg>
-      </button>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" style="rotate: 90deg;" class="bi bi-code w-4 h-4 mt-2 mx-auto" viewBox="0 0 16 16" *ngSwitchCase="'CLI'">
+          <path d="M5.854 4.854a.5.5 0 1 0-.708-.708l-3.5 3.5a.5.5 0 0 0 0 .708l3.5 3.5a.5.5 0 0 0 .708-.708L2.707 8l3.147-3.146zm4.292 0a.5.5 0 0 1 .708-.708l3.5 3.5a.5.5 0 0 1 0 .708l-3.5 3.5a.5.5 0 0 1-.708-.708L13.293 8l-3.147-3.146z" />
+        </svg>
+      </ng-container>
     </div>
+    <p class="text-2xl font-bold">{{projectInfo.name}}</p>
   </div>
 
-  <p class="italic font-light text-white my-12 text-center" *ngIf="projectsService.projectList.length <= 0">{{localizationService.emptyQueryText}}</p>
-  <div class="lg:grid lg:grid-cols-2 lg:gap-x-5">
-    <a *ngFor="let project of projectsService.projectList" class="relative flex flex-col bg-neutral-900 rounded-lg outline hover:outline-1 hover:outline-neutral-600 border border-zinc-900 mt-5 transition-all snap-center" href="{{project.url}}" target="_blank">
-      <div class="z-10 absolute text-white text-xl top-2 left-4 font-bold flex">
-        <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" fill="currentColor" class="bi bi-code mr-2 my-auto" viewBox="0 0 16 16">
-          <path d="M5.854 4.854a.5.5 0 1 0-.708-.708l-3.5 3.5a.5.5 0 0 0 0 .708l3.5 3.5a.5.5 0 0 0 .708-.708L2.707 8l3.147-3.146zm4.292 0a.5.5 0 0 1 .708-.708l3.5 3.5a.5.5 0 0 1 0 .708l-3.5 3.5a.5.5 0 0 1-.708-.708L13.293 8l-3.147-3.146z"/>
-        </svg>
-        {{project.name}}
-      </div>
+  <img src="{{projectInfo.image}}" class="w-full overflow-hidden bg-cover min-h-full max-h-full object-cover brightness-50" alt="Project Image">
 
-      <img src="{{project.image}}" class="rounded-lg w-full bg-cover min-h-[8rem] max-h-[8rem] object-cover brightness-50" alt="web-page">
-
-      <div class="z-10 absolute bottom-0 flex gap-2 p-2 flex-wrap max-h-full bg-black/75 backdrop-blur-sm min-w-full rounded-b-lg">
-        <div *ngFor="let tag of projectsService.getTagListFromNames(project.tags)" class="p-1 {{tag.color}} {{tag.bgColor}} {{tag.borderColor}} border max-w-fit max-h-fit rounded-lg">{{tag.tagName}}</div>
-      </div>
-    </a>
+  <div class="absolute top-0 right-0 justify-end backdrop-blur-lg w-full flex flex-wrap gap-1 p-2 pl-16">
+    <div *ngFor="let tag of projectsService.getTagListFromNames(projectInfo.tags)" class="p-1 flex-shrink text-lg font-light italic text-bAlmond max-w-fit max-h-fit">{{tag.tagName}}</div>
   </div>
-</section>
+</a>

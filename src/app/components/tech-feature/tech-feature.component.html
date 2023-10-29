@@ -1,0 +1,5 @@
+<div class="w-full my-auto text-center font-light pt-8" style="font-size: 6vmin;">
+    <p>{{localizationService.introductionContent.sectionHeader}}</p>
+    <h2 class="font-extrabold" style="font-size: 12vmin;" [@changed]="animationState">{{feature.tagName}}</h2>
+    <p *ngIf="localizationService.introductionContent.sectionBody">{{localizationService.introductionContent.sectionBody}}</p>
+</div>
