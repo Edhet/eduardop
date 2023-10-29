@@ -1,15 +1,10 @@
-<a *ngIf="projectInfo" class="relative flex flex-col bg-bAlmond outline hover:outline-1 hover:outline-bAlmond border border-fBistre/25 mt-5 transition-all snap-center" href="{{projectInfo.url}}" target="_blank">
+<a *ngIf="projectInfo" href="{{projectInfo.url}}" target="_blank" class="flex flex-col bg-bAlmond outline hover:outline-1 hover:outline-bAlmond mt-5 transition-all">
+  <div class="p-4 pb-0 text-black">
+    <p class="text-2xl font-bold">{{projectInfo.name}}</p>
+  </div>
+  <div class="flex flex-wrap gap-1 p-2 pt-0">
+    <div *ngFor="let tag of projectsService.getTagListFromNames(projectInfo.tags)" class="p-1 font-light text-black max-w-fit max-h-fit">{{tag.tagName}}</div>
+  </div>
+  <img src="{{projectInfo.image}}" class="w-full bg-cover min-h-[8rem] max-h-[8rem] object-cover brightness-50" alt="web-page">
 
-
-    <div class="z-10 bg-bAlmond text-black px-2 py-2 text-xl top-2 left-4 font-bold flex">
-      <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" fill="currentColor" class="bi bi-code mr-2 my-auto" viewBox="0 0 16 16">
-        <path d="M5.854 4.854a.5.5 0 1 0-.708-.708l-3.5 3.5a.5.5 0 0 0 0 .708l3.5 3.5a.5.5 0 0 0 .708-.708L2.707 8l3.147-3.146zm4.292 0a.5.5 0 0 1 .708-.708l3.5 3.5a.5.5 0 0 1 0 .708l-3.5 3.5a.5.5 0 0 1-.708-.708L13.293 8l-3.147-3.146z"/>
-      </svg>
-      {{projectInfo.name}}
-    </div>
-
-    <!-- <div class="z-10 flex gap-2 p-2 flex-wrap max-h-full bg-bAlmond backdrop-blur-sm min-w-full ">
-      <div *ngFor="let tag of projectsService.getTagListFromNames(projectInfo.tags)" class="p-1 {{tag.color}} {{tag.bgColor}} {{tag.borderColor}} border max-w-fit max-h-fit">{{tag.tagName}}</div>
-    </div> -->
-    <img src="{{projectInfo.image}}" class="w-full bg-cover min-h-[8rem] max-h-[8rem] object-cover brightness-50" alt="web-page">
 </a>
