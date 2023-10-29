@@ -1,9 +1,9 @@
 <header class="min-h-fit px-3 md:px-12 lg:px-24 2xl:px-[10%] bg-bAlmond">
 
-  <div class="flex">
+  <div class="slowFade flex">
     <div class="relative text-black pt-6 pb-16 z-50" style="writing-mode: vertical-lr;">
       <h1 class="whitespace-nowrap text-7xl lg:text-8xl font-light"><span class="font-medium">{{localizationService.headerContent.firstName}}</span> {{localizationService.headerContent.surname}}</h1>
-      <h1 class="whitespace-nowrap absolute top-[1.35rem] right-6 text-7xl lg:text-8xl font-medium text-transparent -z-10 select-none" style="-webkit-text-stroke: 1px black;"><span class="font-normal">{{localizationService.headerContent.firstName}}</span> {{localizationService.headerContent.surname}}</h1>
+      <h1 class="nameSubtext whitespace-nowrap absolute top-[1.35rem] right-6 text-7xl lg:text-8xl font-medium text-transparent -z-10 select-none" style="-webkit-text-stroke: 1px black;"><span class="font-normal">{{localizationService.headerContent.firstName}}</span> {{localizationService.headerContent.surname}}</h1>
     </div>
     <div class="py-6 px-4 w-full flex flex-col">
       <div class="ml-auto flex">
@@ -11,11 +11,7 @@
         <button class="border p-1 focus:outline-none transition-all {{localizationService.currentLanguage == 'pt' ? 'bg-black border-black text-bAlmond' : 'border-neutral-600 text-neutral-600 hover:border-black hover:text-black'}}" (click)="changeLanguage('pt')">PT</button>
       </div>
 
-      <div class="w-full my-auto text-center font-light pt-8" style="font-size: 6vmin;">
-        <p>{{localizationService.introductionContent.sectionHeader}}</p>
-        <h2 class="font-extrabold text-black" style="font-size: 12vmin;">{{feature.tagName}}</h2>
-        <p *ngIf="localizationService.introductionContent.sectionBody">{{localizationService.introductionContent.sectionBody}}</p>
-      </div>
+      <app-tech-feature></app-tech-feature>
 
       <article class="mt-auto pt-12">
         <div class="flex mb-1">
