@@ -6,7 +6,7 @@ before:absolute before:w-12 before:h-[95%] before:top-0 before:right-0 before:po
             <div *ngFor="let event of localizationService.eventList" class="border relative justify-center bg-black z-10 border-bAlmond rounded-full w-64 h-64">
                 <div class="absolute flex flex-col justify-center w-full h-full">
                     <p class="text-center font-bold">{{event.header}}</p>
-                    <p class="text-center font-light">{{event.description}}</p>
+                    <p class="text-center italic font-light">{{event.description}}</p>
                     <p class="text-center">{{event.date}}</p>
                 </div>
             </div>
