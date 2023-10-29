@@ -1,72 +1,84 @@
 [
   {
     "name": "DuCacau",
+    "type": "Web",
     "image": "./assets/ducacau.png",
     "url": "https://edhet.github.io/ChocolateStore-Frontend",
     "tags": ["Java", "Springboot", "PostgreSQL", "TypeScript", "Angular"]
   },
   {
     "name": "Workout App",
+    "type": "Web",
     "image": "./assets/workoutApp.png",
     "url": "https://edhet.github.io/workout-app/",
     "tags": ["TypeScript", "Angular", "Firebase", "Tailwind", "HTML"]
   },
   {
     "name": "Weather App",
+    "type": "Web",
     "image": "./assets/weatherApp.png",
     "url": "https://edhet.github.io/weather-app/",
     "tags": ["TypeScript", "Vue", "Tailwind", "HTML"]
   },
   {
     "name": "Gym System",
+    "type": "Web",
     "image": "./assets/gymSystem.png",
     "url": "https://jobfind-f0bf1.web.app/",
     "tags": ["TypeScript", "Ionic", "SCSS", "HTML", "Angular", "Firebase"]
   },
   {
     "name": "Crud Playground",
+    "type": "Web",
     "image": "./assets/crudplayground.png",
     "url": "https://github.com/Edhet/crudplayground-backend",
     "tags": ["Java", "Springboot", "MongoDB", "PostgreSQL", "TypeScript", "Angular"]
   },
   {
     "name": "Rust Programs",
+    "type": "CLI",
     "image": "./assets/rustProg.png",
     "url": "https://github.com/Edhet/rust-prog",
     "tags": ["Rust"]
   },
   {
     "name": "Java Game",
+    "type": "CLI",
     "image": "./assets/javaGame.png",
     "url": "https://github.com/Edhet/JavaGame",
     "tags": ["Java"]
   },
   {
     "name": "Rust Algorithms",
+    "type": "CLI",
     "image": "./assets/rustAlgo.png",
     "url": "https://github.com/Edhet/rust-algo",
     "tags": ["Rust"]
   },
   {
     "name": "Python Projects",
+    "type": "CLI",
     "image": "./assets/pyProj.png",
     "url": "https://github.com/Edhet/py-proj",
     "tags": ["Python", "SQLite"]
   },
   {
     "name": "Hockey Site",
+    "type": "Web",
     "image": "./assets/hockeySite.png",
     "url": "https://github.com/Edhet/hockeysite",
     "tags": ["HTML", "CSS", "JavaScript"]
   },
   {
     "name": "TypeScript Calculator",
+    "type": "Web",
     "image": "./assets/calculatorTS.png",
     "url": "https://edhet.github.io/CalculatorTS/",
     "tags": ["HTML", "Bootstrap", "TypeScript"]
   },
   {
     "name": "Task List App",
+    "type": "Web",
     "image": "./assets/taskList.png",
     "url": "https://edhet.github.io/TaskListJS/",
     "tags": ["HTML", "Bootstrap", "JavaScript"]
