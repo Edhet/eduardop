@@ -12,13 +12,13 @@
         <button class="border p-1 focus:outline-none transition-all {{localizationService.currentLanguage == 'en' ? 'bg-black border-black text-bAlmond' : 'border-neutral-600 text-neutral-600 hover:border-black hover:text-black'}}" (click)="changeLanguage('en')">EN</button>
         <button class="border p-1 focus:outline-none transition-all {{localizationService.currentLanguage == 'pt' ? 'bg-black border-black text-bAlmond' : 'border-neutral-600 text-neutral-600 hover:border-black hover:text-black'}}" (click)="changeLanguage('pt')">PT</button>
       </div>
-  
+
       <div class="w-full my-auto text-center font-light pt-8" style="font-size: 6vmin;">
         <p>{{localizationService.introductionContent.sectionHeader}}</p>
         <h2 class="font-extrabold text-black" style="font-size: 12vmin;">{{feature.tagName}}</h2>
         <p *ngIf="localizationService.introductionContent.sectionBody">{{localizationService.introductionContent.sectionBody}}</p>
       </div>
-  
+
       <article class="mt-auto pt-12">
         <div class="flex mb-1">
           <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" fill="currentColor" class="bi bi-info-square-fill mr-2 my-auto min-w-fit" viewBox="0 0 16 16">
@@ -48,7 +48,7 @@
             Github
           </a>
         </div>
-    
+
         <div class="text-neutral-600 transition-all hover:text-black">
           <a class="flex" [href]="LINKEDIN_PROFILE" target="_blank">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin my-auto mr-2" viewBox="0 0 16 16">

@@ -1,12 +1,12 @@
 import Languages from "./languages.model"
 
 export interface EventList {
-    language: Languages
+    language: Languages,
     events: Event[]
 }
 
 export interface Event {
-    header: string
-    description: string
+    header: string,
+    description: string,
     date: string
 }

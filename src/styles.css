@@ -26,6 +26,7 @@
   from {
     opacity: 0;
   }
+
   to {
     opacity: 100;
   }
@@ -36,7 +37,12 @@ p {
   animation-duration: 3s;
 }
 
-h1, h2, div > svg, button, a, footer {
+h1,
+h2,
+div>svg,
+button,
+a,
+footer {
   animation-name: fade;
   animation-duration: 1s;
 }

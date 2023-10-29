@@ -31,7 +31,7 @@ export class LocalizationService {
 
         document.documentElement.setAttribute("lang", language);
         localStorage.setItem("lang", language);
-        
+
         this.changeEventList(language);
         return;
       }

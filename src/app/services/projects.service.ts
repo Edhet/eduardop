@@ -66,7 +66,7 @@ export class ProjectsService {
     }
   }
 
-  private tagIsIncluded(tagName: String, list: Tag[]) {  
+  private tagIsIncluded(tagName: String, list: Tag[]) {
     for (let t of list) {
       if (tagName == t.tagName)
         return true;
