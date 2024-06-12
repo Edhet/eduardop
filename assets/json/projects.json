@@ -2,7 +2,7 @@
   {
     "name": "Alpha Junior",
     "type": "Web",
-    "image": "./assets/alphaJunior.png",
+    "image": "./assets/alphaJunior.jpg",
     "url": "https://alpha-junior-preview.vercel.app/",
     "tags": [
       "Nuxt",
@@ -110,35 +110,6 @@
     "tags": [
       "Python",
       "SQLite"
-    ]
-  },
-  {
-    "name": "Hockey Site",
-    "type": "Web",
-    "image": "./assets/hockeySite.png",
-    "url": "https://github.com/Edhet/hockeysite",
-    "tags": [
-      "JavaScript"
-    ]
-  },
-  {
-    "name": "TypeScript Calculator",
-    "type": "Web",
-    "image": "./assets/calculatorTS.png",
-    "url": "https://edhet.github.io/CalculatorTS/",
-    "tags": [
-      "Bootstrap",
-      "TypeScript"
-    ]
-  },
-  {
-    "name": "Task List App",
-    "type": "Web",
-    "image": "./assets/taskList.png",
-    "url": "https://edhet.github.io/TaskListJS/",
-    "tags": [
-      "Bootstrap",
-      "JavaScript"
     ]
   }
 ]

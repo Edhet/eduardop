@@ -10,7 +10,7 @@
     "sectionsContent": [
       {
         "sectionHeader": "About Me",
-        "sectionBody": "I'm a brazilian from Rio de Janeiro, a tech enthusiast, especially interested in web development, I did half a semester of Electrical Engineering at CEFET-RJ, but soon I realised that my real interest was in programming, because of that I went to Information Systems at UNIRIO, where I keep learning about software development and engineering. Im also interested in design, but particularly in web-design, having done amateur game development and written tabletop RPG system books too."
+        "sectionBody": "I'm a brazilian from Rio de Janeiro, free software enthusiast, working with web development. I did half a semester of Electrical Engineering at CEFET-RJ, but soon I realised that my real interest was in programming, for that reason I went to Information Systems at UNIRIO, where Im currently enrolled and continue learning about computer science and software engineering. I also have an interest in design, and currently am working at BNDES, also having done amateur game development and written tabletop RPG system books too."
       },
       {
         "sectionHeader": "I'm a",
@@ -18,7 +18,7 @@
       },
       {
         "sectionHeader": "Skills and Experience",
-        "sectionBody": "Desktop Linux distros user, such as Ubuntu, Pop!OS, Fedora and currently Arch, for two years to learn how the web's operating environment works. Experienced in front-end web development, having used Angular, Ionic and Vue with TypeScript in some projects with APIs consumption and Firebase, utilizing Git and at the moment I'm learning about Spring and back-end development as well as deepening my knowledge in relational and non-relational databases, even though I already have some experience with MongoDB, MariaDB (mySQL) and SQLite."
+        "sectionBody": "I have two year of experience in full-stack web development, currently working at BNDES where I mostly participated in the development of the internal debt control system in Java and Angular, implementing new features and doing fixes, in addition to refactoring of the old front-end. But I also have many personal projects in other areas of computing using other technologies such as Rust, Python and other JS Frameworks as well as multiple relational and non-relational databases."
       },
       {
         "sectionHeader": "Projects"
@@ -41,14 +41,14 @@
     "sectionsContent": [
       {
         "sectionHeader": "Sobre mim",
-        "sectionBody": "Sou um brasileiro do Rio de Janeiro, entusiasta de tecnologia, especialmente interessado em desenvolvimento web, cursei Engenharia Elétrica no CEFET-RJ por meio período, porém logo percebi que meu real interesse era em programação, assim mudando de curso para Sistemas de Informação na UNIRIO, onde sigo aprendendo sobre desenvolvimento e engenharia de software. Também tenho interesse em design, em particular em web-design, além de já ter feito desenvolvimento amador de jogos e escrito livros de sistemas de RPG de mesa."
+        "sectionBody": "Sou um brasileiro do Rio de Janeiro, entusiasta de software livre, trabalhando com desenvolvimento web. Cursei Engenharia Elétrica no CEFET-RJ por meio período, porém logo percebi que meu real interesse era em programação, assim mudando de curso para Sistemas de Informação na UNIRIO, onde estou atualmente e sigo aprendendo sobre ciência da computação e engenharia de software. Também tenho interesse em design, e atualmente estou trabalhando no BNDES, além de também já ter feito desenvolvimento amador de jogos e escrito livros de sistemas de RPG de mesa."
       },
       {
         "sectionHeader": "Sou um desenvolvedor"
       },
       {
         "sectionHeader": "Habilidades e Experiência",
-        "sectionBody": "Usuário de distros desktop Linux, como Ubuntu, Pop!OS, Fedora e atualmente Arch, há dois anos a caráter de aprender sobre o ambiente de funcionamento da web. Experiente em programação front-end web, tendo conhecimento em Angular, Ionic e Vue utilizando TypeScript com alguns projetos com consumo de APIs e Firebase, utlizando Git e no momento estou aprendendo sobre Spring e desenvolvimento back-end assim como aprofundando meus conhecimentos em bancos de dados relacionais e não relacionais, apesar de já ter alguma experiencia com MongoDB, MariaDB (mySQL) e SQLite."
+        "sectionBody": "Tenho dois anos de experiência em desenvolvimento web full-stack, atualmente trabalhando no BNDES onde majoritariamente participo no desenvolvimento do sistema interno de controle da dívida em Java e Angular, implementando novas funcionalidades, fazendo correções e refatorando o fron-end antigo. Também tenho vários projetos pessoais em outras áreas da computação usando outras tecnologias como Rust, Python e outros frameworks JavaScript assim como vários bancos de dados relacionais e não relacionais."
       },
       {
         "sectionHeader": "Projetos"
