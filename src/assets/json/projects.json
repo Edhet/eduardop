@@ -2,7 +2,7 @@
   {
     "name": "Alpha Junior",
     "type": "Web",
-    "image": "./assets/alphaJunior.png",
+    "image": "./assets/alphaJunior.jpg",
     "url": "https://alpha-junior-preview.vercel.app/",
     "tags": [
       "Nuxt",
