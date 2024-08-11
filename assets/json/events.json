@@ -3,6 +3,11 @@
         "language": "en",
         "events": [
             {
+                "header": "MJV - Junior",
+                "description": "Fullstack Web Developer",
+                "date": "July, 2024"
+            },
+            {
                 "header": "BNDES - Internship",
                 "description": "Fullstack Web Developer",
                 "date": "September, 2023"
@@ -12,6 +17,11 @@
     {
         "language": "pt",
         "events": [
+            {
+                "header": "MJV - Júnior",
+                "description": "Desenvolvimento Web Fullstack",
+                "date": "Julho, 2024"
+            },
             {
                 "header": "BNDES - Estágio",
                 "description": "Desenvolvimento Web Fullstack",

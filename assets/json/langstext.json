@@ -10,7 +10,7 @@
     "sectionsContent": [
       {
         "sectionHeader": "About Me",
-        "sectionBody": "I'm a brazilian from Rio de Janeiro, free software enthusiast, working with web development. I did half a semester of Electrical Engineering at CEFET-RJ, but soon I realised that my real interest was in programming, for that reason I went to Information Systems at UNIRIO, where Im currently enrolled and continue learning about computer science and software engineering. I also have an interest in design, and currently am working at BNDES, also having done amateur game development and written tabletop RPG system books too."
+        "sectionBody": "I'm a brazilian from Rio de Janeiro, free software enthusiast, working with web development. I did half a semester of Electrical Engineering at CEFET-RJ, but soon I realised that my real interest was in programming, for that reason I went to Information Systems at UNIRIO, where Im currently enrolled and continue learning about computer science and software engineering. I also have an interest in design, and currently am working at a tech consulting company called MJV, also having done amateur game development and written tabletop RPG system books too."
       },
       {
         "sectionHeader": "I'm a",
@@ -18,7 +18,7 @@
       },
       {
         "sectionHeader": "Skills and Experience",
-        "sectionBody": "I have two year of experience in full-stack web development, currently working at BNDES where I mostly participated in the development of the internal debt control system in Java and Angular, implementing new features and doing fixes, in addition to refactoring of the old front-end. But I also have many personal projects in other areas of computing using other technologies such as Rust, Python and other JS Frameworks as well as multiple relational and non-relational databases."
+        "sectionBody": "I have two year of experience in full-stack web development, having worked at BNDES where I mostly participated in the development of the internal debt control system in Java and Angular, and am currently at MJV alocated in the Bradesco Global Solutions project at Bradesco Bank, a corporate investment platform using microservices and micro frontends in a hybrid IT ambient. But I also have many personal projects in other areas of computing using other technologies such as Rust, Python and other JS Frameworks as well as multiple relational and non-relational databases."
       },
       {
         "sectionHeader": "Projects"
@@ -41,14 +41,14 @@
     "sectionsContent": [
       {
         "sectionHeader": "Sobre mim",
-        "sectionBody": "Sou um brasileiro do Rio de Janeiro, entusiasta de software livre, trabalhando com desenvolvimento web. Cursei Engenharia Elétrica no CEFET-RJ por meio período, porém logo percebi que meu real interesse era em programação, assim mudando de curso para Sistemas de Informação na UNIRIO, onde estou atualmente e sigo aprendendo sobre ciência da computação e engenharia de software. Também tenho interesse em design, e atualmente estou trabalhando no BNDES, além de também já ter feito desenvolvimento amador de jogos e escrito livros de sistemas de RPG de mesa."
+        "sectionBody": "Sou um brasileiro do Rio de Janeiro, entusiasta de software livre, trabalhando com desenvolvimento web. Cursei Engenharia Elétrica no CEFET-RJ por meio período, porém logo percebi que meu real interesse era em programação, assim mudando de curso para Sistemas de Informação na UNIRIO, onde estou atualmente e sigo aprendendo sobre ciência da computação e engenharia de software. Também tenho interesse em design, e atualmente estou trabalhando em uma consultoria de tecnologia chamada MJV, além de também já ter feito desenvolvimento amador de jogos e escrito livros de sistemas de RPG de mesa."
       },
       {
         "sectionHeader": "Sou um desenvolvedor"
       },
       {
         "sectionHeader": "Habilidades e Experiência",
-        "sectionBody": "Tenho dois anos de experiência em desenvolvimento web full-stack, atualmente trabalhando no BNDES onde majoritariamente participo no desenvolvimento do sistema interno de controle da dívida em Java e Angular, implementando novas funcionalidades, fazendo correções e refatorando o fron-end antigo. Também tenho vários projetos pessoais em outras áreas da computação usando outras tecnologias como Rust, Python e outros frameworks JavaScript assim como vários bancos de dados relacionais e não relacionais."
+        "sectionBody": "Tenho dois anos de experiência em desenvolvimento web full-stack, Já tendo trabalhado no BNDES onde participei no desenvolvimento do sistema interno de controle da dívida em Java e Angular, e estou atualmente na MJV alocado no projeto Bradesco Global Solutions do Banco Bradesco, uma plataforma corporativa de investimentos utilizando microserviços e micro frontends em um ambiente de TI híbrida. Também tenho vários projetos pessoais em outras áreas da computação usando outras tecnologias como Rust, Python e outros frameworks JavaScript assim como vários bancos de dados relacionais e não relacionais."
       },
       {
         "sectionHeader": "Projetos"
