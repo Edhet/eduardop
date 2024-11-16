@@ -5,9 +5,9 @@ import { LocalizationService } from 'src/app/services/localization.service';
 import { ProjectsService } from 'src/app/services/projects.service';
 
 @Component({
-  selector: 'app-tech-feature',
-  templateUrl: './tech-feature.component.html',
-  styleUrls: ['./tech-feature.component.css'],
+  selector: 'app-tech-display',
+  templateUrl: './tech-display.component.html',
+  styleUrls: ['./tech-display.component.css'],
   animations: [
     trigger('changed', [
       state('entering', style({
@@ -28,7 +28,7 @@ import { ProjectsService } from 'src/app/services/projects.service';
     ])
   ]
 })
-export class HeaderDisplayComponent implements OnInit {
+export class TechDisplayComponent implements OnInit {
   private readonly TEXT_CHANGE_TIME = 1250;
 
   public animationState: string = "entering";

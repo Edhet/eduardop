@@ -4,23 +4,23 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { ProjectListComponent } from './components/project-list/project-list.component';
-import { HeaderComponent } from './components/header/header.component';
+import { HeroComponent } from './components/header/hero.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { AboutComponent } from './components/about/about.component';
+import { SkillsAndExperienceComponent } from './components/about/skills-and-experience.component';
 import { ProjectCardComponent } from './components/project-card/project-card.component';
 import { EventTimelineComponent } from './components/event-timeline/event-timeline.component';
-import { HeaderDisplayComponent } from './components/tech-feature/tech-feature.component';
+import { TechDisplayComponent } from './components/tech-display/tech-display.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProjectListComponent,
-    HeaderComponent,
+    HeroComponent,
     FooterComponent,
-    AboutComponent,
+    SkillsAndExperienceComponent,
     ProjectCardComponent,
     EventTimelineComponent,
-    HeaderDisplayComponent
+    TechDisplayComponent
   ],
   imports: [
     BrowserModule,

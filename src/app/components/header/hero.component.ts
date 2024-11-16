@@ -1,16 +1,15 @@
-import { ProjectsService } from './../../services/projects.service';
-import { Component, OnInit } from '@angular/core';
+import { ProjectsService } from '../../services/projects.service';
+import { Component } from '@angular/core';
 import Languages from 'src/app/models/languages.model';
-import Tag from 'src/app/models/tag.model';
 import { LocalizationService } from 'src/app/services/localization.service';
 
 @Component({
-  selector: 'app-header',
-  templateUrl: './header.component.html',
-  styleUrls: ['./header.component.css']
+  selector: 'app-hero',
+  templateUrl: './hero.component.html',
+  styleUrls: ['./hero.component.css']
 })
 
-export class HeaderComponent {
+export class HeroComponent {
   public readonly GITHUB_PROFILE = "https://github.com/Edhet";
   public readonly LINKEDIN_PROFILE = "https://www.linkedin.com/in/eduardo-pinheiro-freitas/";
 
