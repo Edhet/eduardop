@@ -3,7 +3,7 @@ import Languages from "./languages.model";
 export interface TextContent {
     language: Languages,
     headerContent: HeaderContent,
-    sectionsContent: SectionContent[],
+    sectionsContent: MainContents,
     footerContent: FooterContent,
     emptyQueryText: string
 }
@@ -13,6 +13,13 @@ export interface HeaderContent {
     surname: string
     email: string,
     contactText: string
+}
+
+export interface MainContents {
+    aboutMe: SectionContent,
+    intro: SectionContent,
+    skillsAndExp: SectionContent,
+    projects: SectionContent
 }
 
 export interface SectionContent {

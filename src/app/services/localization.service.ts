@@ -62,19 +62,19 @@ export class LocalizationService {
   }
 
   get aboutSectionContent() {
-    return this.selectedLanguageTextContent.sectionsContent[0];
+    return this.selectedLanguageTextContent.sectionsContent.aboutMe;
   }
 
   get introductionContent() {
-    return this.selectedLanguageTextContent.sectionsContent[1];
+    return this.selectedLanguageTextContent.sectionsContent.intro;
   }
 
   get skillsSectionContent() {
-    return this.selectedLanguageTextContent.sectionsContent[2];
+    return this.selectedLanguageTextContent.sectionsContent.skillsAndExp;
   }
 
   get projectHeader() {
-    return this.selectedLanguageTextContent.sectionsContent[3].sectionHeader;
+    return this.selectedLanguageTextContent.sectionsContent.projects.sectionHeader;
   }
 
   get footerContent() {
