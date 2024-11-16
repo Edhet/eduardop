@@ -21,7 +21,7 @@
         "sectionBody": "I have two year of experience in full-stack web development, having worked at BNDES where I mostly participated in the development of the internal debt control system in Java and Angular, and am currently at MJV alocated in the Bradesco Global Solutions project at Bradesco Bank, a corporate investment platform using microservices and micro frontends in a hybrid IT ambient. But I also have many personal projects in other areas of computing using other technologies such as Rust, Python and other JS Frameworks as well as multiple relational and non-relational databases."
       },
       "projects": {
-        "sectionHeader": "Projects"
+        "sectionHeader": "Personal Projects"
       }
     },
     "footerContent": {
@@ -51,7 +51,7 @@
         "sectionBody": "Tenho dois anos de experiência em desenvolvimento web full-stack, Já tendo trabalhado no BNDES onde participei no desenvolvimento do sistema interno de controle da dívida em Java e Angular, e estou atualmente na MJV alocado no projeto Bradesco Global Solutions do Banco Bradesco, uma plataforma corporativa de investimentos utilizando microserviços e micro frontends em um ambiente de TI híbrida. Também tenho vários projetos pessoais em outras áreas da computação usando outras tecnologias como Rust, Python e outros frameworks JavaScript assim como vários bancos de dados relacionais e não relacionais."
       },
       "projects": {
-        "sectionHeader": "Projetos"
+        "sectionHeader": "Projetos Pessoais"
       }
     },
     "footerContent": {
