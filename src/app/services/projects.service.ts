@@ -1,8 +1,10 @@
 import { Injectable } from '@angular/core';
 import projectData from "../../assets/json/projects.json";
 import tagsData from "../../assets/json/tags.json";
+import projectType from "../../assets/json/project-type.json";
 import Project from '../models/project.model';
 import Tag from '../models/tag.model';
+import ProjectType from '../models/project-type.model';
 
 @Injectable({
   providedIn: 'root'
@@ -10,6 +12,7 @@ import Tag from '../models/tag.model';
 export class ProjectsService {
   private readonly projects: Project[];
   private readonly tagList: Tag[];
+  private readonly projectType: ProjectType[];
 
   private filteredProjects: Project[];
   private activatedFilters: Tag[];
@@ -17,6 +20,7 @@ export class ProjectsService {
   constructor() {
     this.projects = projectData as Project[];
     this.tagList = tagsData as Tag[];
+    this.projectType = projectType as ProjectType[];
 
     this.filteredProjects = this.projectListCopy();
     this.activatedFilters = [];
@@ -45,6 +49,11 @@ export class ProjectsService {
 
   public getTagListFromNames(tagNames: string[]) {
     return this.tagList.filter(tag => tagNames.includes(tag.tagName));
+  }
+
+  public getProjectTypeIcon(type: string) {
+    let icon = `/assets/svg/type/${this.projectType.filter(pt => pt.type == type)[0].iconTag ?? "help-outline.svg"}`;
+    return icon;
   }
 
   private filter() {

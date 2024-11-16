@@ -1,0 +1,10 @@
+[
+    {
+        "type": "Web",
+        "iconTag": "globe-outline.svg"
+    },
+    {
+        "type": "CLI",
+        "iconTag": "code.svg"
+    }
+]

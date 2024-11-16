@@ -13,6 +13,8 @@ export class AppComponent implements OnInit {
   constructor(private localizationService: LocalizationService) { }
 
   ngOnInit() {
+    document.getElementById('js-disclaimer')?.remove();
+    
     if (localStorage.getItem("lang") == "en") {
       this.localizationService.changeLanguage(Languages.ENGLISH);
     }
