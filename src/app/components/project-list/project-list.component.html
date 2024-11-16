@@ -8,7 +8,12 @@
 
   <div class="text-white md:sticky md:top-0 md:z-20 py-3 md:bg-black/75 md:backdrop-blur-sm">
     <div class="flex gap-2 flex-wrap">
-      <button *ngFor="let tag of projectsService.filters" class="p-1 max-w-fit transition-all outline-2 border bg-transparent hover:border-bAlmond hover:text-bAlmond hover:bg-bAlmond/50" [ngClass]="projectsService.filterIsActive(tag.tagName) ? 'outline text-bAlmond border-bAlmond': 'text-fBistre border-fBistre'" (click)="projectsService.changeFilter(tag)">
+      <button *ngFor="let tag of projectsService.filters" 
+      class="p-1 max-w-fit transition-all outline-2 relative bg-transparent
+        before:w-full before:h-1 before:bg-bAlmond before:start-0 before:-bottom-1 before:absolute before:transition-all before:-z-10
+      hover:border-bAlmond hover:text-bAlmond hover:bg-bAlmond/50" 
+       [ngClass]="projectsService.filterIsActive(tag.tagName) ? 'text-black before:h-[115%] hover:bg-transparent hover:text-black': 'text-bAlmond'" 
+       (click)="projectsService.changeFilter(tag)">
         {{tag.tagName}}
       </button>
 
@@ -22,6 +27,6 @@
 
   <p class="quickFade italic font-light text-bAlmond my-24 text-xl text-center" *ngIf="projectsService.projectList.length <= 0">{{localizationService.emptyQueryText}}</p>
   <div class="lg:grid lg:grid-cols-2 lg:gap-x-5">
-    <app-project-card *ngFor="let project of projectsService.projectList" [projectInfo]="project"></app-project-card>
+    <app-project-card class="px-1" *ngFor="let project of projectsService.projectList" [projectInfo]="project"></app-project-card>
   </div>
 </section>
