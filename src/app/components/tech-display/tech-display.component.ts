@@ -21,7 +21,7 @@ import { ProjectsService } from 'src/app/services/projects.service';
       state('leaving', style({
         opacity: 0,
         transform: 'translateY(15%)'
-      }),),
+      })),
       transition('entering => waiting', animate('125ms')),
       transition('waiting => leaving', animate('125ms')),
       transition('leaving => entering', animate('0ms'))
