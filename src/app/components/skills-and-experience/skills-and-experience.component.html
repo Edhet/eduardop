@@ -1,12 +1,16 @@
-<main class="slowFade text-bAlmond">
-  <article class="my-12">
-    <div class="flex mb-1">
-      <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" fill="currentColor" class="bi bi-terminal-fill mr-2 my-auto min-w-fit" viewBox="0 0 16 16">
-        <path d="M0 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3zm9.5 5.5h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1zm-6.354-.354a.5.5 0 1 0 .708.708l2-2a.5.5 0 0 0 0-.708l-2-2a.5.5 0 1 0-.708.708L4.793 6.5 3.146 8.146z" />
-      </svg>
-      <h2 class="text-3xl md:text-4xl font-medium">{{localizationService.skillsSectionContent.sectionHeader}}</h2>
+<main>
+  <div *ngFor="let event of localizationService.eventList" class="flex flex-col md:flex-row w-full h-fit">
+    <div class="relative w-full min-h-full text-bAlmond">
+      <div class="sticky top-2 p-8">
+        <p class="text-4xl font-extrabold">{{event.header}}</p>
+        <p>{{event.description}}</p>
+        <p>{{event.date}}</p>
+      </div>
+      <div class="absolute w-full h-full top-0 right-0 -z-10 backdrop-blur-sm"></div>
+      <img class="absolute w-full h-full top-0 right-0 -z-20 brightness-50 object-cover" [src]="'./assets/'+event.image">
     </div>
-    <app-event-timeline></app-event-timeline>
-    <p class="text-bAlmond">{{localizationService.skillsSectionContent.sectionBody}}</p>
-  </article>
+    <div class="bg-bAlmond w-full h-fit p-8 flex flex-col gap-5 text-sm">
+      <p *ngFor="let point of event.bulletPoints">- {{point}}</p>
+    </div>
+  </div>
 </main>

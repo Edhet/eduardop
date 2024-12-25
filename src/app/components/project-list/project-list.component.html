@@ -1,18 +1,12 @@
 <section class="slowFade relative mt-16">
-  <div class="flex mb-2">
-    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" fill="currentColor" class="bi bi-folder-fill fill-bAlmond mr-2 my-auto min-w-fit" viewBox="0 0 16 16">
-      <path d="M9.828 3h3.982a2 2 0 0 1 1.992 2.181l-.637 7A2 2 0 0 1 13.174 14H2.825a2 2 0 0 1-1.991-1.819l-.637-7a1.99 1.99 0 0 1 .342-1.31L.5 3a2 2 0 0 1 2-2h3.672a2 2 0 0 1 1.414.586l.828.828A2 2 0 0 0 9.828 3zm-8.322.12C1.72 3.042 1.95 3 2.19 3h5.396l-.707-.707A1 1 0 0 0 6.172 2H2.5a1 1 0 0 0-1 .981l.006.139z" />
-    </svg>
-    <h2 class="text-bAlmond text-3xl md:text-4xl font-medium">{{localizationService.projectHeader}}</h2>
-  </div>
+  <h2 class="text-bAlmond text-5xl md:text-7xl mb-2 font-bold">{{localizationService.projectHeader}}</h2>
 
-  <div class="text-white md:sticky md:top-0 md:z-20 py-3 md:bg-black/75 md:backdrop-blur-sm">
+  <div class="text-white py-3 md:bg-black/75 md:backdrop-blur-sm">
     <div class="flex gap-2 flex-wrap">
       <button *ngFor="let tag of projectsService.filters" 
-      class="p-1 max-w-fit transition-all outline-2 relative bg-transparent
-        before:w-full before:h-1 before:bg-bAlmond before:start-0 before:-bottom-1 before:absolute before:transition-all before:-z-10
+      class="p-1 max-w-fit transition-all outline-2 relative
       hover:border-bAlmond hover:text-bAlmond hover:bg-bAlmond/50" 
-       [ngClass]="projectsService.filterIsActive(tag.tagName) ? 'text-black before:h-[115%] hover:bg-transparent hover:text-black': 'text-bAlmond'" 
+       [ngClass]="projectsService.filterIsActive(tag.tagName) ? 'text-black bg-bAlmond': 'text-bAlmond'" 
        (click)="projectsService.changeFilter(tag)">
         {{tag.tagName}}
       </button>
@@ -25,7 +19,7 @@
     </div>
   </div>
 
-  <p class="quickFade italic font-light text-bAlmond my-24 text-xl text-center" *ngIf="projectsService.projectList.length <= 0">{{localizationService.emptyQueryText}}</p>
+  <p class="quickFade font-light text-fBistre my-24 text-xl text-center" *ngIf="projectsService.projectList.length <= 0">{{localizationService.emptyQueryText}}</p>
   <div class="lg:grid lg:grid-cols-2 lg:gap-x-5">
     <app-project-card *ngFor="let project of projectsService.projectList" [projectInfo]="project"></app-project-card>
   </div>

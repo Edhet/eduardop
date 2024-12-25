@@ -7,7 +7,6 @@ import { ProjectListComponent } from './components/project-list/project-list.com
 import { FooterComponent } from './components/footer/footer.component';
 import { SkillsAndExperienceComponent } from './components/skills-and-experience/skills-and-experience.component';
 import { ProjectCardComponent } from './components/project-card/project-card.component';
-import { EventTimelineComponent } from './components/event-timeline/event-timeline.component';
 import { TechDisplayComponent } from './components/tech-display/tech-display.component';
 import { HeroComponent } from './components/hero/hero.component';
 
@@ -19,7 +18,6 @@ import { HeroComponent } from './components/hero/hero.component';
     FooterComponent,
     SkillsAndExperienceComponent,
     ProjectCardComponent,
-    EventTimelineComponent,
     TechDisplayComponent
   ],
   imports: [

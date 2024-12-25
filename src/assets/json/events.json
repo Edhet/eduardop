@@ -5,12 +5,30 @@
             {
                 "header": "MJV - Junior",
                 "description": "Fullstack Web Developer",
-                "date": "July, 2024"
+                "date": "July, 2024",
+                "bulletPoints": [
+                    "Collaborated as a Fullstack developer on a team of external consultants from MJV to deliver new functionalities for a major Brazilian bank’s corporate banking platform, working with 15 developer teams.",
+                    "Worked closely along Bradesco Bank's product team to refine tasks, ensuring alignment with business requirements and delivering high-quality and correct results.",
+                    "Developed micro services with NestJS and Express, integrating with a hybrid IT environment including more than 350 other technical components like SpringBoot and NodeJS micro services, mainframe integrations, Kafka queues and more.",
+                    "Built modular micro frontends in Angular integrated with the rest of the application.",
+                    "Used a Kafka queue to process financial operations that were pending authorization and were eventually sent to the mainframe.",
+                    "Utilized Atlassian's Jira for project management, Bamboo and Sonarqube for CI/CD integrations and Confluence for documenting."
+                ],
+                "image": "mjv.jpg"
             },
             {
                 "header": "BNDES - Internship",
                 "description": "Fullstack Web Developer",
-                "date": "September, 2023"
+                "date": "September, 2023",
+                "bulletPoints": [
+                    "Worked as a Fullstack software developer intern at the Brazilian national development bank.",
+                    "Developed new features for a monolithic Java EE internal debt control backend with over 720 source files, assisted by senior technical and product analysts.",
+                    "Implemented major new features in the system's frontend using Angular with TypeScript and refactored legacy AngularJS code improving code maintainability and code correctness.",
+                    "Helped fix bugs and incidents in existing functionalities alone and assisted by senior analysts.",
+                    "Created and improved multiple Oracle DB SQL scripts for the development of new features and bug corrections.",
+                    "Briefly collaborated with the development of a new HR demands platform on Microsoft's Power platform that integrated with Sharepoint lists and Power Automate."
+                ],
+                "image": "bndes.jpg"
             }
         ]
     },
@@ -19,13 +37,31 @@
         "events": [
             {
                 "header": "MJV - Júnior",
-                "description": "Desenvolvimento Web Fullstack",
-                "date": "Julho, 2024"
+                "description": "Desenvolvedor Web Fullstack",
+                "date": "Julho, 2024",
+                "bulletPoints": [
+                    "Colaborei como desenvolvedor Fullstack em uma equipe de consultores externos da MJV para entregar novas funcionalidades para a plataforma de banco corporativo de um grande banco brasileiro, trabalhando com 15 equipes de desenvolvedores.",
+                    "Trabalhei em estreita colaboração com a equipe de produtos do Bradesco Bank para refinar tarefas, garantindo alinhamento com os requisitos comerciais e entregando resultados de alta qualidade e corretos.",
+                    "Desenvolvi microserviços com NestJS e Express, integrando com um ambiente de TI híbrido que inclui mais de 350 outros componentes técnicos, como microserviços SpringBoot e NodeJS, integrações de mainframe, filas Kafka e mais.",
+                    "Desenvolvi microfrontends modulares em Angular integrados com o restante da aplicação.",
+                    "Utilizei uma fila Kafka para processar operações financeiras que estavam pendentes de autorização e que eventualmente eram enviadas para o mainframe.",
+                    "Utilizei o Jira da Atlassian para gerenciamento de projetos, Bamboo e Sonarqube para integrações de CI/CD e Confluence para documentação."
+                ],
+                "image": "mjv.jpg"
             },
             {
                 "header": "BNDES - Estágio",
-                "description": "Desenvolvimento Web Fullstack",
-                "date": "Setembro, 2023"
+                "description": "Desenvolvedor Web Fullstack",
+                "date": "Setembro, 2023",
+                "bulletPoints": [
+                    "Trabalhei como Estagiário desenvolvedor de software Fullstack no banco nacional de desenvolvimento brasileiro.",
+                    "Desenvolvi novas funcionalidades para o backend do sistema interno de controle da dívida monolítico em Java EE, com mais de 720 arquivos de código fonte, com auxílio de analistas seniores técnicos e de produto.",
+                    "Implementei importantes novas funcionalidades no frontend do sistema usando Angular com TypeScript e refatorei código AngularJS legado melhorando a manutenibilidade e corretude do código.",
+                    "Ajudei a corrigir bugs e incidentes em funcionalidades existentes sozinho e com ajuda de analistas seniores.",
+                    "Criei e aprimorei multiplos scripts SQL de Oracle DB para o desenvolvimento de novas funcionalidades e correção de bugs.",
+                    "Colaborei brevemente no desenvolvimento de uma nova aplicação de demandas de RH na plataforma Power da Microsoft integrada às listas do Sharepoint e Power Automate."
+                ],
+                "image": "bndes.jpg"
             }
         ]
     }

@@ -3,14 +3,14 @@
     "language": "en",
     "headerContent": {
       "firstName": "Eduardo",
-      "surname": "P. Freitas",
+      "surname": "Pinheiro",
       "email": "eduardopfrei@gmail.com",
       "contactText": "Contact Me"
     },
     "sectionsContent": {
       "aboutMe": {
         "sectionHeader": "About Me",
-        "sectionBody": "I'm a brazilian from Rio de Janeiro, free software enthusiast, working with web development. I did half a semester of Electrical Engineering at CEFET-RJ, but soon I realised that my real interest was in programming, for that reason I went to Information Systems at UNIRIO, where Im currently enrolled and continue learning about computer science and software engineering. I also have an interest in design, and currently am working at a tech consulting company called MJV, also having done amateur game development and written tabletop RPG system books too."
+        "sectionBody": "I'm a Brazilian from Rio de Janeiro, free software enthusiast, with experience working as a web developer. Currently employed at MJV as a Fullstack software developer consultant allocated at a major Brazilian bank working in a corporate banking platform project. After I did half a semester of Electrical Engineering at CEFET-RJ, I soon realized that my real interest was in programming, for that reason I went to Information Systems at UNIRIO, where I'm currently enrolled. Being also interested in graphical design and having done amateur game development, creating pixel arts, and written tabletop RPG system books."
       },
       "intro": {
         "sectionHeader": "I'm a",
@@ -25,7 +25,7 @@
       }
     },
     "footerContent": {
-      "date": "2024",
+      "date": "2025",
       "footerText": "Made in Angular with Tailwind"
     },
     "emptyQueryText": "No project fulfills the current filters"
@@ -34,14 +34,14 @@
     "language": "pt",
     "headerContent": {
       "firstName": "Eduardo",
-      "surname": "P. Freitas",
+      "surname": "Pinheiro",
       "email": "eduardopfrei@gmail.com",
       "contactText": "Entre em Contato"
     },
     "sectionsContent": {
       "aboutMe": {
         "sectionHeader": "Sobre mim",
-        "sectionBody": "Sou um brasileiro do Rio de Janeiro, entusiasta de software livre, trabalhando com desenvolvimento web. Cursei Engenharia Elétrica no CEFET-RJ por meio período, porém logo percebi que meu real interesse era em programação, assim mudando de curso para Sistemas de Informação na UNIRIO, onde estou atualmente e sigo aprendendo sobre ciência da computação e engenharia de software. Também tenho interesse em design, e atualmente estou trabalhando em uma consultoria de tecnologia chamada MJV, além de também já ter feito desenvolvimento amador de jogos e escrito livros de sistemas de RPG de mesa."
+        "sectionBody": "Sou brasileiro, do Rio de Janeiro, entusiasta de software livre, com experiência em trabalhar como desenvolvedor web. Atualmente, estou empregado na MJV como consultor de desenvolvimento de software Fullstack alocado em um grande banco brasileiro, trabalhando em um projeto de plataforma bancária corporativa. Depois de fazer meio semestre de Engenharia Elétrica no CEFET-RJ, logo percebi que meu verdadeiro interesse era em programação, por isso fui para o curso de Sistemas de Informação na UNIRIO, onde sigo atualmente. Também sou interessado em design gráfico e já desenvolvi jogos amadores, criando pixel arts, e livros de sistemas de RPG de mesa."
       },
       "intro": {
         "sectionHeader": "Sou um desenvolvedor"
@@ -55,7 +55,7 @@
       }
     },
     "footerContent": {
-      "date": "2024",
+      "date": "2025",
       "footerText": "Feito em Angular com Tailwind"
     },
     "emptyQueryText": "Nenhum projeto corresponde aos filtros atuais"

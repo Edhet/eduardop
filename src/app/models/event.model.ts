@@ -8,5 +8,7 @@ export interface EventList {
 export interface Event {
     header: string,
     description: string,
-    date: string
+    date: string,
+    bulletPoints: string[],
+    image: string
 }
