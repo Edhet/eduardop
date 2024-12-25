@@ -1,15 +1,15 @@
-<a *ngIf="projectInfo" href="{{projectInfo.url}}" target="_blank" class="quickFade flex relative outline outline-offset-1 hover:outline-1 hover:outline-bAlmond mt-5 transition-all h-72">
-  <div class="p-2 py-3 absolute h-full text-black bg-bAlmond z-10" style="writing-mode: vertical-lr; rotate: 180deg;">
-    <div class="flex">
-      <p>{{projectInfo.type}}</p>
-      <img class="w-4 h-4 mt-2 mx-auto" style="rotate: 90deg;" [src]="typeIconSrc"/>
-    </div>
-    <p class="text-2xl font-bold">{{projectInfo.name}}</p>
+<a *ngIf="projectInfo" href="{{projectInfo.url}}" target="_blank" class="quickFade flex relative outline outline-offset-1 mt-5 h-72">
+  <div class="p-2 py-3 absolute h-full text-bAlmond z-10 rounded-r-lg pointer-events-none" style="writing-mode: vertical-lr; rotate: 180deg;">
+    <p class="text-lg font-bold">{{projectInfo.type}}</p>
+    <p class="text-3xl font-bold">{{projectInfo.name}}</p>
   </div>
 
-  <img src="{{projectInfo.image}}" class="w-full overflow-hidden bg-cover min-h-full max-h-full object-cover brightness-50" alt="Project Image">
+  <img src="{{projectInfo.image}}" class="w-full overflow-hidden bg-cover min-h-full max-h-full object-cover brightness-50  rounded-lg" alt="Project Image">
 
-  <div class="absolute top-0 right-0 justify-end backdrop-blur-lg w-full flex flex-wrap gap-1 p-2 pl-20">
-    <div *ngFor="let tag of projectsService.getTagListFromNames(projectInfo.tags)" class="p-1 flex-shrink font-light text-bAlmond max-w-fit max-h-fit">{{tag.tagName}}</div>
+  <div class="absolute bottom-0 right-0  transition-all h-full w-full hover:backdrop-blur-md rounded-t-lg">
+    <div class="flex p-2 pl-20 flex-wrap gap-1 h-fit w-full justify-end">
+
+      <p *ngFor="let tag of projectsService.getTagListFromNames(projectInfo.tags)" class="p-1 flex-shrink text-bAlmond max-w-fit max-h-fit">{{tag.tagName}}</p>
+    </div>
   </div>
 </a>

@@ -1,16 +1,15 @@
 <main>
-  <div *ngFor="let event of localizationService.eventList" class="relative flex flex-col md:flex-row w-full h-fit">
+  <div *ngFor="let event of localizationService.eventList" class="relative flex flex-col md:flex-row w-full h-fit border-b border-b-bAlmond/25">
     <div class="w-full min-h-full text-bAlmond slowFade">
-      <div class="sticky top-2 p-8">
-        <p class="text-4xl font-extrabold">{{event.header}}</p>
+      <div class="sticky font-extrabold top-2 px-8 py-12 md:py-16 text-xl">
+        <p class="text-4xl lg:text-5xl">{{event.header}}</p>
         <p>{{event.description}}</p>
         <p>{{event.date}}</p>
       </div>
     </div>
-    <div class="text-bAlmond w-full h-fit p-8 flex flex-col gap-5">
+    <div class="relative text-bAlmond w-full h-fit px-8 py-12 md:py-16 flex flex-col gap-8 text-lg">
       <p class="slowFade" *ngFor="let point of event.bulletPoints">{{point}}</p>
+
     </div>
-    <div class="absolute w-full h-full top-0 right-0 -z-10 backdrop-blur-sm"></div>
-    <img class="absolute w-full h-full top-0 right-0 -z-20 brightness-50 object-cover" [src]="'./assets/'+event.image">
   </div>
 </main>
