@@ -6,7 +6,7 @@
 
   <img src="{{projectInfo.image}}" class="w-full overflow-hidden bg-cover min-h-full max-h-full object-cover brightness-50  rounded-lg" alt="Project Image">
 
-  <div class="absolute bottom-0 right-0  transition-all h-full w-full hover:backdrop-blur-md rounded-t-lg">
+  <div class="absolute bottom-0 right-0  transition-all h-full w-full hover:backdrop-blur-md rounded-lg">
     <div class="flex p-2 pl-20 flex-wrap gap-1 h-fit w-full justify-end">
 
       <p *ngFor="let tag of projectsService.getTagListFromNames(projectInfo.tags)" class="p-1 flex-shrink text-bAlmond max-w-fit max-h-fit">{{tag.tagName}}</p>
