@@ -1,10 +1,10 @@
-<header class="min-h-fit px-3 md:px-12 lg:px-24 2xl:px-[10%] bg-bAlmond h-dvh flex flex-col">
+<header class="min-h-fit h-screen px-3 md:px-12 lg:px-24 2xl:px-[10%] bg-bAlmond flex flex-col">
 
-  <div class="slowFade h-full">
-    <div class="py-6 px-4 w-full h-full flex flex-col">
-      <div class="ml-auto flex">
-        <button class="border p-1 focus:outline-none transition-all {{localizationService.currentLanguage == 'en' ? 'bg-black border-black text-bAlmond' : 'border-neutral-600 text-neutral-600 hover:border-black hover:text-black'}}" (click)="changeLanguage('en')">EN</button>
-        <button class="border p-1 focus:outline-none transition-all {{localizationService.currentLanguage == 'pt' ? 'bg-black border-black text-bAlmond' : 'border-neutral-600 text-neutral-600 hover:border-black hover:text-black'}}" (click)="changeLanguage('pt')">PT</button>
+  <div class="slowFade h-full min-h-fit">
+    <div class="py-6 px-4 w-full h-full flex flex-col min-h-fit">
+      <div class="ml-auto flex font-bold">
+        <button class="border border-black p-1 transition-all {{localizationService.currentLanguage == 'en' ? 'bg-black text-bAlmond' : 'hover:bg-black/25'}}" (click)="changeLanguage('en')">EN</button>
+        <button class="border border-black p-1 transition-all {{localizationService.currentLanguage == 'pt' ? 'bg-black text-bAlmond' : 'hover:bg-black/25'}}" (click)="changeLanguage('pt')">PT</button>
       </div>
 
       <div class="mt-auto md:mt-24">
@@ -15,7 +15,7 @@
         <app-tech-display></app-tech-display>
       </div>
 
-      <div class="mt-auto">
+      <div class="mt-auto overflow-clip">
         <article class="pt-12 md:pt-0">
           <p>{{localizationService.aboutSectionContent.sectionBody}}</p>
         </article>

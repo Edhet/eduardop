@@ -9,7 +9,7 @@
 
   <img src="{{projectInfo.image}}" class="w-full overflow-hidden bg-cover min-h-full max-h-full object-cover brightness-50" alt="Project Image">
 
-  <div class="absolute top-0 right-0 justify-end backdrop-blur-lg w-full flex flex-wrap gap-1 p-2 pl-16">
-    <div *ngFor="let tag of projectsService.getTagListFromNames(projectInfo.tags)" class="p-1 flex-shrink text-lg font-light italic text-bAlmond max-w-fit max-h-fit">{{tag.tagName}}</div>
+  <div class="absolute top-0 right-0 justify-end backdrop-blur-lg w-full flex flex-wrap gap-1 p-2 pl-20">
+    <div *ngFor="let tag of projectsService.getTagListFromNames(projectInfo.tags)" class="p-1 flex-shrink font-light text-bAlmond max-w-fit max-h-fit">{{tag.tagName}}</div>
   </div>
 </a>
