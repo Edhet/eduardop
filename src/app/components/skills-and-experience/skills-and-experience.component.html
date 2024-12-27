@@ -1,15 +1,15 @@
-<main>
+<main class="slowFade">
+  <h2 class="text-bAlmond mb-2 mx-6 mt-16 font-bold text-4xl lg:text-5xl">{{ localizationService.skillsSectionContent.sectionHeader }}</h2>
   <div *ngFor="let event of localizationService.eventList" class="relative flex flex-col md:flex-row w-full h-fit border-b border-b-bAlmond/25">
-    <div class="w-full min-h-full text-bAlmond slowFade">
+    <div class="w-full min-h-full text-bAlmond">
       <div class="sticky font-extrabold top-2 px-8 pt-12 md:py-16 text-xl">
-        <p class="text-4xl lg:text-5xl">{{event.header}}</p>
+        <h3 class="text-3xl md:text-4xl lg:text-5xl">{{event.header}}</h3>
         <p>{{event.description}}</p>
         <p>{{event.date}}</p>
       </div>
     </div>
     <div class="relative text-bAlmond w-full h-fit px-8 py-12 md:py-16 flex flex-col gap-8 md:text-lg">
-      <p class="slowFade" *ngFor="let point of event.bulletPoints">{{point}}</p>
-
+      <p *ngFor="let point of event.bulletPoints">{{point}}</p>
     </div>
   </div>
 </main>

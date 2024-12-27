@@ -7,8 +7,8 @@
         <button class="border border-black p-1 transition-all {{localizationService.currentLanguage == 'pt' ? 'bg-black text-bAlmond' : 'hover:bg-black/25'}}" (click)="changeLanguage('pt')">PT</button>
       </div>
 
-      <div class="my-24">
-        <h1 class="whitespace-nowrap" style="font-size: 7vmin;">{{localizationService.headerContent.firstName + ' ' + localizationService.headerContent.surname}}</h1>
+      <div class="min-h-[35vh] md:min-h-0 my-6 font-bold">
+        <h1 class="whitespace-nowrap" style="font-size: 8vmin;">{{localizationService.headerContent.firstName + ' ' + localizationService.headerContent.surname}}</h1>
         <app-tech-display></app-tech-display>
       </div>
 

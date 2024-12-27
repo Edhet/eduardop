@@ -10,14 +10,14 @@
     "sectionsContent": {
       "aboutMe": {
         "sectionHeader": "About Me",
-        "sectionBody": "I'm a Brazilian from Rio de Janeiro, free software enthusiast, with experience working as a web developer. Currently employed at MJV as a Fullstack software developer consultant allocated at a major Brazilian bank working in a corporate banking platform project. After I did half a semester of Electrical Engineering at CEFET-RJ, I soon realized that my real interest was in programming, for that reason I went to Information Systems at UNIRIO, where I'm currently enrolled. Being also interested in graphical design and having done amateur game development, creating pixel arts, and written tabletop RPG system books."
+        "sectionBody": "I'm a Brazilian from Rio de Janeiro, free software enthusiast, with experience working as a web developer and interested in graphical design and system's engineering. Started learning programming as a teenager, where at the time I wanted to be a game developer, ended up just creating pixel arts and writting tabletop RPG system books but ended up working with programming anyway."
       },
       "intro": {
         "sectionHeader": "I'm a",
         "sectionBody": "Developer"
       },
       "skillsAndExp": {
-        "sectionHeader": "Skills and Experience",
+        "sectionHeader": "Work Experiences",
         "sectionBody": "I have two year of experience in full-stack web development, having worked at BNDES where I mostly participated in the development of the internal debt control system in Java and Angular, and am currently at MJV alocated in the Bradesco Global Solutions project at Bradesco Bank, a corporate investment platform using microservices and micro frontends in a hybrid IT ambient. But I also have many personal projects in other areas of computing using other technologies such as Rust, Python and other JS Frameworks as well as multiple relational and non-relational databases."
       },
       "projects": {
@@ -41,13 +41,13 @@
     "sectionsContent": {
       "aboutMe": {
         "sectionHeader": "Sobre mim",
-        "sectionBody": "Sou brasileiro, do Rio de Janeiro, entusiasta de software livre, com experiência em trabalhar como desenvolvedor web. Atualmente, estou empregado na MJV como consultor de desenvolvimento de software Fullstack alocado em um grande banco brasileiro, trabalhando em um projeto de plataforma bancária corporativa. Depois de fazer meio semestre de Engenharia Elétrica no CEFET-RJ, logo percebi que meu verdadeiro interesse era em programação, por isso fui para o curso de Sistemas de Informação na UNIRIO, onde sigo atualmente. Também sou interessado em design gráfico e já desenvolvi jogos amadores, criando pixel arts, e livros de sistemas de RPG de mesa."
+        "sectionBody": "Sou brasileiro, do Rio de Janeiro, entusiasta de software livre, com experiência como desenvolvedor web e interessado em design gráfico e engenharia de sistemas. Comecei a aprender programação ainda adolescente, quando queria ser desenvolvedor de jogos, acabei por só fazer pixel arts e escrever livros de sistemas RPG de mesa, porém acabei por ir trabalhar com programação de qualquer forma."
       },
       "intro": {
         "sectionHeader": "Sou um desenvolvedor"
       },
       "skillsAndExp": {
-        "sectionHeader": "Habilidades e Experiência",
+        "sectionHeader": "Experiências de Trabalho",
         "sectionBody": "Tenho dois anos de experiência em desenvolvimento web full-stack, Já tendo trabalhado no BNDES onde participei no desenvolvimento do sistema interno de controle da dívida em Java e Angular, e estou atualmente na MJV alocado no projeto Bradesco Global Solutions do Banco Bradesco, uma plataforma corporativa de investimentos utilizando microserviços e micro frontends em um ambiente de TI híbrida. Também tenho vários projetos pessoais em outras áreas da computação usando outras tecnologias como Rust, Python e outros frameworks JavaScript assim como vários bancos de dados relacionais e não relacionais."
       },
       "projects": {
