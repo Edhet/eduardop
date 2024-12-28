@@ -9,7 +9,7 @@
                 "bulletPoints": [
                     "Collaborated as a Fullstack developer on a team of external consultants from MJV to deliver new functionalities for a major Brazilian bank’s corporate banking platform, working with 15 developer teams.",
                     "Worked closely along Bradesco Bank's product team to refine tasks, ensuring alignment with business requirements and delivering high-quality and correct results.",
-                    "Developed micro services with NestJS and Express, integrating with a hybrid IT environment including more than 350 other technical components like SpringBoot and NodeJS micro services, mainframe integrations, Kafka queues and more.",
+                    "Developed micro services with NestJS and Express, integrating with a hybrid IT environment including more than 350 other technical components like Spring Boot and NodeJS micro services, mainframe integrations, Kafka queues and more.",
                     "Built modular micro frontends in Angular integrated with the rest of the application.",
                     "Used a Kafka queue to process financial operations that were pending authorization and were eventually sent to the mainframe.",
                     "Utilized Atlassian's Jira for project management, Bamboo and Sonarqube for CI/CD integrations and Confluence for documenting."
@@ -42,7 +42,7 @@
                 "bulletPoints": [
                     "Colaborei como desenvolvedor Fullstack em uma equipe de consultores externos da MJV para entregar novas funcionalidades para a plataforma de banco corporativo de um grande banco brasileiro, trabalhando com 15 equipes de desenvolvedores.",
                     "Trabalhei em estreita colaboração com a equipe de produtos do Bradesco Bank para refinar tarefas, garantindo alinhamento com os requisitos comerciais e entregando resultados de alta qualidade e corretos.",
-                    "Desenvolvi microserviços com NestJS e Express, integrando com um ambiente de TI híbrido que inclui mais de 350 outros componentes técnicos, como microserviços SpringBoot e NodeJS, integrações de mainframe, filas Kafka e mais.",
+                    "Desenvolvi microserviços com NestJS e Express, integrando com um ambiente de TI híbrido que inclui mais de 350 outros componentes técnicos, como microserviços Spring Boot e NodeJS, integrações de mainframe, filas Kafka e mais.",
                     "Desenvolvi microfrontends modulares em Angular integrados com o restante da aplicação.",
                     "Utilizei uma fila Kafka para processar operações financeiras que estavam pendentes de autorização e que eventualmente eram enviadas para o mainframe.",
                     "Utilizei o Jira da Atlassian para gerenciamento de projetos, Bamboo e Sonarqube para integrações de CI/CD e Confluence para documentação."
