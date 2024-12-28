@@ -16,7 +16,7 @@
     "url": "https://edhet.github.io/ChocolateStore-Frontend",
     "tags": [
       "Java",
-      "Springboot",
+      "Spring Boot",
       "PostgreSQL",
       "TypeScript",
       "Angular",
@@ -67,7 +67,7 @@
     "url": "https://github.com/Edhet/crudplayground-backend",
     "tags": [
       "Java",
-      "Springboot",
+      "Spring Boot",
       "MongoDB",
       "PostgreSQL",
       "TypeScript",
