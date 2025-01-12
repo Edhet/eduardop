@@ -22,11 +22,14 @@
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: theme(colors.bAlmond);
+  background-color: white;
 }
 
 *::-webkit-scrollbar-thumb:hover {
-  background-color: theme(colors.tan);
+  background-color: gray;
+  -webkit-transition: background-color 1000ms linear;
+  -ms-transition: background-color 1000ms linear;
+  transition: background-color 1000ms linear;
 }
 
 /*ANIMATIONS*/

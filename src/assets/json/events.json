@@ -3,8 +3,8 @@
         "language": "en",
         "events": [
             {
-                "header": "MJV - Junior",
-                "description": "Fullstack Web Developer",
+                "header": "MJV Innovation & Technology",
+                "description": "Software Developer",
                 "date": "July, 2024",
                 "bulletPoints": [
                     "Collaborated as a Fullstack developer on a team of external consultants from MJV to deliver new functionalities for a major Brazilian bank’s corporate banking platform, working with 15 developer teams.",
@@ -17,8 +17,8 @@
                 "image": "mjv.jpg"
             },
             {
-                "header": "BNDES - Internship",
-                "description": "Fullstack Web Developer",
+                "header": "BNDES",
+                "description": "Software Development Intern",
                 "date": "September, 2023",
                 "bulletPoints": [
                     "Worked as a Fullstack software developer intern at the Brazilian national development bank.",
@@ -36,8 +36,8 @@
         "language": "pt",
         "events": [
             {
-                "header": "MJV - Júnior",
-                "description": "Desenvolvedor Web Fullstack",
+                "header": "MJV Innovation & Technology",
+                "description": "Desenvolvedor de Software",
                 "date": "Julho, 2024",
                 "bulletPoints": [
                     "Colaborei como desenvolvedor Fullstack em uma equipe de consultores externos da MJV para entregar novas funcionalidades para a plataforma de banco corporativo de um grande banco brasileiro, trabalhando com 15 equipes de desenvolvedores.",
@@ -50,8 +50,8 @@
                 "image": "mjv.jpg"
             },
             {
-                "header": "BNDES - Estágio",
-                "description": "Desenvolvedor Web Fullstack",
+                "header": "BNDES",
+                "description": "Estagiário em Desenvolvimento de Software",
                 "date": "Setembro, 2023",
                 "bulletPoints": [
                     "Trabalhei como Estagiário desenvolvedor de software Fullstack no banco nacional de desenvolvimento brasileiro.",

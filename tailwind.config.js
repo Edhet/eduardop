@@ -6,8 +6,6 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        tan: '#d5ba98',
-        bAlmond: '#ffe9cf'
       }
     },
   },
