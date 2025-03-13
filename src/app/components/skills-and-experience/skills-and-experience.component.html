@@ -1,11 +1,11 @@
 <main class="slowFade">
-  <h2 class="text-white mb-2 mx-6 mt-16 font-bold text-4xl lg:text-5xl">{{ localizationService.skillsSectionContent.sectionHeader }}</h2>
-  <div *ngFor="let event of localizationService.eventList" class="relative flex flex-col md:flex-row w-full h-fit border-b border-b-white/25">
+  <h2 class="text-white mb-2 mx-6 font-bold text-4xl lg:text-5xl uppercase">{{ localizationService.skillsSectionContent.sectionHeader }}</h2>
+  <div *ngFor="let event of localizationService.eventList" class="relative flex flex-col md:flex-row w-full h-fit border-b border-b-neutral-800">
     <div class="w-full min-h-full text-white">
       <div class="sticky font-bold top-2 px-8 pt-12 md:py-16 text-xl">
         <h3 class="text-3xl md:text-4xl lg:text-5xl mb-4">{{event.header}}</h3>
-        <p class="text-white/60">{{event.description}}</p>
-        <p class="text-white/60">{{event.date}}</p>
+        <p class="text-neutral-400">{{event.description}}</p>
+        <p class="text-neutral-400">{{event.date}}</p>
       </div>
     </div>
     <div class="relative text-white w-full h-fit px-8 py-12 md:py-16 flex flex-col gap-8 md:text-lg">

@@ -1,14 +1,14 @@
-<a *ngIf="projectInfo" href="{{projectInfo.url}}" target="_blank" class="quickFade flex relative h-72">
-  <div class="p-2 py-3 absolute h-full text-white z-10 pointer-events-none" style="writing-mode: vertical-lr; rotate: 180deg;">
+<a *ngIf="projectInfo" href="{{projectInfo.url}}" target="_blank" class="quickFade flex relative h-[26rem] text-white rounded-2xl">
+  <div class="p-2 py-3 absolute h-full z-10 pointer-events-none" style="writing-mode: vertical-lr; rotate: 180deg;">
     <p class="text-lg font-bold">{{projectInfo.type}}</p>
     <p class="text-3xl font-bold">{{projectInfo.name}}</p>
   </div>
 
-  <img src="{{projectInfo.image}}" class="w-full overflow-hidden bg-cover min-h-full max-h-full object-cover brightness-50" alt="Project Image">
+  <img src="{{projectInfo.image}}" class="w-full overflow-hidden bg-cover min-h-full max-h-full object-cover brightness-50 rounded-2xl" alt="Project Image">
 
-  <div class="absolute bottom-0 right-0  transition-all h-full w-full hover:backdrop-blur-md">
+  <div class="absolute bottom-0 right-0  transition-all h-full w-full hover:backdrop-blur-md rounded-2xl">
     <div class="flex p-2 pl-20 flex-wrap gap-1 h-fit w-full justify-end">
-      <p *ngFor="let tag of projectsService.getTagListFromNames(projectInfo.tags)" class="p-1 flex-shrink text-white max-w-fit max-h-fit">{{tag.tagName}}</p>
+      <p *ngFor="let tag of projectsService.getTagListFromNames(projectInfo.tags)" class="p-1 flex-shrink max-w-fit max-h-fit">{{tag.tagName}}</p>
     </div>
   </div>
 </a>

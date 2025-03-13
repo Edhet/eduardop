@@ -15,10 +15,4 @@ export class HeroComponent {
 
   constructor(public localizationService: LocalizationService, public projectService: ProjectsService) { }
 
-  changeLanguage(langCode: string) {
-    switch (langCode) {
-      case "en": this.localizationService.changeLanguage(Languages.ENGLISH); break;
-      case "pt": this.localizationService.changeLanguage(Languages.PORTUGUESE); break;
-    }
-  }
 }
