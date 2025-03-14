@@ -41,7 +41,7 @@
                 "date": "Julho, 2024",
                 "bulletPoints": [
                     "Colaborei como desenvolvedor Fullstack em uma equipe de consultores externos da MJV para entregar novas funcionalidades para a plataforma de banco corporativo de um grande banco brasileiro, trabalhando com 15 equipes de desenvolvedores.",
-                    "Trabalhei em estreita colaboração com a equipe de produtos do Bradesco Bank para refinar tarefas, garantindo alinhamento com os requisitos comerciais e entregando resultados de alta qualidade e corretos.",
+                    "Trabalhei em estreita colaboração com a equipe de produtos do Banco Bradesco para refinar tarefas, garantindo alinhamento com os requisitos comerciais e entregando resultados de alta qualidade e corretos.",
                     "Desenvolvi microserviços com NestJS e Express, integrando com um ambiente de TI híbrido que inclui mais de 350 outros componentes técnicos, como microserviços Spring Boot e NodeJS, integrações de mainframe, filas Kafka e mais.",
                     "Desenvolvi microfrontends modulares em Angular integrados com o restante da aplicação.",
                     "Utilizei uma fila Kafka para processar operações financeiras que estavam pendentes de autorização e que eventualmente eram enviadas para o mainframe.",
