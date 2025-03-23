@@ -55,8 +55,8 @@
     "name": "Gym System",
     "type": "Web",
     "image": "./assets/gymSystem.png",
-    "url": "https://jobfind-f0bf1.web.app/",
-    "deployed": true,
+    "url": "https://github.com/Edhet/Gym-System/",
+    "deployed": false,
     "tags": [
       "TypeScript",
       "Ionic",
@@ -66,39 +66,34 @@
     ]
   },
   {
-    "name": "Crud Playground",
+    "name": "Enem Questions",
     "type": "Web",
-    "image": "./assets/crudplayground.png",
-    "url": "https://github.com/Edhet/crudplayground-backend",
+    "image": "./assets/enem-questions.png",
+    "url": "https://github.com/Edhet/enem-questions",
     "deployed": false,
     "tags": [
       "Java",
       "Spring Boot",
-      "MongoDB",
       "PostgreSQL",
       "TypeScript",
       "Angular",
-      "Bootstrap"
+      "Docker",
+      "Redis",
+      "Nginx"
     ]
   },
   {
-    "name": "Rust Programs",
-    "type": "CLI",
-    "image": "./assets/rustProg.png",
-    "url": "https://github.com/Edhet/rust-prog",
+    "name": "Trello Clone",
+    "type": "Web",
+    "image": "./assets/trello-clone.png",
+    "url": "https://github.com/Edhet/trello-clone",
     "deployed": false,
     "tags": [
-      "Rust"
-    ]
-  },
-  {
-    "name": "Java Game",
-    "type": "CLI",
-    "image": "./assets/javaGame.png",
-    "url": "https://github.com/Edhet/JavaGame",
-    "deployed": false,
-    "tags": [
-      "Java"
+      "TypeScript",
+      "Vue",
+      "Express",
+      "MongoDB",
+      "Docker"
     ]
   },
   {
@@ -106,6 +101,16 @@
     "type": "CLI",
     "image": "./assets/rustAlgo.png",
     "url": "https://github.com/Edhet/rust-algo",
+    "deployed": false,
+    "tags": [
+      "Rust"
+    ]
+  },
+  {
+    "name": "Rust Programs",
+    "type": "CLI",
+    "image": "./assets/rustProg.png",
+    "url": "https://github.com/Edhet/rust-prog",
     "deployed": false,
     "tags": [
       "Rust"
