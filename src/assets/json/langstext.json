@@ -5,28 +5,30 @@
       "firstName": "Eduardo",
       "surname": "Pinheiro",
       "email": "eduardopfrei@gmail.com",
-      "contactText": "Contact Me"
+      "contactText": "Contact"
     },
     "sectionsContent": {
       "aboutMe": {
         "sectionHeader": "About Me",
-        "sectionBody": "I'm a Brazilian software developer from Rio de Janeiro, passionate about free software, with an amateur background in graphical design and professional expertise in software engineering, who transitioned from aspiring game developer to software development."
+        "sectionBody": "I'm a Brazilian software developer from Rio de Janeiro, passionate about free software, with an amateur background in graphics design and professional expertise in software engineering, who transitioned from aspiring game developer to software developer."
       },
       "intro": {
         "sectionHeader": "I'm a",
-        "sectionBody": "Developer"
+        "sectionBody": "developer"
       },
       "skillsAndExp": {
         "sectionHeader": "Work Experiences",
         "sectionBody": "I have two year of experience in full-stack web development, having worked at BNDES where I mostly participated in the development of the internal debt control system in Java and Angular, and am currently at MJV alocated in the Bradesco Global Solutions project at Bradesco Bank, a corporate investment platform using microservices and micro frontends in a hybrid IT ambient. But I also have many personal projects in other areas of computing using other technologies such as Rust, Python and other JS Frameworks as well as multiple relational and non-relational databases."
       },
       "projects": {
-        "sectionHeader": "Personal Projects"
+        "sectionHeader": "Personal Projects",
+        "deployedMsg": "deployed"
       }
     },
     "footerContent": {
       "date": "2025",
-      "footerText": "Made in Angular with Tailwind"
+      "footerText": "Made in Angular with Tailwind",
+      "location": "Rio de Janeiro, Brazil"
     },
     "emptyQueryText": "No project fulfills the current filters"
   },
@@ -36,12 +38,12 @@
       "firstName": "Eduardo",
       "surname": "Pinheiro",
       "email": "eduardopfrei@gmail.com",
-      "contactText": "Entre em Contato"
+      "contactText": "Contato"
     },
     "sectionsContent": {
       "aboutMe": {
         "sectionHeader": "Sobre mim",
-        "sectionBody": "Sou um desenvolvedor de software brasileiro do Rio de Janeiro, apaixonado por software livre, com uma capacitação amadora em design gráfico e experiência profissional em engenharia de software, que fez a transição de aspirante a desenvolvedor de jogos para desenvolvedor de software."
+        "sectionBody": "Sou um desenvolvedor de software brasileiro do Rio de Janeiro, apaixonado por software livre, com capacitação amadora em design gráfico e experiência profissional em engenharia de software, que fez a transição de aspirante a desenvolvedor de jogos para desenvolvedor de software."
       },
       "intro": {
         "sectionHeader": "Sou um desenvolvedor"
@@ -51,12 +53,14 @@
         "sectionBody": "Tenho dois anos de experiência em desenvolvimento web full-stack, Já tendo trabalhado no BNDES onde participei no desenvolvimento do sistema interno de controle da dívida em Java e Angular, e estou atualmente na MJV alocado no projeto Bradesco Global Solutions do Banco Bradesco, uma plataforma corporativa de investimentos utilizando microserviços e micro frontends em um ambiente de TI híbrida. Também tenho vários projetos pessoais em outras áreas da computação usando outras tecnologias como Rust, Python e outros frameworks JavaScript assim como vários bancos de dados relacionais e não relacionais."
       },
       "projects": {
-        "sectionHeader": "Projetos Pessoais"
+        "sectionHeader": "Projetos Pessoais",
+        "deployedMsg": "implantado"
       }
     },
     "footerContent": {
       "date": "2025",
-      "footerText": "Feito em Angular com Tailwind"
+      "footerText": "Feito em Angular com Tailwind",
+      "location": "Rio de Janeiro, Brasil"
     },
     "emptyQueryText": "Nenhum projeto corresponde aos filtros atuais"
   }

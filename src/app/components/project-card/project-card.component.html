@@ -1,14 +1,17 @@
-<a *ngIf="projectInfo" href="{{projectInfo.url}}" target="_blank" class="quickFade flex relative h-[26rem] text-white rounded-2xl">
-  <div class="p-2 py-3 absolute h-full z-10 pointer-events-none" style="writing-mode: vertical-lr; rotate: 180deg;">
-    <p class="text-lg font-bold">{{projectInfo.type}}</p>
+<a *ngIf="projectInfo" href="{{projectInfo.url}}" target="_blank" class="quickFade flex flex-col text-black dark:text-white rounded-2xl relative">
+  <div class="relative h-fit w-fit">
+    <div class="rounded-full absolute z-10 bg-white/50 dark:bg-black/50 p-4 px-6 top-3 left-3 backdrop-blur-md text-lg" *ngIf="projectInfo.deployed">{{localizationService.deployedMessage}}</div>
+    <img src="{{projectInfo.image}}" class="w-full bg-cover min-h-[20rem] md:min-h-[28rem] max-h-full object-cover brightness-75 rounded-2xl" [alt]="projectInfo.name + ' project image'">
+  </div>
+  <div class="p-2 py-3 z-10">
     <p class="text-3xl font-bold">{{projectInfo.name}}</p>
+    <p class="text-lg">{{projectInfo.type}}</p>
   </div>
 
-  <img src="{{projectInfo.image}}" class="w-full overflow-hidden bg-cover min-h-full max-h-full object-cover brightness-50 rounded-2xl" alt="Project Image">
 
-  <div class="absolute bottom-0 right-0  transition-all h-full w-full hover:backdrop-blur-md rounded-2xl">
+  <!-- <div class="transition-all h-full w-full absolute">
     <div class="flex p-2 pl-20 flex-wrap gap-1 h-fit w-full justify-end">
       <p *ngFor="let tag of projectsService.getTagListFromNames(projectInfo.tags)" class="p-1 flex-shrink max-w-fit max-h-fit">{{tag.tagName}}</p>
     </div>
-  </div>
+  </div> -->
 </a>

@@ -4,6 +4,7 @@
     "type": "Web",
     "image": "./assets/alphaJunior.jpg",
     "url": "https://alpha-junior-preview.vercel.app/",
+    "deployed": true,
     "tags": [
       "Nuxt",
       "TypeScript"
@@ -14,6 +15,7 @@
     "type": "Web",
     "image": "./assets/ducacau.png",
     "url": "https://edhet.github.io/ChocolateStore-Frontend",
+    "deployed": true,
     "tags": [
       "Java",
       "Spring Boot",
@@ -29,6 +31,7 @@
     "type": "Web",
     "image": "./assets/workoutApp.png",
     "url": "https://edhet.github.io/workout-app/",
+    "deployed": true,
     "tags": [
       "TypeScript",
       "Angular",
@@ -41,6 +44,7 @@
     "type": "Web",
     "image": "./assets/weatherApp.png",
     "url": "https://edhet.github.io/weather-app/",
+    "deployed": true,
     "tags": [
       "TypeScript",
       "Vue",
@@ -52,6 +56,7 @@
     "type": "Web",
     "image": "./assets/gymSystem.png",
     "url": "https://jobfind-f0bf1.web.app/",
+    "deployed": true,
     "tags": [
       "TypeScript",
       "Ionic",
@@ -65,6 +70,7 @@
     "type": "Web",
     "image": "./assets/crudplayground.png",
     "url": "https://github.com/Edhet/crudplayground-backend",
+    "deployed": false,
     "tags": [
       "Java",
       "Spring Boot",
@@ -80,6 +86,7 @@
     "type": "CLI",
     "image": "./assets/rustProg.png",
     "url": "https://github.com/Edhet/rust-prog",
+    "deployed": false,
     "tags": [
       "Rust"
     ]
@@ -89,6 +96,7 @@
     "type": "CLI",
     "image": "./assets/javaGame.png",
     "url": "https://github.com/Edhet/JavaGame",
+    "deployed": false,
     "tags": [
       "Java"
     ]
@@ -98,6 +106,7 @@
     "type": "CLI",
     "image": "./assets/rustAlgo.png",
     "url": "https://github.com/Edhet/rust-algo",
+    "deployed": false,
     "tags": [
       "Rust"
     ]
@@ -107,6 +116,7 @@
     "type": "CLI",
     "image": "./assets/pyProj.png",
     "url": "https://github.com/Edhet/py-proj",
+    "deployed": false,
     "tags": [
       "Python",
       "SQLite"

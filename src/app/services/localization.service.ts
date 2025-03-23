@@ -84,4 +84,8 @@ export class LocalizationService {
   get emptyQueryText() {
     return this.selectedLanguageTextContent.emptyQueryText;
   }
+
+  get deployedMessage() {
+    return this.selectedLanguageTextContent.sectionsContent.projects.deployedMsg;
+  }
 }

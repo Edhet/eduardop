@@ -24,10 +24,13 @@ export interface MainContents {
 
 export interface SectionContent {
     sectionHeader: string,
-    sectionBody?: string
+    sectionBody?: string,
+    deployedMsg?: string
+
 }
 
 export interface FooterContent {
     date: string,
-    footerText: string
+    footerText: string,
+    location: string
 }

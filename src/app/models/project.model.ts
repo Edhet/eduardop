@@ -3,5 +3,6 @@ export default interface Project {
     type: string,
     image: string,
     url: string,
+    deployed: boolean,
     tags: string[]
 }
