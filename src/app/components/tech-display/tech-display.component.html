@@ -1,5 +1,9 @@
-<div class="w-full my-auto font-extrabold leading-tight" style="font-size: 12vmin;">
-    <p class="max-w-[60%]">{{localizationService.introductionContent.sectionHeader}}</p>
-    <h2 style="font-size: 12vmin; text-align: justify;" [@changed]="animationState">{{feature.tagName}}</h2>
-    <p *ngIf="localizationService.introductionContent.sectionBody">{{localizationService.introductionContent.sectionBody}}</p>
+<div class="my-auto font-extrabold leading-tight" style="font-size: 12vmin;">
+    <p>{{localizationService.introductionContent.sectionHeader}}</p>
+    
+    <p class="w-fit" *ngIf="localizationService.currentLanguage == LANGUAGES.PORTUGUESE">{{localizationService.introductionContent.sectionBody}}</p>
+
+    <h2 class="whitespace-nowrap" style="font-size: 12vmin; text-align: justify;" [@changed]="animationState">{{feature.tagName}}</h2>
+    
+    <p class="w-fit" *ngIf="localizationService.currentLanguage == LANGUAGES.ENGLISH">{{localizationService.introductionContent.sectionBody}}</p>
 </div>

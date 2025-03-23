@@ -1,5 +1,6 @@
 import { animate, state, style, transition, trigger } from '@angular/animations';
 import { Component, OnInit } from '@angular/core';
+import Languages from 'src/app/models/languages.model';
 import Tag from 'src/app/models/tag.model';
 import { LocalizationService } from 'src/app/services/localization.service';
 import { ProjectsService } from 'src/app/services/projects.service';
@@ -30,6 +31,7 @@ import { ProjectsService } from 'src/app/services/projects.service';
 })
 export class TechDisplayComponent implements OnInit {
   private readonly TEXT_CHANGE_TIME = 1250;
+  public readonly LANGUAGES = Languages;
 
   public animationState: string = "entering";
   public feature: Tag = this.projectService.filters[0];
