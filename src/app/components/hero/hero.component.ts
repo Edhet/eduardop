@@ -24,6 +24,6 @@ export class HeroComponent implements OnInit {
     setInterval(() => {
       this.projectImage = this.projectImages[this.index];
       this.index = (this.index + 1) % this.projectImages.length; 
-    }, 700);
+    }, 600);
   }
 }
