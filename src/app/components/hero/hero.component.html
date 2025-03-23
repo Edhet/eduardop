@@ -1,15 +1,10 @@
-<div class="min-h-svh text-white">
-  <video disablePictureInPicture onloadedmetadata="this.muted=true" oncanplay="this.play()" loop
-    class="object-cover absolute -z-20 top-0 left-0 w-full h-full min-h-full select-none brightness-75 pointer-events-none">
-    <source src="/assets/pexels-video-tint.mp4" type="video/mp4">
-    <img src="/assets/hero-img.jpg"
-      class="object-cover absolute -z-20 top-0 left-0 w-full h-full select-none pointer-events-none">
-  </video>
+<div class="min-h-svh text-black dark:text-white">
+  <div class="slowFade absolute top-0 flex flex-col px-4 md:px-12 lg:px-24 2xl:px-[10%] h-full min-h-fit pt-16 pb-5">
 
-  <div class="slowFade absolute top-0 flex flex-col px-4 md:px-12 lg:px-24 2xl:px-[10%] h-full min-h-fit pt-16 pb-5" style="mix-blend-mode: difference;">
+    <div class="md:min-h-0 font-bold flex flex-row flex-wrap justify-between gap-6">
+      <app-tech-display class="min-w-full lg:min-w-[60%]"></app-tech-display>
 
-    <div class="md:min-h-0 font-bold">
-      <app-tech-display></app-tech-display>
+      <img class="object-cover bg-cover rounded-2xl md:my-auto max-w-[35%] min-w-[35%] min-h-[30%] max-h-[80%] aspect-4/3 pointer-events-none brightness-95" [src]="projectImage" alt="Project showcase">
     </div>
 
     <div class="mt-auto md:text-xl">
@@ -19,7 +14,7 @@
 
 
       <div class="flex justify-center pt-4 gap-8">
-        <div class="transition-all hover:text-neutral-400">
+        <div class="transition-all hover:text-neutral-500">
           <a class="flex" [href]="GITHUB_PROFILE" target="_blank">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
               class="bi bi-github my-auto mr-2" viewBox="0 0 16 16">
@@ -30,7 +25,7 @@
           </a>
         </div>
 
-        <div class="transition-all hover:text-neutral-400">
+        <div class="transition-all hover:text-neutral-500">
           <a class="flex" [href]="LINKEDIN_PROFILE" target="_blank">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
               class="bi bi-linkedin my-auto mr-2" viewBox="0 0 16 16">

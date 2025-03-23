@@ -3,7 +3,7 @@
     <div class="rounded-full absolute z-10 bg-white/50 dark:bg-black/50 p-4 px-6 top-3 left-3 backdrop-blur-md text-lg" *ngIf="projectInfo.deployed">{{localizationService.deployedMessage}}</div>
     <img src="{{projectInfo.image}}" class="w-full bg-cover min-h-[20rem] md:min-h-[28rem] max-h-full object-cover brightness-75 rounded-2xl" [alt]="projectInfo.name + ' project image'">
   </div>
-  <div class="p-2 py-3 z-10">
+  <div class="p-2 py-3 z-10 w-fit">
     <p class="text-3xl font-bold">{{projectInfo.name}}</p>
     <p class="text-lg">{{projectInfo.type}}</p>
   </div>

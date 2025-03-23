@@ -6,7 +6,8 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
+      aspectRatio: {
+        '4/3': '4 / 3'
       }
     },
   },

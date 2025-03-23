@@ -1,6 +1,5 @@
 import { ProjectsService } from '../../services/projects.service';
-import { Component } from '@angular/core';
-import Languages from 'src/app/models/languages.model';
+import { Component, OnInit } from '@angular/core';
 import { LocalizationService } from 'src/app/services/localization.service';
 
 @Component({
@@ -9,10 +8,22 @@ import { LocalizationService } from 'src/app/services/localization.service';
   styleUrls: ['./hero.component.css']
 })
 
-export class HeroComponent {
+export class HeroComponent implements OnInit {
   public readonly GITHUB_PROFILE = "https://github.com/Edhet";
   public readonly LINKEDIN_PROFILE = "https://www.linkedin.com/in/eduardo-pinheiro-freitas/";
 
-  constructor(public localizationService: LocalizationService, public projectService: ProjectsService) { }
+  public projectImages: string[] = [];
+  public projectImage: string = "./assets/alphaJunior.jpg";
+  private index = 0;
 
+  constructor(public localizationService: LocalizationService, public projectService: ProjectsService) {}
+
+  ngOnInit() {
+    this.projectImages = this.projectService.projectList.map(p => p.image);
+
+    setInterval(() => {
+      this.projectImage = this.projectImages[this.index];
+      this.index = (this.index + 1) % this.projectImages.length; 
+    }, 700);
+  }
 }
