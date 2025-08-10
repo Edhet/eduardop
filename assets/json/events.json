@@ -3,6 +3,15 @@
         "language": "en",
         "events": [
             {
+                "header": "Bradesco",
+                "description": "Systems Analyst",
+                "date": "July, 2025",
+                "bulletPoints": [
+                    "Currently working in Investments branch of the systems department."
+                ],
+                "image": "bradesco.jpg"
+            },
+            {
                 "header": "MJV Innovation & Technology",
                 "description": "Software Developer",
                 "date": "July, 2024",
@@ -35,6 +44,15 @@
     {
         "language": "pt",
         "events": [
+                        {
+                "header": "Bradesco",
+                "description": "Analista de sistemas",
+                "date": "July, 2025",
+                "bulletPoints": [
+                    "Atualmente trabalhando na seção de investimentos do departamento de sistemas."
+                ],
+                "image": "bradesco.jpg"
+            },
             {
                 "header": "MJV Innovation & Technology",
                 "description": "Desenvolvedor de Software",
