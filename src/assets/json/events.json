@@ -4,10 +4,14 @@
         "events": [
             {
                 "header": "Bradesco",
-                "description": "Systems Analyst",
+                "description": "Software Engineer",
                 "date": "July, 2025",
                 "bulletPoints": [
-                    "Currently working in Investments branch of the systems department."
+                  "Collaborated in agile squads to deliver end-to-end features across front-end (Angular) and back-end (Spring/Node.js), shipping around 3 production releases per four-month period.",
+                  "Developed and maintained features for a banking platform using Java Spring Boot and Node.js, serving over 110 million customers.",
+                  "Designed and implemented event-driven architectures with Apache Kafka to reduce mainframe loads and guarantee real-time reliability on legacy systems.",
+                  "Conducted performance testing and optimization initiatives, reducing average page load times by ~40% and API response latency by ~25%.",
+                  "Improved accessibility compliance of an Angular mobile app to usability standards by ~90% across assisted navigation flows."
                 ],
                 "image": "bradesco.jpg"
             },
@@ -46,10 +50,14 @@
         "events": [
                         {
                 "header": "Bradesco",
-                "description": "Analista de sistemas",
+                "description": "Engenheiro de software",
                 "date": "July, 2025",
                 "bulletPoints": [
-                    "Atualmente trabalhando na seção de investimentos do departamento de sistemas."
+                  "Colaborei em squads ágeis na entrega de funcionalidades end-to-end em front-end (Angular) e back-end (Spring/Node.js), realizando cerca de 3 releases em produção por quadrimestre.",
+                  "Desenvolvi e mantive funcionalidades para uma plataforma bancária utilizando Java Spring Boot e Node.js, atendendo mais de 110 milhões de clientes.",
+                  "Projetei e implementei arquiteturas orientadas a eventos com Apache Kafka para reduzir a carga em mainframes e garantir confiabilidade em tempo real em sistemas legados.",
+                  "Conduziu iniciativas de testes de performance e otimização, reduzindo o tempo médio de carregamento de páginas em ~40% e a latência de resposta de APIs em ~25%.",
+                  "Aprimorou a conformidade de acessibilidade de um aplicativo mobile Angular aos padrões de usabilidade em ~90% nos fluxos de navegação assistida."
                 ],
                 "image": "bradesco.jpg"
             },
