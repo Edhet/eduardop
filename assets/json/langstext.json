@@ -10,7 +10,7 @@
     "sectionsContent": {
       "aboutMe": {
         "sectionHeader": "About Me",
-        "sectionBody": "I'm a Brazilian software developer from Rio de Janeiro, passionate about free software, with an amateur background in graphics design and professional expertise in software engineering, who transitioned from aspiring game developer to software developer."
+        "sectionBody": "Software engineer from brazil focused on integrating business demands and technologies"
       },
       "intro": {
         "sectionHeader": "I'm a",
@@ -43,7 +43,7 @@
     "sectionsContent": {
       "aboutMe": {
         "sectionHeader": "Sobre mim",
-        "sectionBody": "Sou um desenvolvedor de software brasileiro do Rio de Janeiro, apaixonado por software livre, com capacitação amadora em design gráfico e experiência profissional em engenharia de software, que fez a transição de aspirante a desenvolvedor de jogos para desenvolvedor de software."
+        "sectionBody": "Engenheiro de Software com foco na integração entre demandas de negócio e tecnologia."
       },
       "intro": {
         "sectionHeader": "Sou um",
