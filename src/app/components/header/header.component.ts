@@ -23,8 +23,8 @@ import { LocalizationService } from "src/app/services/localization.service";
   ]
 })
 export class HeaderComponent implements OnInit {
-  readonly SELECTED_STYLE = `relative before:w-[100%] before:h-[1px] before:bg-white before:absolute before:bottom-0 before:left-0 transition-all`;
-  readonly UNSELECTED_STYLE = ``;
+  readonly SELECTED_STYLE = ``;
+  readonly UNSELECTED_STYLE = `text-neutral-500`;
   readonly LANGUAGES = Languages;
 
   private readonly THEME_KEY_NAME = 'theme';
