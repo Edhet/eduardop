@@ -7,14 +7,14 @@
       <img class="object-cover bg-cover rounded-2xl md:my-auto max-w-[30%] min-w-[30%] aspect-4/3 pointer-events-none brightness-95" [src]="projectImage" alt="Project showcase">
     </div>
 
-    <div class="mt-auto md:text-xl pt-6">
-      <article class="md:pt-0 mb-5 md:mb-12 md:w-2/5">
+    <div class="mt-auto pt-6">
+      <article class="md:pt-0 mb-5 md:mb-12 md:w-2/5 text-xl md:text-2xl">
         <p>{{localizationService.aboutSectionContent.sectionBody}}</p>
       </article>
 
 
-      <div class="flex justify-center pt-4 gap-8">
-        <div class="transition-all hover:text-neutral-500">
+      <div class="flex justify-center pt-4 gap-8 text-black dark:text-white dark:md:text-neutral-500 md:text-neutral-500">
+        <div class="transition-all md:hover:text-black md:dark:hover:text-white">
           <a class="flex" [href]="GITHUB_PROFILE" target="_blank">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
               class="bi bi-github my-auto mr-2" viewBox="0 0 16 16">
@@ -25,7 +25,7 @@
           </a>
         </div>
 
-        <div class="transition-all hover:text-neutral-500">
+        <div class="transition-all md:hover:text-black md:dark:hover:text-white">
           <a class="flex" [href]="LINKEDIN_PROFILE" target="_blank">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
               class="bi bi-linkedin my-auto mr-2" viewBox="0 0 16 16">

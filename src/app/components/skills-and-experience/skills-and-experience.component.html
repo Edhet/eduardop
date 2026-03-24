@@ -1,4 +1,4 @@
-<main class="slowFade mt-16 md:mt-24">
+<main class="slowFade mt-24 md:mt-32">
   <h2 class="text-black dark:text-white mx-6 font-bold text-4xl lg:text-6xl uppercase">{{ localizationService.skillsSectionContent.sectionHeader }}</h2>
   <div *ngFor="let event of localizationService.eventList" class="relative flex flex-col md:flex-row w-full h-fit">
     <div class="w-full min-h-full text-white">
@@ -8,7 +8,7 @@
         <p class="text-neutral-500">{{event.date}}</p>
       </div>
     </div>
-    <div class="relative text-black dark:text-white w-full h-fit px-8 py-12 md:py-16 flex flex-col gap-8 md:text-lg">
+    <div class="relative text-black dark:text-white w-full h-fit px-8 py-12 md:py-16 flex flex-col gap-8 text-sm md:text-base">
       <p *ngFor="let point of event.bulletPoints">{{point}}</p>
     </div>
   </div>
