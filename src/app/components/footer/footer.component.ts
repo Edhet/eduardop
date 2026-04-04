@@ -8,15 +8,15 @@ import { LocalizationService } from 'src/app/services/localization.service';
 })
 export class FooterComponent implements OnInit {
   public readonly GITHUB_SOURCE_URL = "https://github.com/Edhet/eduardop";
-  
-  time: string = "";
+
+  time: string = "00:00";
 
   constructor(public localizationService: LocalizationService) { }
 
   ngOnInit() {
     setInterval(() => {
       this.setClockTime()
-    }, 1000);    
+    }, 1000);
   }
 
   setClockTime() {
