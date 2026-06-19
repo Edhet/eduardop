@@ -1,94 +1,84 @@
 [
-    {
-        "language": "en",
-        "events": [
-            {
-                "header": "Bradesco",
-                "description": "Software Engineer",
-                "date": "July, 2025",
-                "bulletPoints": [
-                  "Collaborated in agile squads to deliver end-to-end features across front-end (Angular) and back-end (Spring/Node.js), shipping around 3 production releases per four-month period.",
-                  "Developed and maintained features for a banking platform using Java Spring Boot and Node.js, serving over 110 million customers.",
-                  "Designed and implemented event-driven architectures with Apache Kafka to reduce mainframe loads and guarantee real-time reliability on legacy systems.",
-                  "Conducted performance testing and optimization initiatives, reducing average page load times by ~40% and API response latency by ~25%.",
-                  "Improved accessibility compliance of an Angular mobile app to usability standards by ~90% across assisted navigation flows."
-                ],
-                "image": "bradesco.jpg"
-            },
-            {
-                "header": "MJV Innovation & Technology",
-                "description": "Software Developer",
-                "date": "July, 2024",
-                "bulletPoints": [
-                    "Collaborated as a Fullstack developer on a team of external consultants from MJV to deliver new functionalities for a major Brazilian bank’s corporate banking platform, working with 15 developer teams.",
-                    "Worked closely along Bradesco Bank's product team to refine tasks, ensuring alignment with business requirements and delivering high-quality and correct results.",
-                    "Developed micro services with NestJS and Express, integrating with a hybrid IT environment including more than 350 other technical components like Spring Boot and NodeJS micro services, mainframe integrations, Kafka queues and more.",
-                    "Built modular micro frontends in Angular integrated with the rest of the application.",
-                    "Used a Kafka queue to process financial operations that were pending authorization and were eventually sent to the mainframe.",
-                    "Utilized Atlassian's Jira for project management, Bamboo and Sonarqube for CI/CD integrations and Confluence for documenting."
-                ],
-                "image": "mjv.jpg"
-            },
-            {
-                "header": "BNDES",
-                "description": "Software Development Intern",
-                "date": "September, 2023",
-                "bulletPoints": [
-                    "Worked as a Fullstack software developer intern at the Brazilian national development bank.",
-                    "Developed new features for a monolithic Java EE internal debt control backend with over 720 source files, assisted by senior technical and product analysts.",
-                    "Implemented major new features in the system's frontend using Angular with TypeScript and refactored legacy AngularJS code improving code maintainability and code correctness.",
-                    "Helped fix bugs and incidents in existing functionalities alone and assisted by senior analysts.",
-                    "Created and improved multiple Oracle DB SQL scripts for the development of new features and bug corrections.",
-                    "Briefly collaborated with the development of a new HR demands platform on Microsoft's Power platform that integrated with Sharepoint lists and Power Automate."
-                ],
-                "image": "bndes.jpg"
-            }
-        ]
-    },
-    {
-        "language": "pt",
-        "events": [
-                        {
-                "header": "Bradesco",
-                "description": "Engenheiro de software",
-                "date": "Julho, 2025",
-                "bulletPoints": [
-                  "Colaborei em squads ágeis na entrega de funcionalidades end-to-end em front-end (Angular) e back-end (Spring/Node.js), realizando cerca de 3 releases em produção por quadrimestre.",
-                  "Desenvolvi e mantive funcionalidades para uma plataforma bancária utilizando Java Spring Boot e Node.js, atendendo mais de 110 milhões de clientes.",
-                  "Projetei e implementei arquiteturas orientadas a eventos com Apache Kafka para reduzir a carga em mainframes e garantir confiabilidade em tempo real em sistemas legados.",
-                  "Conduziu iniciativas de testes de performance e otimização, reduzindo o tempo médio de carregamento de páginas em ~40% e a latência de resposta de APIs em ~25%.",
-                  "Aprimorou a conformidade de acessibilidade de um aplicativo mobile Angular aos padrões de usabilidade em ~90% nos fluxos de navegação assistida."
-                ],
-                "image": "bradesco.jpg"
-            },
-            {
-                "header": "MJV Innovation & Technology",
-                "description": "Desenvolvedor de Software",
-                "date": "Julho, 2024",
-                "bulletPoints": [
-                    "Colaborei como desenvolvedor Fullstack em uma equipe de consultores externos da MJV para entregar novas funcionalidades para a plataforma de banco corporativo de um grande banco brasileiro, trabalhando com 15 equipes de desenvolvedores.",
-                    "Trabalhei em estreita colaboração com a equipe de produtos do Banco Bradesco para refinar tarefas, garantindo alinhamento com os requisitos comerciais e entregando resultados de alta qualidade e corretos.",
-                    "Desenvolvi microserviços com NestJS e Express, integrando com um ambiente de TI híbrido que inclui mais de 350 outros componentes técnicos, como microserviços Spring Boot e NodeJS, integrações de mainframe, filas Kafka e mais.",
-                    "Desenvolvi microfrontends modulares em Angular integrados com o restante da aplicação.",
-                    "Utilizei uma fila Kafka para processar operações financeiras que estavam pendentes de autorização e que eventualmente eram enviadas para o mainframe.",
-                    "Utilizei o Jira da Atlassian para gerenciamento de projetos, Bamboo e Sonarqube para integrações de CI/CD e Confluence para documentação."
-                ],
-                "image": "mjv.jpg"
-            },
-            {
-                "header": "BNDES",
-                "description": "Estagiário em Desenvolvimento de Software",
-                "date": "Setembro, 2023",
-                "bulletPoints": [
-                    "Trabalhei como Estagiário desenvolvedor de software Fullstack no banco nacional de desenvolvimento brasileiro.",
-                    "Desenvolvi novas funcionalidades para o backend do sistema interno de controle da dívida monolítico em Java EE, com mais de 720 arquivos de código fonte, com auxílio de analistas seniores técnicos e de produto.",
-                    "Implementei importantes novas funcionalidades no frontend do sistema usando Angular com TypeScript e refatorei código AngularJS legado melhorando a manutenibilidade e corretude do código.",
-                    "Ajudei a corrigir bugs e incidentes em funcionalidades existentes sozinho e com ajuda de analistas seniores.",
-                    "Criei e aprimorei multiplos scripts SQL de Oracle DB para o desenvolvimento de novas funcionalidades e correção de bugs.",
-                    "Colaborei brevemente no desenvolvimento de uma nova aplicação de demandas de RH na plataforma Power da Microsoft integrada às listas do Sharepoint e Power Automate."
-                ],
-                "image": "bndes.jpg"
-            }
-        ]
-    }
+  {
+    "language": "en",
+    "events": [
+      {
+        "header": "Bradesco",
+        "description": "Software Engineer",
+        "date": "July, 2025",
+        "bulletPoints": ["Collaborated in agile squads across a corporate banking platform serving over 110 million customers, working within a hybrid IT environment of Spring Boot, Node.js microservices, and mainframe systems.", "Delivered end-to-end features across front-end (Angular) and back-end (Spring/Node.js), shipping around 3 production releases per four-month period.", "Designed and implemented event-driven architectures with Apache Kafka to reduce mainframe load and guarantee real-time reliability on legacy systems.", "Conducted performance testing and optimization initiatives, reducing average page load times by ~40% and API response latency by ~25%.", "Improved accessibility compliance of an Angular mobile app to ~90% across assisted navigation flows, meeting usability standards.", "Delivered measurable platform improvements on schedule, maintaining 99.9% uptime with all code passing SonarQube quality gates at 99% coverage."],
+        "image": "bradesco.jpg"
+      },
+      {
+        "header": "MJV Innovation & Technology",
+        "description": "Software Developer",
+        "date": "July, 2024",
+        "bulletPoints": [
+          "Worked closely with Bradesco Bank's product team to refine tasks and requirements, ensuring deliverables were correctly scoped, aligned with business goals, and met the bank's quality standards.",
+          "Developed microservices with NestJS and Express, integrating with a hybrid IT environment of more than 350 technical components including Spring Boot and Node.js microservices, mainframe integrations, and Kafka queues.",
+          "Built modular micro frontends in Angular, integrated with the broader application architecture to enable independent deployment and reduce inter-team coupling.",
+          "Implemented a Kafka queue pipeline to process financial operations pending authorization, reliably routing them to the mainframe for final settlement.",
+          "Maintained full project visibility using Atlassian Jira for task management, Confluence for documentation, and Bamboo and SonarQube for CI/CD and code quality.",
+          "Delivered 5 new platform features on schedule, contributing to a system serving around 20 thousand corporate banking users and maintaining 99.9% uptime — with all code passing SonarQube quality gates at 99% coverage."
+        ],
+        "image": "mjv.jpg"
+      },
+      {
+        "header": "BNDES",
+        "description": "Software Development Intern",
+        "date": "September, 2023",
+        "bulletPoints": [
+          "Worked as a fullstack software development intern at Brazil's national development bank, supporting an internal debt control system used by senior technical and business teams.",
+          "Developed new features for a monolithic Java EE internal debt control backend spanning over 720 source files, working alongside senior technical and product analysts to ensure correct and maintainable implementations.",
+          "Implemented major new features in the system's frontend using Angular with TypeScript, and refactored legacy AngularJS code to improve maintainability and correctness.",
+          "Diagnosed and resolved bugs and incidents in existing functionalities, working both independently and with guidance from senior analysts.",
+          "Created and improved multiple Oracle DB SQL scripts to support new feature development and bug corrections.",
+          "Contributed to a new HR demands platform built on Microsoft Power Platform, integrating with SharePoint lists and Power Automate.",
+          "Delivered 6 new features and resolved 2 incidents over the internship, contributing to a system used by 14 internal analysts with ~20% reduction in workflow time reduction."
+        ],
+        "image": "bndes.jpg"
+      }
+    ]
+  },
+  {
+    "language": "pt",
+    "events": [
+      {
+        "header": "Bradesco",
+        "description": "Engenheiro de Software",
+        "date": "Julho de 2025",
+        "bulletPoints": ["Colaborei em squads ágeis em uma plataforma bancária corporativa que atende mais de 110 milhões de clientes, atuando em um ambiente de TI híbrido com Spring Boot, microsserviços em Node.js e sistemas mainframe.", "Entreguei funcionalidades end-to-end em front-end (Angular) e back-end (Spring/Node.js), com cerca de 3 releases em produção a cada quatro meses.", "Projetei e implementei arquiteturas orientadas a eventos com Apache Kafka para reduzir a carga no mainframe e garantir confiabilidade em tempo real em sistemas legados.", "Conduzi iniciativas de testes de performance e otimização, reduzindo o tempo médio de carregamento de páginas em ~40% e a latência de resposta das APIs em ~25%.", "Melhorei a conformidade de acessibilidade de um aplicativo mobile em Angular para ~90% nos fluxos de navegação assistida, atendendo aos padrões de usabilidade.", "Entreguei melhorias mensuráveis na plataforma dentro do prazo, mantendo 99,9% de uptime, com todo o código aprovado nos quality gates do SonarQube e 99% de cobertura de testes."],
+        "image": "bradesco.jpg"
+      },
+      {
+        "header": "MJV Innovation & Technology",
+        "description": "Desenvolvedor de Software",
+        "date": "Julho de 2024",
+        "bulletPoints": [
+          "Trabalhei em estreita colaboração com a equipe de produto do Banco Bradesco para refinar tarefas e requisitos, garantindo que as entregas fossem corretamente dimensionadas, alinhadas aos objetivos de negócio e em conformidade com os padrões de qualidade do banco.",
+          "Desenvolvi microsserviços com NestJS e Express, integrando-os a um ambiente de TI híbrido composto por mais de 350 componentes técnicos, incluindo microsserviços em Spring Boot e Node.js, integrações com mainframe e filas Kafka.",
+          "Construí micro frontends modulares em Angular, integrados à arquitetura geral da aplicação, possibilitando deploys independentes e reduzindo o acoplamento entre equipes.",
+          "Implementei um pipeline de fila Kafka para processar operações financeiras pendentes de autorização, roteando-as de forma confiável ao mainframe para liquidação final.",
+          "Mantive total visibilidade do projeto utilizando o Atlassian Jira para gestão de tarefas, o Confluence para documentação, e Bamboo e SonarQube para CI/CD e qualidade de código.",
+          "Entreguei 5 novas funcionalidades na plataforma dentro do prazo, contribuindo para um sistema que atende cerca de 20 mil usuários de corporate banking, mantendo 99,9% de uptime, com todo o código aprovado nos quality gates do SonarQube e 99% de cobertura de testes."
+        ],
+        "image": "mjv.jpg"
+      },
+      {
+        "header": "BNDES",
+        "description": "Estagiário de Desenvolvimento de Software",
+        "date": "Setembro de 2023",
+        "bulletPoints": [
+          "Atuei como estagiário de desenvolvimento de software fullstack no banco nacional de desenvolvimento do Brasil, dando suporte a um sistema interno de controle de dívida utilizado por equipes técnicas e de negócio seniores.",
+          "Desenvolvi novas funcionalidades para um backend monolítico em Java EE de controle de dívida interna, com mais de 720 arquivos-fonte, trabalhando junto a analistas técnicos e de produto seniores para garantir implementações corretas e de fácil manutenção.",
+          "Implementei novas funcionalidades importantes no frontend do sistema utilizando Angular com TypeScript, e refatorei código legado em AngularJS para melhorar a manutenibilidade e a correção do código.",
+          "Diagnostiquei e corrigi bugs e incidentes em funcionalidades existentes, atuando tanto de forma independente quanto com o apoio de analistas seniores.",
+          "Criei e aprimorei diversos scripts SQL para o Oracle DB, dando suporte ao desenvolvimento de novas funcionalidades e à correção de bugs.",
+          "Contribuí para uma nova plataforma de demandas de RH construída na Microsoft Power Platform, integrada a listas do SharePoint e ao Power Automate.",
+          "Entreguei 6 novas funcionalidades e resolvi 2 incidentes durante o estágio, contribuindo para um sistema utilizado por 14 analistas internos, com redução de ~20% no tempo dos fluxos de trabalho."
+        ],
+        "image": "bndes.jpg"
+      }
+    ]
+  }
 ]
