@@ -166,5 +166,13 @@
         "outlineColor": "outline-red-700",
         "borderColor": "border-red-700/25",
         "bgColor": "bg-red-700/25"
+    },
+    {
+        "tagName": "Kubernetes",
+        "color": "text-red-700",
+        "hoverBgColor": "hover:bg-red-700/50",
+        "outlineColor": "outline-red-700",
+        "borderColor": "border-red-700/25",
+        "bgColor": "bg-red-700/25"
     }
 ]
