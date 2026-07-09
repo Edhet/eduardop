@@ -1,5 +1,33 @@
 [
   {
+    "name": "Bradesco Empresas e Negócios",
+    "type": "Mobile",
+    "image": "./assets/brad-pdpj.png",
+    "url": "https://banco.bradesco/html/pessoajuridica/app-empresas-e-negocios/",
+    "deployed": true,
+    "tags": [
+      "Angular",
+      "TypeScript",
+      "Java",
+      "Kafka",
+      "Spring Boot"
+    ]
+  },
+  {
+    "name": "Bradesco Global Solutions",
+    "type": "Web",
+    "image": "./assets/conheca-1-pt.webp",
+    "url": "https://banco.bradesco/global-solutions/",
+    "deployed": true,
+    "tags": [
+      "Angular",
+      "TypeScript",
+      "Java",
+      "Kafka",
+      "Spring Boot"
+    ]
+  },
+  {
     "name": "Alpha Junior",
     "type": "Web",
     "image": "./assets/alphaJunior.jpg",
