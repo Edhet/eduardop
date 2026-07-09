@@ -6,5 +6,9 @@
     {
         "type": "CLI",
         "iconTag": "code.svg"
+    },
+    {
+      "type": "Mobile",
+      "iconTag": "code.svg"
     }
 ]
