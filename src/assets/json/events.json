@@ -4,7 +4,7 @@
     "events": [
       {
         "header": "Bradesco",
-        "description": "Software Engineer",
+        "description": "Mid-level Software Engineer",
         "date": "July, 2025",
         "bulletPoints": ["Collaborated in agile squads across a corporate banking platform serving over 110 million customers, working within a hybrid IT environment of Spring Boot, Node.js microservices, and mainframe systems.", "Delivered end-to-end features across front-end (Angular) and back-end (Spring/Node.js), shipping around 3 production releases per four-month period.", "Designed and implemented event-driven architectures with Apache Kafka to reduce mainframe load and guarantee real-time reliability on legacy systems.", "Conducted performance testing and optimization initiatives, reducing average page load times by ~40% and API response latency by ~25%.", "Improved accessibility compliance of an Angular mobile app to ~90% across assisted navigation flows, meeting usability standards.", "Delivered measurable platform improvements on schedule, maintaining 99.9% uptime with all code passing SonarQube quality gates at 99% coverage."],
         "image": "bradesco.jpg"
@@ -45,7 +45,7 @@
     "events": [
       {
         "header": "Bradesco",
-        "description": "Engenheiro de Software",
+        "description": "Engenheiro de Software Pleno",
         "date": "Julho de 2025",
         "bulletPoints": ["Colaborei em squads ágeis em uma plataforma bancária corporativa que atende mais de 110 milhões de clientes, atuando em um ambiente de TI híbrido com Spring Boot, microsserviços em Node.js e sistemas mainframe.", "Entreguei funcionalidades end-to-end em front-end (Angular) e back-end (Spring/Node.js), com cerca de 3 releases em produção a cada quatro meses.", "Projetei e implementei arquiteturas orientadas a eventos com Apache Kafka para reduzir a carga no mainframe e garantir confiabilidade em tempo real em sistemas legados.", "Conduzi iniciativas de testes de performance e otimização, reduzindo o tempo médio de carregamento de páginas em ~40% e a latência de resposta das APIs em ~25%.", "Melhorei a conformidade de acessibilidade de um aplicativo mobile em Angular para ~90% nos fluxos de navegação assistida, atendendo aos padrões de usabilidade.", "Entreguei melhorias mensuráveis na plataforma dentro do prazo, mantendo 99,9% de uptime, com todo o código aprovado nos quality gates do SonarQube e 99% de cobertura de testes."],
         "image": "bradesco.jpg"
